@@ -27,6 +27,15 @@ fonts:
   ผู้ช่วยคณบดีฝ่ายสารสนเทศ คณะวิศวกรรมศาสตร์
 </div>
 
+<div class="absolute bottom-12 left-10">
+  <img src="/logo_eng.jpg" class="w-24 h-24 rounded-full shadow-lg border-2 border-white" alt="KMUTNB Engineering Logo">
+</div>
+
+<div class="absolute bottom-10 right-10">
+  <img src="/qrcode_slides.png" class="w-24 h-24 border-2 border-white rounded-lg shadow-lg" alt="Slides QR Code">
+  <div class="text-[8px] text-gray-400 mt-1 text-center">Scan for Slides</div>
+</div>
+
 
 <div class="pt-8">
   <div class="bg-white/10 backdrop-blur-md p-4 rounded-xl inline-block border border-white/20">
