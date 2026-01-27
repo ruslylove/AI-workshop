@@ -1,0 +1,131 @@
+npm warn Unknown project config "shamefully-hoist". This will stop working in the next major version of npm.
+npm warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm.
+
+> build
+> slidev build
+
+
+
+  [36m●[39m[34m■[39m[33m▲[39m
+[1m  Slidev[22m  [34mv52.11.3[39m 
+
+[2m  theme       [22m[32m@slidev/theme-seriph[39m
+[2m  css engine  [22m[34munocss[39m
+[2m  entry       [22m[2m/Users/rus/Development/slidev/AI-workshop/[22mslides.md
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 136 modules transformed.
+✗ Build failed in 897ms
+[unplugin-icons] Could not load ~icons/fluent/lightbulb-filament24-regular (imported by slides.md__slidev_2.md): Icon `fluent/lightbulb-filament24-regular` not found
+    at generateComponent (file:///Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unplugin-icons@22.5.0_@vue+compiler-sfc@3.5.26/node_modules/unplugin-icons/dist/src-DdazVYGe.js:271:18)
+    at async Object.load (file:///Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unplugin-icons@22.5.0_@vue+compiler-sfc@3.5.26/node_modules/unplugin-icons/dist/src-DdazVYGe.js:358:17)
+    at async PluginDriver.hookFirstAndGetPlugin (file:///Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:22453:28)
+    at async file:///Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:21453:33
+    at async Queue.work (file:///Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/rollup@4.55.1/node_modules/rollup/dist/es/shared/node-entry.js:22681:32) {
+  code: 'PLUGIN_ERROR',
+  plugin: 'unplugin-icons',
+  hook: 'load',
+  watchFiles: [
+    '/Users/rus/Development/slidev/AI-workshop/index.html',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/main.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/vue@3.5.26_typescript@5.9.3/node_modules/vue/dist/vue.esm-bundler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/App.vue',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/setup/main.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@vue+runtime-dom@3.5.26/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@vue+compiler-dom@3.5.26/node_modules/@vue/compiler-dom/dist/compiler-dom.esm-bundler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@vue+shared@3.5.26/node_modules/@vue/shared/dist/shared.esm-bundler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@shikijs+vitepress-twoslash@3.21.0_@nuxt+kit@3.20.2_typescript@5.9.3/node_modules/@shikijs/vitepress-twoslash/dist/client.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26_typescript@5.9.3_/node_modules/@unhead/vue/dist/client.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/modules/v-drag.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/modules/v-click.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/modules/v-mark.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/vue-router@4.6.4_vue@3.5.26_typescript@5.9.3_/node_modules/vue-router/dist/vue-router.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/setup/routes.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/modules/v-motion.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/setup/root.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/env.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+theme-seriph@0.25.0/node_modules/@slidev/theme-seriph/styles/index.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@unocss+reset@66.6.0/node_modules/@unocss/reset/tailwind.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/styles/transitions.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/styles/code.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/styles/vars.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/styles/index.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/shiki-magic-move@1.2.1_shiki@3.21.0_vue@3.5.26_typescript@5.9.3_/node_modules/shiki-magic-move/dist/style.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@shikijs+vitepress-twoslash@3.21.0_@nuxt+kit@3.20.2_typescript@5.9.3/node_modules/@shikijs/vitepress-twoslash/style.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/styles/katex.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26_typescript@5.9.3_/node_modules/@unhead/vue/dist/shared/vue.BVUAdATk.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/floating-vue@5.2.2_@nuxt+kit@3.20.2_vue@3.5.26_typescript@5.9.3_/node_modules/floating-vue/dist/floating-vue.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/styles/shiki-twoslash.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/client.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26_typescript@5.9.3_/node_modules/@unhead/vue/dist/shared/vue.N9zWjxoK.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/plugins.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/utils.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26_typescript@5.9.3_/node_modules/@unhead/vue/dist/shared/vue.Bm-NbY4b.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/shared/unhead.CGCfDSEL.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/hookable@6.0.1/node_modules/hookable/dist/index.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/shared/unhead.CYpwL2hc.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/shared/unhead.CbpEuj3y.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@floating-ui+dom@1.1.1/node_modules/@floating-ui/dom/dist/floating-ui.dom.browser.min.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/composables/useDragElements.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/shared/unhead.DQc16pHI.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/shared/unhead.BYvz9V1x.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/shared/unhead.ckV6dpEQ.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/shared/unhead.CApf5sj3.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/composables/useNav.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+rough-notation@0.1.0/node_modules/@slidev/rough-notation/dist/index.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/utils.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/constants.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@floating-ui+core@1.7.3/node_modules/@floating-ui/core/dist/floating-ui.core.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/renderer.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/generator.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/math.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@vue+compiler-core@3.5.26/node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@floating-ui+utils@0.2.10/node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/path-data-parser@0.1.0/node_modules/path-data-parser/lib/index.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/fillers/filler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/points-on-curve@0.2.0/node_modules/points-on-curve/lib/curve-to-bezier.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/points-on-curve@0.2.0/node_modules/points-on-curve/lib/index.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/points-on-path@0.2.1/node_modules/points-on-path/lib/index.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@vue+runtime-core@3.5.26/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/path-data-parser@0.1.0/node_modules/path-data-parser/lib/parser.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/path-data-parser@0.1.0/node_modules/path-data-parser/lib/absolutize.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/path-data-parser@0.1.0/node_modules/path-data-parser/lib/normalize.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/fillers/zigzag-filler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/fillers/hachure-filler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/fillers/hatch-filler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/fillers/zigzag-line-filler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/fillers/dashed-filler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/fillers/dot-filler.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/styles/layouts-base.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/vue-router@4.6.4_vue@3.5.26_typescript@5.9.3_/node_modules/vue-router/dist/devtools-EWN81iOl.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+theme-seriph@0.25.0/node_modules/@slidev/theme-seriph/styles/layouts.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+theme-seriph@0.25.0/node_modules/@slidev/theme-seriph/styles/prism.css',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@vueuse+motion@3.0.3_vue@3.5.26_typescript@5.9.3_/node_modules/@vueuse/motion/dist/index.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/fillers/scan-line-hachure.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/logic/utils.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/roughjs@4.6.6/node_modules/roughjs/bin/geometry.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/hachure-fill@0.5.2/node_modules/hachure-fill/bin/hachure.js',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26_typescript@5.9.3_/node_modules/@unhead/vue/dist/index.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/composables/useClicks.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/composables/useEmbeddedCtrl.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/logic/slides.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/state/index.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/composables/usePrintStyles.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/state/drawings.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/pages/notes-edit.vue',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/pages/entry.vue',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/state/shared.ts',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/pages/play.vue',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/pages/notes.vue',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/pages/presenter.vue',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/pages/404.vue',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@slidev+client@52.11.3_@nuxt+kit@3.20.2_@vue+compiler-sfc@3.5.26_markdown-it-async@2.2._6214bbe8350ebde132ac6e5bc760d5a0/node_modules/@slidev/client/pages/overview.vue',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26_typescript@5.9.3_/node_modules/@unhead/vue/dist/shared/vue.CeCEzk2b.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/index.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26_typescript@5.9.3_/node_modules/@unhead/vue/dist/utils.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/unhead@2.1.2/node_modules/unhead/dist/scripts.mjs',
+    '/Users/rus/Development/slidev/AI-workshop/node_modules/.pnpm/prism-theme-vars@0.2.5/node_modules/prism-theme-vars/base.css',
+    ... 21 more items
+  ]
+}
