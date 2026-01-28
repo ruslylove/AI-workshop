@@ -238,6 +238,232 @@ layout: section
 </div>
 
 ---
+
+# 🥊 เจาะลึก 3 ค่ายใหญ่: จุดเด่น & ราคา (2025)
+เลือกให้ถูกโฉลก... งานจะสบายขึ้น 300%
+
+<div class="grid grid-cols-3 gap-4 mt-6">
+
+  <!-- OpenAI -->
+  <div class="bg-green-50 p-3 rounded-xl border border-green-200">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">🟢</div>
+      <b class="text-green-700">OpenAI (ChatGPT)</b>
+    </div>
+    <div class="text-[10px] space-y-2">
+      <p><b>รุ่น:</b> GPT-4o / o1</p>
+      <div class="bg-white p-2 rounded">
+        <b>✅ ข้อดี (Pros):</b>
+        <ul class="list-disc pl-3 mt-1 text-gray-600">
+          <li><b>All-in-One:</b> เก่งรอบด้าน (เขียน/วาด/Excel)</li>
+          <li><b>Voice Mode:</b> คุยเสียงธรรรมชาติสุด</li>
+          <li><b>Custom GPTs:</b> มีบอทช่วยงานเยอะ</li>
+        </ul>
+      </div>
+       <div class="bg-green-100 p-2 rounded text-green-800">
+        <b>💰 Pack: Plus (~700บ.)</b><br>
+        ใช้รุ่น Top ไม่จำกัด*, สร้างรูป DALL-E, วิเคราะห์ Data
+      </div>
+    </div>
+  </div>
+
+  <!-- Anthropic -->
+  <div class="bg-orange-50 p-3 rounded-xl border border-orange-200">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">🟠</div>
+      <b class="text-orange-700">Anthropic (Claude)</b>
+    </div>
+    <div class="text-[10px] space-y-2">
+      <p><b>รุ่น:</b> Claude 3.5 Sonnet</p>
+      <div class="bg-white p-2 rounded">
+        <b>✅ ข้อดี (Pros):</b>
+        <ul class="list-disc pl-3 mt-1 text-gray-600">
+          <li><b>ภาษาไทย:</b> สละสลวย เป็นธรรมชาติสุด</li>
+          <li><b>Coding/Logic:</b> ฉลาดและแม่นยำที่สุด</li>
+          <li><b>Artifacts:</b> แยกหน้าต่างดู Code/Doc ได้</li>
+        </ul>
+      </div>
+       <div class="bg-orange-100 p-2 rounded text-orange-800">
+        <b>💰 Pack: Pro (~700บ.)</b><br>
+        โควต้าคุยเยอะขึ้น 5 เท่า, สร้าง Projects (คลังความรู้)
+      </div>
+    </div>
+  </div>
+
+  <!-- Google -->
+  <div class="bg-blue-50 p-3 rounded-xl border border-blue-200">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">🔵</div>
+      <b class="text-blue-700">Google (Gemini)</b>
+    </div>
+    <div class="text-[10px] space-y-2">
+      <p><b>รุ่น:</b> Gemini 1.5 Pro</p>
+      <div class="bg-white p-2 rounded">
+        <b>✅ ข้อดี (Pros):</b>
+        <ul class="list-disc pl-3 mt-1 text-gray-600">
+          <li><b>Context:</b> อ่านไฟล์ PDF พันหน้าได้สบาย</li>
+          <li><b>Ecosystem:</b> เชื่อม Docs/Drive/Gmail</li>
+          <li><b>Free:</b> รุ่นฟรี (Flash) ทำงานเร็วมาก</li>
+        </ul>
+      </div>
+       <div class="bg-blue-100 p-2 rounded text-blue-800">
+        <b>💰 Pack: Adv. (~750บ.)</b><br>
+        ใช้ 1.5 Pro + <b>แถม Google One 2TB</b>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-4 text-center text-xs text-gray-500">
+  <b>💡 คำแนะนำ:</b> สายวิชาการ/เขียนโค้ด -> <b>Claude</b> | สายทั่วไป/รูปภาพ -> <b>ChatGPT</b> | สายเอกสารเยอะ/Drive -> <b>Gemini</b>
+</div>
+
+---
+
+# 🌟 3 เรื่องราว "ชีวิตเปลี่ยน" เพราะ AI (Success Stories)
+ทำไมใช้แล้วชีวิตดี๊ดี? (เจ้านายรัก / ลูกน้องเลิฟ / Career พุ่ง)
+
+<div class="grid grid-cols-3 gap-6 mt-8">
+
+  <!-- Case 1: เจ้านายรัก -->
+  <div class="bg-white p-5 rounded-xl shadow-lg border-t-4 border-blue-500 relative transform hover:-translate-y-2 transition duration-300">
+    <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-md">
+      👩‍💼
+    </div>
+    <div class="mt-6 text-center">
+      <h3 class="font-bold text-blue-800 text-lg">พี่สมศรี (งานธุรการ)</h3>
+      <p class="text-xs text-gray-400">"เจ้านายรัก เพราะข้อมูลไว"</p>
+    </div>
+    <div class="mt-4 text-xs text-gray-600 space-y-2 text-left">
+      <p>❌ <b>ก่อนหน้า:</b> จดประชุมไม่ทัน สรุปรายงานช้า เจ้านายรอนานจนหงุดหงิด</p>
+      <p>✅ <b>ใช้ AI:</b> อัดเสียง -> ถอดความ -> ให้ AI สรุปประเด็นสำคัญใน 1 นาที</p>
+      <div class="bg-blue-50 p-2 rounded text-blue-700 font-bold text-center mt-2">
+        "เจ้านายปลื้ม! ได้ Data ตัดสินใจทันที ไม่ต้องรอกลับไปพิมพ์"
+      </div>
+    </div>
+  </div>
+
+  <!-- Case 2: ลูกน้อง/นศ. รัก -->
+  <div class="bg-white p-5 rounded-xl shadow-lg border-t-4 border-pink-500 relative transform hover:-translate-y-2 transition duration-300">
+    <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-md">
+      👨‍🏫
+    </div>
+    <div class="mt-6 text-center">
+      <h3 class="font-bold text-pink-800 text-lg">อ.สมชาย (อาจารย์)</h3>
+      <p class="text-xs text-gray-400">"นศ. รัก เพราะใส่ใจ"</p>
+    </div>
+    <div class="mt-4 text-xs text-gray-600 space-y-2 text-left">
+      <p>❌ <b>ก่อนหน้า:</b> ตอบไลน์ นศ. เรื่องเดิมๆ จนดึก หน้าตึง กลายเป็นคนดุ</p>
+      <p>✅ <b>ใช้ AI:</b> สร้าง Prompt ช่วยตอบคำถาม/ตรวจงานเบื้องต้น เอาเวลาไปให้คำปรึกษาเชิงลึก</p>
+      <div class="bg-pink-50 p-2 rounded text-pink-700 font-bold text-center mt-2">
+        "มีเวลาคุยกับเด็กมากขึ้น ไม่ต้องหัวหมุนกับงานรูทีน"
+      </div>
+    </div>
+  </div>
+
+  <!-- Case 3: การงานก้าวหน้า -->
+  <div class="bg-white p-5 rounded-xl shadow-lg border-t-4 border-purple-500 relative transform hover:-translate-y-2 transition duration-300">
+    <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-purple-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-md">
+      🚀
+    </div>
+    <div class="mt-6 text-center">
+      <h3 class="font-bold text-purple-800 text-lg">น้องมายด์ (พัสดุ)</h3>
+      <p class="text-xs text-gray-400">"เติบโต เพราะวิเคราะห์เก่ง"</p>
+    </div>
+    <div class="mt-4 text-xs text-gray-600 space-y-2 text-left">
+      <p>❌ <b>ก่อนหน้า:</b> ทำ Excel ได้แค่พื้นฐาน กลัวผิดพลาด ทำงานตามคำสั่ง</p>
+      <p>✅ <b>ใช้ AI:</b> เขียนสูตร Excel ขั้นเทพ + วิเคราะห์แนวโน้มราคาเสนอผู้บริหาร</p>
+      <div class="bg-purple-50 p-2 rounded text-purple-700 font-bold text-center mt-2">
+        "ผลงานเข้าตา! จากคนทำงานกลายเป็นนักวิเคราะห์"
+      </div>
+    </div>
+  </div>
+
+</div>
+
+---
+
+# 🪄 AI เสกสูตร Excel (Formula Magic) 📊
+เลิกจำสูตรยาวๆ... พิมพ์บอกความต้องการไปเลย!
+
+<div class="grid grid-cols-2 gap-8 mt-6">
+  <!-- Example 1: แยกชื่อ-นามสกุล -->
+  <div class="bg-green-50 p-4 rounded-xl border border-green-200">
+     <h3 class="font-bold text-green-800 mb-2">1. แยกชื่อ - นามสกุล</h3>
+     <div class="text-[10px] text-gray-500 mb-1">โจทย์: แยก "นายสมชาย ใจดี" ให้อยู่คนละช่อง</div>
+     <div class="bg-red-100 p-2 rounded mb-2 opacity-60">
+       <b class="text-red-700">มนุษย์ (The Old Way):</b><br>
+       <code class="text-[10px] text-red-600">=LEFT(A2, FIND(" ", A2)-1)</code>
+     </div>
+     <div class="bg-green-100 p-2 rounded shadow-sm">
+       <b class="text-green-700">AI Prompt (The New Way):</b><br>
+       <p class="text-[10px] italic">"เขียนสูตร Excel แยกข้อความในช่อง A2 โดยเอาเฉพาะคำหน้า ก่อนถึงช่องว่าง"</p>
+     </div>
+  </div>
+
+  <!-- Example 2: ตัดเกรด -->
+  <div class="bg-blue-50 p-4 rounded-xl border border-blue-200">
+     <h3 class="font-bold text-blue-800 mb-2">2. ตัดเกรด (Nested IF)</h3>
+     <div class="text-[10px] text-gray-500 mb-1">โจทย์: คะแนน >80=A, >70=B, >60=C...</div>
+     <div class="bg-red-100 p-2 rounded mb-2 opacity-60">
+       <b class="text-red-700">มนุษย์ (Headache):</b><br>
+       <code class="text-[10px] text-red-600">=IF(A2>80,"A",IF(A2>70,"B",IF(A2>60,"C","F")))</code>
+     </div>
+     <div class="bg-green-100 p-2 rounded shadow-sm">
+       <b class="text-green-700">AI Prompt:</b><br>
+       <p class="text-[10px] italic">"เขียนสูตรตัดเกรดจากช่อง A2 โดยถ้ามากกว่า 80 ได้ A, 70 ได้ B, 60 ได้ C นอกนั้นตก"</p>
+     </div>
+  </div>
+
+</div>
+
+---
+
+<div class="mt-4 p-4 bg-purple-50 rounded-xl border border-purple-200">
+  <h3 class="font-bold text-purple-800 mb-2">3. ข้าม Sheet (VLOOKUP / XLOOKUP) 🚀</h3>
+  <div class="flex items-center gap-4">
+    <div class="flex-1 text-sm bg-gray-100 p-2 rounded">
+      <b>Prompt:</b> "ช่วยเขียนสูตร <b>VLOOKUP</b> ให้หน่อย เอาข้อมูล <b>'ราคาสินค้า'</b> จาก Sheet ชื่อ <b>'PriceList'</b> มาใส่ใน Sheet นี้ โดยอ้างอิงจาก <b>'รหัสสินค้า'</b> ในช่อง <b>A2</b>"
+    </div>
+    <div class="text-2xl">👉</div>
+    <div class="flex-1 bg-white p-2 rounded border border-gray-300 font-mono text-xs text-blue-600 overflow-x-auto">
+      =VLOOKUP(A2, 'PriceList'!A:B, 2, FALSE)
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+
+  <!-- Example 4 -->
+  <div class="p-4 bg-pink-50 rounded-xl border border-pink-200">
+    <h3 class="font-bold text-pink-800 mb-2">4. คำนวณอายุงาน (Date) 🗓️</h3>
+    <div class="space-y-2">
+      <div class="text-xs bg-white p-2 rounded italic text-gray-600">
+        "คำนวณ <b>อายุงาน</b> จากวันเริ่ม (A2) ถึงวันนี้ ขอหน่วย <b>ปี-เดือน</b>"
+      </div>
+      <div class="font-mono text-[10px] text-pink-600 bg-white p-1 rounded border overflow-x-auto">
+        =DATEDIF(A2,TODAY(),"Y")&"ปี "&DATEDIF(A2,TODAY(),"YM")&"ด."
+      </div>
+    </div>
+  </div>
+
+  <!-- Example 5 -->
+  <div class="p-4 bg-yellow-50 rounded-xl border border-yellow-200">
+    <h3 class="font-bold text-yellow-800 mb-2">5. รวมยอดแบบมีเงื่อนไข (SUMIFS) �</h3>
+    <div class="space-y-2">
+      <div class="text-xs bg-white p-2 rounded italic text-gray-600">
+        "รวมเงิน (Col D) เฉพาะของ <b>'แผนก IT'</b> (Col B) ที่สถานะ <b>'Active'</b> (Col C)"
+      </div>
+      <div class="font-mono text-[10px] text-yellow-600 bg-white p-1 rounded border overflow-x-auto">
+        =SUMIFS(D:D, B:B, "IT", C:C, "Active")
+      </div>
+    </div>
+  </div>
+
+</div>
+
+---
 layout: center
 ---
 
