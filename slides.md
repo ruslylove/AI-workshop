@@ -1,88 +1,115 @@
 ---
-# Theme & Config
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+title: Generative AI for Work
+info: |
+  ## Generative AI มาประยุกต์ใช้ในการทำงาน
+  โครงการสัมมนาบุคลากรสายสนับสนุนวิชาการ ระดับภาควิชาฯ
+  คณะวิศวกรรมศาสตร์ — โดย ผศ.ดร.รุสลี่ สุทธวีร์กูล
 class: text-center
 highlighter: shiki
 lineNumbers: false
-info: |
-  ## Generative AI มาประยุกต์ใช้ในการทำงาน
-  วันที่ 28 มกราคม 2569
-  โดย ผศ.ดร.รุสลี่ สุทธวีร์กูล
 drawings:
   persist: false
 transition: slide-left
-title: Generative AI for Work
-# Fonts
 fonts:
   sans: "Kanit"
   serif: "Sarabun"
   mono: "Fira Code"
+layout: cover
+background: https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1920
 ---
 
-# 🤖 Generative AI มาประยุกต์ใช้ในการทำงาน
-## โครงการสัมมนาบุคลากรสายสนับสนุนวิชาการฯ (28 ม.ค. 69)
-<div class="mt-4 text-sm text-gray-600">
-  โดย ผศ.ดร.รุสลี่ สุทธวีร์กูล <br>
-  ผู้ช่วยคณบดีฝ่ายสารสนเทศ คณะวิศวกรรมศาสตร์
+# Generative & Agentic AI
+
+## ยกระดับงานสายสนับสนุนภาควิชาฯ ด้วย AI ยุคใหม่
+
+<div class="mt-6 text-sm opacity-90">
+  โดย ผศ.ดร.รุสลี่ สุทธวีร์กูล · ผู้ช่วยคณบดีฝ่ายสารสนเทศ<br/>
+  คณะวิศวกรรมศาสตร์ มจพ.
 </div>
 
-<div class="absolute bottom-12 left-10">
-  <img src="/logo_eng.jpg" class="w-24 h-24 rounded-full shadow-lg border-2 border-white" alt="KMUTNB Engineering Logo">
+<div class="absolute bottom-8 left-8 flex items-center gap-3">
+  <img src="/logo_eng.jpg" class="w-14 h-14 rounded-full shadow-lg border-2 border-white/60" />
 </div>
 
-<div class="absolute bottom-10 right-10">
-  <img src="/qrcode_slides.png" class="w-24 h-24 border-2 border-white rounded-lg shadow-lg" alt="Slides QR Code">
-  <div class="text-[8px] text-gray-400 mt-1 text-center">Scan for Slides</div>
+<div class="absolute bottom-8 right-8 text-center">
+  <img src="/qrcode_slides.png" class="w-20 h-20 rounded-lg shadow-lg border-2 border-white/60" />
+  <div class="text-[9px] opacity-70 mt-1">Scan Slides</div>
 </div>
 
+---
+layout: center
+class: "!px-16"
+---
 
-<div class="pt-8">
-  <div class="bg-white/10 backdrop-blur-md p-4 rounded-xl inline-block border border-white/20">
-    <p class="text-lg font-bold text-white mb-2">Agenda (ฉบับตามใจผู้เรียน)</p>
-    <div class="text-left text-sm text-gray-200 grid grid-cols-2 gap-8">
-      <div>
-        <b class="text-blue-300"># Part 1: บรรยาย & สาธิต
-(13.00 - 14.30 น.)</b><br>
-        - <b>Survey Results:</b> เสียงจากพวกเราเอง<br>
-        - <b>Demo:</b> แก้ปัญหา Top 3 (เอกสาร/แปล/Excel)<br>
-        - <b>Showcase:</b> งานอาคารฯ & งานพัสดุ
-      </div>
-      <div>
-        <b class="text-orange-300"># Part 2: ปฏิบัติ
-(14.45 - 16.15 น.)</b><br>
-        - <b>Workshop:</b> Super Support Challenge<br>
-        - <b>Tools:</b> แจก Web App สำเร็จรูป<br>
-        - <b>Competition:</b> ประชันไอเดีย (ไม่เครียด!)
-      </div>
+# 🗺️ แผนการเดินทางวันนี้
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+
+  <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200/60 p-6 text-left shadow-sm">
+    <div class="flex items-center gap-2 mb-3">
+      <span class="px-2 py-1 bg-blue-600 text-white text-[10px] rounded-full font-bold">PART 1</span>
+      <span class="text-xs text-gray-500">13:00 – 14:30</span>
     </div>
+    <h3 class="text-lg font-bold text-blue-900 mb-3">บรรยาย &amp; สาธิตสด</h3>
+    <ul class="text-sm text-gray-700 space-y-1.5">
+      <li>🌱 วิวัฒนาการ AI: Chat → Gen → Agentic</li>
+      <li>✨ เทียบ 3 ค่ายใหญ่ (ChatGPT / Claude / Gemini)</li>
+      <li>🤖 Agentic AI — ลูกน้องที่ "ทำเอง" ได้</li>
+      <li>🎯 Prompt Engineering ฉบับทำงานจริง</li>
+      <li>🔮 Live Demo 5 เคส ตรงงานภาควิชา</li>
+    </ul>
   </div>
+
+  <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-pink-50 border border-amber-200/60 p-6 text-left shadow-sm">
+    <div class="flex items-center gap-2 mb-3">
+      <span class="px-2 py-1 bg-amber-600 text-white text-[10px] rounded-full font-bold">PART 2</span>
+      <span class="text-xs text-gray-500">14:45 – 16:15</span>
+    </div>
+    <h3 class="text-lg font-bold text-amber-900 mb-3">Workshop ลงมือทำ</h3>
+    <ul class="text-sm text-gray-700 space-y-1.5">
+      <li>🛠️ แจก Web App "Engineering AI Prompter"</li>
+      <li>🎮 Super Support Challenge (แข่งสนุก ไม่เครียด)</li>
+      <li>⚖️ ให้ AI เป็นกรรมการตัดสิน</li>
+      <li>🏆 รางวัลสำหรับทีมไอเดียดี</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="mt-6 text-center text-xs text-gray-500 italic">
+  "วันนี้เน้นสนุก · ใช้งานได้จริง · กลับไปเริ่มใช้พรุ่งนี้ได้เลย"
 </div>
 
 ---
 layout: center
 ---
 
-# 📣 เสียงจากแบบสอบถาม (Survey Insights)
-"เรารู้ว่าคุณเจอปัญหาอะไร... วันนี้เราจะมาแก้สิ่งนั้น!"
+# 📣 เสียงจากแบบสอบถาม
 
-<div class="grid grid-cols-2 gap-8 mt-6 text-left">
-  <div class="bg-blue-50 p-5 rounded-xl border-l-4 border-blue-500">
-    <h3 class="text-xl font-bold text-blue-700 mb-2">🏆 Top 3 ปัญหาที่อยากแก้</h3>
-    <ul class="list-disc pl-5 space-y-2 text-gray-700">
-      <li><b>อันดับ 1:</b> ร่างหนังสือราชการ & อีเมล (ร่วมกับ แปลภาษา)</li>
-      <li><b>อันดับ 1 (ร่วม):</b> จัดการสูตร Excel & ข้อมูลเยอะๆ</li>
-      <li><b>อันดับ 2:</b> งานแจ้งซ่อม / ประกาศปิดพื้นที่ (งานอาคารฯ)</li>
+<div class="text-sm text-gray-500 mb-6">ก่อนมาบรรยาย ผมได้ถามพวกเราก่อนแล้ว...</div>
+
+<div class="grid grid-cols-2 gap-6 text-left">
+  <div class="rounded-2xl bg-white border border-blue-100 p-6 shadow-sm relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500"></div>
+    <h3 class="text-base font-bold text-blue-800 mb-3">🏆 Top ปัญหาที่อยากแก้</h3>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li class="flex gap-2"><span class="font-bold text-blue-600">#1</span> ร่างหนังสือราชการ &amp; แปลภาษา</li>
+      <li class="flex gap-2"><span class="font-bold text-blue-600">#2</span> จัดการสูตร Excel &amp; ข้อมูลเยอะ</li>
+      <li class="flex gap-2"><span class="font-bold text-blue-600">#3</span> งานประกาศ/แจ้งข่าวภาควิชา</li>
+      <li class="flex gap-2"><span class="font-bold text-blue-600">#4</span> สรุปเอกสาร/ระเบียบยาวๆ</li>
     </ul>
   </div>
 
-  <div class="bg-green-50 p-5 rounded-xl border-l-4 border-green-500">
-    <h3 class="text-xl font-bold text-green-700 mb-2">🥰 ความคาดหวังในวันนี้</h3>
-    <div class="italic text-gray-600 bg-white p-3 rounded shadow-sm">
-      "ไม่เคร่งเครียด", "ไม่มีความกดดัน", <br>"นำไปใช้งานได้จริง", "ช่วยงานซ้ำซากได้"
+  <div class="rounded-2xl bg-white border border-emerald-100 p-6 shadow-sm relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-teal-500"></div>
+    <h3 class="text-base font-bold text-emerald-800 mb-3">🥰 สิ่งที่คาดหวัง</h3>
+    <div class="bg-emerald-50 rounded-xl p-3 text-sm text-gray-700 italic leading-relaxed">
+      "ไม่เครียด" · "ใช้งานได้จริง" <br>
+      "ช่วยงานซ้ำๆ ได้" · "ไม่วิชาการจ๋า"
     </div>
-    <div class="mt-4 text-sm font-bold text-green-800">
-      ✅ สัญญาครับ! วันนี้เน้นสนุก ใช้งานจริง ไม่วิชาการจ๋า
+    <div class="mt-3 text-xs font-semibold text-emerald-700 flex items-center gap-1">
+      ✅ รับทราบครับ — วันนี้จัดให้ครบ
     </div>
   </div>
 </div>
@@ -91,545 +118,994 @@ layout: center
 layout: section
 ---
 
-# Part 1: Unlock AI Potential
-รู้จักเครื่องมือที่จะมาช่วยเรา "หายเหนื่อย"
+# Chapter 1
+## วิวัฒนาการของ AI
+### จากเครื่องจักรคำนวณ → ลูกน้องดิจิทัล
+
+<div class="mt-6 text-sm opacity-70">รู้ "ที่มา" เพื่อเข้าใจ "ที่ไป"</div>
 
 ---
 
-# 🧠 Generative AI คืออะไร? (ฉบับรวบรัด)
-มันคือ "ลูกน้องคนใหม่" ที่...
+# 🕰️ 3 ยุคของ AI ที่พวกเราต้องรู้
 
-<div class="grid grid-cols-3 gap-6 mt-8 text-center">
-  <div v-click class="p-4 bg-white rounded-xl shadow-lg transform hover:scale-105 transition">
-    <div class="text-5xl mb-3">📚</div>
-    <h3 class="font-bold text-gray-700">อ่านเก่ง</h3>
-    <p class="text-xs text-gray-500 mt-2">อ่านระเบียบ 20 หน้า<br>สรุปเหลือ 5 บรรทัดได้</p>
-  </div>
-  <div v-click class="p-4 bg-white rounded-xl shadow-lg transform hover:scale-105 transition">
-    <div class="text-5xl mb-3">✍️</div>
-    <h3 class="font-bold text-gray-700">เขียนเก่ง</h3>
-    <p class="text-xs text-gray-500 mt-2">ร่างหนังสือทางการ<br>แปลอังกฤษเป๊ะเวอร์</p>
-  </div>
-  <div v-click class="p-4 bg-white rounded-xl shadow-lg transform hover:scale-105 transition">
-    <div class="text-5xl mb-3">💡</div>
-    <h3 class="font-bold text-gray-700">คิดเก่ง</h3>
-    <p class="text-xs text-gray-500 mt-2">ช่วยคิดแคปชัน<br>ช่วยวิเคราะห์ข้อมูล</p>
-  </div>
-</div>
+<div class="relative mt-8">
+  <div class="absolute top-12 left-0 right-0 h-0.5 bg-gradient-to-r from-gray-300 via-indigo-400 to-pink-500"></div>
 
-<div class="mt-8 text-sm text-gray-500">
-  (ส่วนใหญ่ในห้อง "เคยลองเล่นบ้าง" แล้ว... วันนี้เราจะมาทำให้ "เซียน" ครับ!)
-</div>
-
----
-
-# รู้จัก AI ใกล้ตัว... (Activities) 🎨
-มาลองเล่น AI ง่ายๆ ที่ Google สร้างขึ้น
-
-<div class="flex justify-center mt-8">
-  <div class="text-center p-8 border-2 border-dashed border-gray-300 rounded-xl hover:border-blue-500 hover:bg-blue-50 transition cursor-pointer">
-    <a href="https://quickdraw.withgoogle.com/" target="_blank">
-      <div class="text-6xl mb-4">🖍️</div>
-      <h2 class="text-2xl font-bold text-blue-600">Google Quick, Draw!</h2>
-      <p class="text-gray-500 mt-2">AI ทายภาพวาดของเรา (ภายใน 20 วินาที)</p>
-    </a>
-  </div>
-</div>
-
----
-
-# AI vs Gen-AI คืออะไร?
-ความแตกต่างที่ต้องรู้
-
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-    <h3 class="font-bold text-gray-700 mb-2">🤖 AI (Artificial Intelligence)</h3>
-    <p class="text-sm">"ความฉลาดเทียมที่สร้างขึ้นให้กับสิ่งที่ไม่มีชีวิต"</p>
-    <ul class="list-disc pl-5 mt-4 text-xs text-gray-600 space-y-2">
-      <li>เน้นการวิเคราะห์, จำแนก, หรือทำตามกฎ</li>
-      <li>Ex. ระบบสแกนหน้า, ระบบแนะนำ Netflix</li>
-    </ul>
-  </div>
-  <div class="bg-indigo-50 p-6 rounded-xl border border-indigo-200">
-    <h3 class="font-bold text-indigo-700 mb-2">✨ Gen-AI (Generative AI)</h3>
-    <p class="text-sm">"AI ที่ **สร้าง** ข้อความ, รูปภาพ, หรือสื่ออื่นๆ ได้เอง"</p>
-    <ul class="list-disc pl-5 mt-4 text-xs text-gray-600 space-y-2">
-      <li>เน้นการ "สร้างใหม่" (Generate)</li>
-      <li>Ex. ChatGPT เขียนอีเมล, Midjourney วาดรูป</li>
-    </ul>
-  </div>
-</div>
-
----
-
-# เปรียบเทียบ 3 เทพ (วัดพลังภาษาไทย) 🇹🇭
-ข้อมูลจากการทดสอบจริง (Claude 3.5 Sonnet / ChatGPT 4o / Gemini Advanced)
-
-<div class="grid grid-cols-3 gap-2 mt-4 text-xs">
-
-  <!-- Claude -->
-  <div class="border-2 border-orange-200 rounded-xl p-3 bg-orange-50 relative overflow-hidden">
-    <div class="absolute top-0 right-0 bg-orange-500 text-white text-[10px] px-2 py-1 rounded-bl">Best Thai</div>
-    <div class="flex items-center gap-2 mb-2">
-      <b class="text-orange-700 text-lg">Claude 3.5</b>
+  <div class="grid grid-cols-3 gap-6 relative">
+    <div v-click class="text-center">
+      <div class="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center text-3xl shadow-md border-4 border-white">💬</div>
+      <div class="text-[10px] text-gray-400 mt-2 tracking-widest">~2015–2022</div>
+      <h3 class="font-bold text-gray-700 mt-1">AI Chatbot</h3>
+      <div class="mt-3 text-xs text-gray-600 bg-gray-50 rounded-xl p-3 text-left">
+        <b>รูปแบบ:</b> กล่อง Q&amp;A<br>
+        <b>ความสามารถ:</b> ตอบตามสคริปต์/Rule<br>
+        <b>เหมือน:</b> "พนักงาน Call Center มือใหม่"
+      </div>
     </div>
-    <div class="space-y-2">
-      <div>
-        <span class="block text-gray-500">ความเข้าใจภาษาไทย</span>
-        <div class="w-full bg-gray-200 rounded-full h-2.5">
-          <div class="bg-orange-500 h-2.5 rounded-full" style="width: 98%"></div>
+    <div v-click class="text-center">
+      <div class="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center text-3xl shadow-lg border-4 border-white">✨</div>
+      <div class="text-[10px] text-indigo-500 mt-2 tracking-widest">2022–2024</div>
+      <h3 class="font-bold text-indigo-700 mt-1">Generative AI</h3>
+      <div class="mt-3 text-xs text-gray-700 bg-indigo-50 rounded-xl p-3 text-left">
+        <b>รูปแบบ:</b> คุย + สร้างของ<br>
+        <b>ความสามารถ:</b> เขียน/แปล/วาด/สรุป<br>
+        <b>เหมือน:</b> "เลขาฯ เก่งหลายภาษา"
+      </div>
+    </div>
+    <div v-click class="text-center">
+      <div class="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-pink-500 to-orange-500 flex items-center justify-center text-3xl shadow-lg border-4 border-white animate-pulse">🤖</div>
+      <div class="text-[10px] text-pink-500 mt-2 tracking-widest">2024–ปัจจุบัน</div>
+      <h3 class="font-bold text-pink-700 mt-1">Agentic AI</h3>
+      <div class="mt-3 text-xs text-gray-700 bg-pink-50 rounded-xl p-3 text-left">
+        <b>รูปแบบ:</b> สั่ง 1 ครั้ง ทำต่อเอง<br>
+        <b>ความสามารถ:</b> วางแผน + ใช้เครื่องมือ<br>
+        <b>เหมือน:</b> "ลูกน้องที่รับผิดชอบงาน"
+      </div>
+    </div>
+  </div>
+</div>
+
+<div v-click class="mt-8 text-center text-sm text-gray-500">
+  พวกเราส่วนใหญ่ "แตะ" แค่ยุค 2 แล้ว · <b class="text-pink-600">วันนี้จะพาไปยุค 3</b>
+</div>
+
+---
+
+# 💡 ต่างกันตรงไหน? ดูตัวอย่างงานเดียวกัน
+
+<div class="text-sm text-gray-500 mb-4">โจทย์: "ขอสรุปรายงานการประชุมครั้งที่แล้ว พร้อมส่งเมลแจ้งอาจารย์ในภาค"</div>
+
+<div class="space-y-3">
+  <div class="rounded-xl border border-gray-200 p-4 bg-gray-50 flex items-start gap-4">
+    <div class="w-16 text-center">
+      <div class="text-2xl">💬</div>
+      <div class="text-[10px] font-bold text-gray-500 mt-1">CHATBOT</div>
+    </div>
+    <div class="flex-1 text-sm">
+      ตอบเป็น FAQ ได้ ถ้าคำถามไม่ตรงสคริปต์ = <span class="text-red-500">"ขออภัย ฉันไม่เข้าใจคำถาม"</span>
+    </div>
+  </div>
+
+  <div class="rounded-xl border border-indigo-200 p-4 bg-indigo-50 flex items-start gap-4">
+    <div class="w-16 text-center">
+      <div class="text-2xl">✨</div>
+      <div class="text-[10px] font-bold text-indigo-600 mt-1">GEN AI</div>
+    </div>
+    <div class="flex-1 text-sm">
+      <b>เรา</b> Copy เนื้อหาประชุม → AI สรุปให้ → <b>เรา</b> Copy ไปวางในเมล → <b>เรา</b> ใส่รายชื่ออาจารย์เอง → <b>เรา</b> กดส่งเอง
+      <div class="text-xs text-indigo-600 mt-1">→ "ผู้ช่วยที่เก่ง แต่ต้องจูงมือตลอด"</div>
+    </div>
+  </div>
+
+  <div class="rounded-xl border-2 border-pink-300 p-4 bg-gradient-to-r from-pink-50 to-orange-50 flex items-start gap-4 shadow-md">
+    <div class="w-16 text-center">
+      <div class="text-2xl">🤖</div>
+      <div class="text-[10px] font-bold text-pink-600 mt-1">AGENTIC</div>
+    </div>
+    <div class="flex-1 text-sm">
+      <b>เราสั่งครั้งเดียว</b> → AI เปิดไฟล์ประชุมใน Drive เอง → สรุป → ดึงรายชื่ออาจารย์จากระบบ → ร่างเมล → <b>รอเราอนุมัติแล้วส่งให้</b>
+      <div class="text-xs text-pink-600 mt-1 font-bold">→ "ลูกน้องที่รับผิดชอบงานตั้งแต่ต้นจนจบ" ⚡</div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+class: "text-center"
+---
+
+<div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-4">✨ WOW MOMENT #1</div>
+
+# ในห้องนี้... มีผู้ช่วย 1 คน
+## ที่ <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600">ไม่ป่วย ไม่ลา ไม่บ่น</span>
+
+<div class="mt-6 text-gray-600 text-lg">
+  ทำงานได้ 24 ชม. · ภาษาไทยเป๊ะ · ค่าจ้าง ~700 บาท/เดือน
+</div>
+
+<div class="mt-8 grid grid-cols-4 gap-4 text-center">
+  <div><div class="text-3xl font-bold text-indigo-600">0</div><div class="text-xs text-gray-500">วันลา</div></div>
+  <div><div class="text-3xl font-bold text-indigo-600">24/7</div><div class="text-xs text-gray-500">ออนไลน์</div></div>
+  <div><div class="text-3xl font-bold text-indigo-600">100+</div><div class="text-xs text-gray-500">ภาษา</div></div>
+  <div><div class="text-3xl font-bold text-pink-600">฿23/วัน</div><div class="text-xs text-gray-500">ค่าตัว</div></div>
+</div>
+
+<div class="mt-8 text-sm text-gray-400 italic">
+  คำถามคือ... เราจะใช้เค้ายังไงให้คุ้ม?
+</div>
+
+---
+
+# 🧠 Gen AI คืออะไร? (ฉบับภาควิชาฯ)
+
+<div class="text-sm text-gray-500 mb-6">คิดง่ายๆ ว่ามันคือ "น้องใหม่" ที่...</div>
+
+<div class="grid grid-cols-3 gap-5">
+  <div v-click class="group">
+    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-blue-400 hover:shadow-lg transition-all">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-2xl mb-3">📚</div>
+      <h3 class="font-bold text-gray-800">อ่านเก่ง</h3>
+      <p class="text-xs text-gray-500 mt-2">อ่านระเบียบพัสดุ 100 หน้า สรุปประเด็นสำคัญใน 30 วินาที</p>
+    </div>
+  </div>
+  <div v-click class="group">
+    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-purple-400 hover:shadow-lg transition-all">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-2xl mb-3">✍️</div>
+      <h3 class="font-bold text-gray-800">เขียนเก่ง</h3>
+      <p class="text-xs text-gray-500 mt-2">ร่างบันทึกข้อความ · แปลอีเมลภาษาอังกฤษระดับมืออาชีพ</p>
+    </div>
+  </div>
+  <div v-click class="group">
+    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-amber-400 hover:shadow-lg transition-all">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center text-2xl mb-3">💡</div>
+      <h3 class="font-bold text-gray-800">คิดเก่ง</h3>
+      <p class="text-xs text-gray-500 mt-2">ช่วยวิเคราะห์ข้อมูล · เสนอไอเดีย · ตรวจความถูกต้อง</p>
+    </div>
+  </div>
+</div>
+
+<div v-click class="mt-6 rounded-xl bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100 p-4 text-sm text-gray-700 text-center">
+  💎 <b>จุดสำคัญ:</b> Gen AI ไม่ใช่ "Search Engine" แต่คือ <b>"เพื่อนร่วมงานที่ช่วยคิด"</b>
+</div>
+
+---
+
+# 🥊 3 ค่ายใหญ่ ณ ปี 2026
+
+<div class="text-sm text-gray-500 mb-4">เลือกให้ถูกโฉลก · งานเร็วขึ้น 3 เท่า</div>
+
+<div class="grid grid-cols-3 gap-3">
+
+  <div class="rounded-2xl bg-white border border-emerald-200 overflow-hidden shadow-sm">
+    <div class="h-1 bg-gradient-to-r from-emerald-500 to-teal-500"></div>
+    <div class="p-4">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="w-8 h-8 rounded-lg bg-emerald-500 text-white flex items-center justify-center font-bold">G</div>
+        <div>
+          <div class="font-bold text-emerald-800 text-sm">ChatGPT</div>
+          <div class="text-[9px] text-gray-500">OpenAI · GPT-5</div>
         </div>
-        <div class="text-right font-bold text-orange-600">98%</div>
       </div>
-      <div>
-        <span class="block text-gray-500">การโต้ตอบ</span>
-        <div class="text-right font-bold text-orange-600">92%</div>
+      <div class="text-[10px] space-y-1.5 text-gray-700">
+        <div>✅ All-in-one เก่งรอบด้าน</div>
+        <div>✅ Voice Mode เหมือนคนจริง</div>
+        <div>✅ สร้างรูป + วิเคราะห์ Excel ดี</div>
       </div>
-      <p class="mt-2 text-[10px] text-gray-600"><b>จุดเด่น:</b> ภาษาธรรมชาติที่สุด, อ่านไฟล์รูปได้</p>
+      <div class="mt-3 rounded-lg bg-emerald-50 p-2 text-[10px]">
+        <b class="text-emerald-700">Plus ~$20/เดือน</b><br>
+        <span class="text-gray-600">เหมาะ: คนใช้งานรอบด้าน · ทำรูป</span>
+      </div>
     </div>
   </div>
 
-  <!-- ChatGPT -->
-  <div class="border rounded-xl p-3 bg-white shadow-sm">
-    <div class="flex items-center gap-2 mb-2">
-      <b class="text-green-700 text-lg">ChatGPT 4o</b>
-    </div>
-    <div class="space-y-2">
-      <div>
-        <span class="block text-gray-500">ความเข้าใจภาษาไทย</span>
-        <div class="w-full bg-gray-200 rounded-full h-2.5">
-          <div class="bg-green-500 h-2.5 rounded-full" style="width: 98%"></div>
+  <div class="rounded-2xl bg-white border-2 border-orange-300 overflow-hidden shadow-md relative">
+    <div class="absolute top-2 right-2 bg-orange-500 text-white text-[9px] px-2 py-0.5 rounded-full font-bold">⭐ Best Thai</div>
+    <div class="h-1 bg-gradient-to-r from-orange-500 to-red-500"></div>
+    <div class="p-4">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="w-8 h-8 rounded-lg bg-orange-500 text-white flex items-center justify-center font-bold">C</div>
+        <div>
+          <div class="font-bold text-orange-800 text-sm">Claude</div>
+          <div class="text-[9px] text-gray-500">Anthropic · Opus 4.6</div>
         </div>
-        <div class="text-right font-bold text-green-600">98%</div>
       </div>
-      <div>
-        <span class="block text-gray-500">การโต้ตอบ</span>
-        <div class="text-right font-bold text-green-600">89%</div>
+      <div class="text-[10px] space-y-1.5 text-gray-700">
+        <div>✅ ภาษาไทยสละสลวยที่สุด</div>
+        <div>✅ Logic/วิเคราะห์แม่นสุด</div>
+        <div>✅ Artifacts + Projects (คลังความรู้)</div>
       </div>
-      <p class="mt-2 text-[10px] text-gray-600"><b>จุดเด่น:</b> เก่งรอบด้าน, ฟีเจอร์เยอะ</p>
+      <div class="mt-3 rounded-lg bg-orange-50 p-2 text-[10px]">
+        <b class="text-orange-700">Pro ~$20/เดือน</b><br>
+        <span class="text-gray-600">เหมาะ: งานเอกสาร · วิเคราะห์ · ภาษาไทย</span>
+      </div>
     </div>
   </div>
 
-  <!-- Gemini -->
-  <div class="border rounded-xl p-3 bg-white shadow-sm">
-    <div class="flex items-center gap-2 mb-2">
-      <b class="text-blue-700 text-lg">Gemini Adv.</b>
-    </div>
-    <div class="space-y-2">
-      <div>
-        <span class="block text-gray-500">ความเข้าใจภาษาไทย</span>
-        <div class="w-full bg-gray-200 rounded-full h-2.5">
-          <div class="bg-blue-500 h-2.5 rounded-full" style="width: 89%"></div>
+  <div class="rounded-2xl bg-white border border-blue-200 overflow-hidden shadow-sm">
+    <div class="h-1 bg-gradient-to-r from-blue-500 to-indigo-500"></div>
+    <div class="p-4">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="w-8 h-8 rounded-lg bg-blue-500 text-white flex items-center justify-center font-bold">✦</div>
+        <div>
+          <div class="font-bold text-blue-800 text-sm">Gemini</div>
+          <div class="text-[9px] text-gray-500">Google · 2.5 Pro</div>
         </div>
-        <div class="text-right font-bold text-blue-600">89%</div>
       </div>
-      <div>
-        <span class="block text-gray-500">การโต้ตอบ</span>
-        <div class="text-right font-bold text-blue-600">85%</div>
+      <div class="text-[10px] space-y-1.5 text-gray-700">
+        <div>✅ อ่าน PDF 1,000+ หน้าได้</div>
+        <div>✅ เชื่อม Docs/Drive/Gmail</div>
+        <div>✅ รุ่นฟรีใช้งานได้จริง</div>
       </div>
-       <p class="mt-2 text-[10px] text-gray-600"><b>จุดเด่น:</b> เชื่อมต่อ Google Workspace, ฟรีเยอะ</p>
-    </div>
-  </div>
-
-</div>
-
-<div class="mt-4 text-center text-[10px] text-gray-400">
-  *ข้อมูลอ้างอิงจากตารางเปรียบเทียบความสามารถ Gen AI (Anthropic/OpenAI/Google)
-</div>
-
----
-
-# 🥊 เจาะลึก 3 ค่ายใหญ่: จุดเด่น & ราคา (2025)
-เลือกให้ถูกโฉลก... งานจะสบายขึ้น 300%
-
-<div class="grid grid-cols-3 gap-4 mt-6">
-
-  <!-- OpenAI -->
-  <div class="bg-green-50 p-3 rounded-xl border border-green-200">
-    <div class="flex items-center gap-2 mb-2">
-      <div class="text-2xl">🟢</div>
-      <b class="text-green-700">OpenAI (ChatGPT)</b>
-    </div>
-    <div class="text-[10px] space-y-2">
-      <p><b>รุ่น:</b> GPT-4o / o1</p>
-      <div class="bg-white p-2 rounded">
-        <b>✅ ข้อดี (Pros):</b>
-        <ul class="list-disc pl-3 mt-1 text-gray-600">
-          <li><b>All-in-One:</b> เก่งรอบด้าน (เขียน/วาด/Excel)</li>
-          <li><b>Voice Mode:</b> คุยเสียงธรรรมชาติสุด</li>
-          <li><b>Custom GPTs:</b> มีบอทช่วยงานเยอะ</li>
-        </ul>
-      </div>
-       <div class="bg-green-100 p-2 rounded text-green-800">
-        <b>💰 Pack: Plus (~700บ.)</b><br>
-        ใช้รุ่น Top ไม่จำกัด*, สร้างรูป DALL-E, วิเคราะห์ Data
-      </div>
-    </div>
-  </div>
-
-  <!-- Anthropic -->
-  <div class="bg-orange-50 p-3 rounded-xl border border-orange-200">
-    <div class="flex items-center gap-2 mb-2">
-      <div class="text-2xl">🟠</div>
-      <b class="text-orange-700">Anthropic (Claude)</b>
-    </div>
-    <div class="text-[10px] space-y-2">
-      <p><b>รุ่น:</b> Claude 3.5 Sonnet</p>
-      <div class="bg-white p-2 rounded">
-        <b>✅ ข้อดี (Pros):</b>
-        <ul class="list-disc pl-3 mt-1 text-gray-600">
-          <li><b>ภาษาไทย:</b> สละสลวย เป็นธรรมชาติสุด</li>
-          <li><b>Coding/Logic:</b> ฉลาดและแม่นยำที่สุด</li>
-          <li><b>Artifacts:</b> แยกหน้าต่างดู Code/Doc ได้</li>
-        </ul>
-      </div>
-       <div class="bg-orange-100 p-2 rounded text-orange-800">
-        <b>💰 Pack: Pro (~700บ.)</b><br>
-        โควต้าคุยเยอะขึ้น 5 เท่า, สร้าง Projects (คลังความรู้)
-      </div>
-    </div>
-  </div>
-
-  <!-- Google -->
-  <div class="bg-blue-50 p-3 rounded-xl border border-blue-200">
-    <div class="flex items-center gap-2 mb-2">
-      <div class="text-2xl">🔵</div>
-      <b class="text-blue-700">Google (Gemini)</b>
-    </div>
-    <div class="text-[10px] space-y-2">
-      <p><b>รุ่น:</b> Gemini 1.5 Pro</p>
-      <div class="bg-white p-2 rounded">
-        <b>✅ ข้อดี (Pros):</b>
-        <ul class="list-disc pl-3 mt-1 text-gray-600">
-          <li><b>Context:</b> อ่านไฟล์ PDF พันหน้าได้สบาย</li>
-          <li><b>Ecosystem:</b> เชื่อม Docs/Drive/Gmail</li>
-          <li><b>Free:</b> รุ่นฟรี (Flash) ทำงานเร็วมาก</li>
-        </ul>
-      </div>
-       <div class="bg-blue-100 p-2 rounded text-blue-800">
-        <b>💰 Pack: Adv. (~750บ.)</b><br>
-        ใช้ 1.5 Pro + <b>แถม Google One 2TB</b>
+      <div class="mt-3 rounded-lg bg-blue-50 p-2 text-[10px]">
+        <b class="text-blue-700">Advanced ~$20/เดือน</b><br>
+        <span class="text-gray-600">เหมาะ: ใช้ Google Workspace · เอกสารเยอะ</span>
       </div>
     </div>
   </div>
 
 </div>
 
-<div class="mt-4 text-center text-xs text-gray-500">
-  <b>💡 คำแนะนำ:</b> สายวิชาการ/เขียนโค้ด -> <b>Claude</b> | สายทั่วไป/รูปภาพ -> <b>ChatGPT</b> | สายเอกสารเยอะ/Drive -> <b>Gemini</b>
-</div>
-
----
-
-# 🌟 3 เรื่องราว "ชีวิตเปลี่ยน" เพราะ AI (Success Stories)
-ทำไมใช้แล้วชีวิตดี๊ดี? (เจ้านายรัก / ลูกน้องเลิฟ / Career พุ่ง)
-
-<div class="grid grid-cols-3 gap-6 mt-8">
-
-  <!-- Case 1: เจ้านายรัก -->
-  <div class="bg-white p-5 rounded-xl shadow-lg border-t-4 border-blue-500 relative transform hover:-translate-y-2 transition duration-300">
-    <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-md">
-      👩‍💼
-    </div>
-    <div class="mt-6 text-center">
-      <h3 class="font-bold text-blue-800 text-lg">พี่สมศรี (งานธุรการ)</h3>
-      <p class="text-xs text-gray-400">"เจ้านายรัก เพราะข้อมูลไว"</p>
-    </div>
-    <div class="mt-4 text-xs text-gray-600 space-y-2 text-left">
-      <p>❌ <b>ก่อนหน้า:</b> จดประชุมไม่ทัน สรุปรายงานช้า เจ้านายรอนานจนหงุดหงิด</p>
-      <p>✅ <b>ใช้ AI:</b> อัดเสียง -> ถอดความ -> ให้ AI สรุปประเด็นสำคัญใน 1 นาที</p>
-      <div class="bg-blue-50 p-2 rounded text-blue-700 font-bold text-center mt-2">
-        "เจ้านายปลื้ม! ได้ Data ตัดสินใจทันที ไม่ต้องรอกลับไปพิมพ์"
-      </div>
-    </div>
-  </div>
-
-  <!-- Case 2: ลูกน้อง/นศ. รัก -->
-  <div class="bg-white p-5 rounded-xl shadow-lg border-t-4 border-pink-500 relative transform hover:-translate-y-2 transition duration-300">
-    <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-md">
-      👨‍🏫
-    </div>
-    <div class="mt-6 text-center">
-      <h3 class="font-bold text-pink-800 text-lg">อ.สมชาย (อาจารย์)</h3>
-      <p class="text-xs text-gray-400">"นศ. รัก เพราะใส่ใจ"</p>
-    </div>
-    <div class="mt-4 text-xs text-gray-600 space-y-2 text-left">
-      <p>❌ <b>ก่อนหน้า:</b> ตอบไลน์ นศ. เรื่องเดิมๆ จนดึก หน้าตึง กลายเป็นคนดุ</p>
-      <p>✅ <b>ใช้ AI:</b> สร้าง Prompt ช่วยตอบคำถาม/ตรวจงานเบื้องต้น เอาเวลาไปให้คำปรึกษาเชิงลึก</p>
-      <div class="bg-pink-50 p-2 rounded text-pink-700 font-bold text-center mt-2">
-        "มีเวลาคุยกับเด็กมากขึ้น ไม่ต้องหัวหมุนกับงานรูทีน"
-      </div>
-    </div>
-  </div>
-
-  <!-- Case 3: การงานก้าวหน้า -->
-  <div class="bg-white p-5 rounded-xl shadow-lg border-t-4 border-purple-500 relative transform hover:-translate-y-2 transition duration-300">
-    <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-purple-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-md">
-      🚀
-    </div>
-    <div class="mt-6 text-center">
-      <h3 class="font-bold text-purple-800 text-lg">น้องมายด์ (พัสดุ)</h3>
-      <p class="text-xs text-gray-400">"เติบโต เพราะวิเคราะห์เก่ง"</p>
-    </div>
-    <div class="mt-4 text-xs text-gray-600 space-y-2 text-left">
-      <p>❌ <b>ก่อนหน้า:</b> ทำ Excel ได้แค่พื้นฐาน กลัวผิดพลาด ทำงานตามคำสั่ง</p>
-      <p>✅ <b>ใช้ AI:</b> เขียนสูตร Excel ขั้นเทพ + วิเคราะห์แนวโน้มราคาเสนอผู้บริหาร</p>
-      <div class="bg-purple-50 p-2 rounded text-purple-700 font-bold text-center mt-2">
-        "ผลงานเข้าตา! จากคนทำงานกลายเป็นนักวิเคราะห์"
-      </div>
-    </div>
-  </div>
-
-</div>
-
----
-
-# 🪄 AI เสกสูตร Excel (Formula Magic) 📊
-เลิกจำสูตรยาวๆ... พิมพ์บอกความต้องการไปเลย!
-
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <!-- Example 1: แยกชื่อ-นามสกุล -->
-  <div class="bg-green-50 p-4 rounded-xl border border-green-200">
-     <h3 class="font-bold text-green-800 mb-2">1. แยกชื่อ - นามสกุล</h3>
-     <div class="text-[10px] text-gray-500 mb-1">โจทย์: แยก "นายสมชาย ใจดี" ให้อยู่คนละช่อง</div>
-     <div class="bg-red-100 p-2 rounded mb-2 opacity-60">
-       <b class="text-red-700">มนุษย์ (The Old Way):</b><br>
-       <code class="text-[10px] text-red-600">=LEFT(A2, FIND(" ", A2)-1)</code>
-     </div>
-     <div class="bg-green-100 p-2 rounded shadow-sm">
-       <b class="text-green-700">AI Prompt (The New Way):</b><br>
-       <p class="text-[10px] italic">"เขียนสูตร Excel แยกข้อความในช่อง A2 โดยเอาเฉพาะคำหน้า ก่อนถึงช่องว่าง"</p>
-     </div>
-  </div>
-
-  <!-- Example 2: ตัดเกรด -->
-  <div class="bg-blue-50 p-4 rounded-xl border border-blue-200">
-     <h3 class="font-bold text-blue-800 mb-2">2. ตัดเกรด (Nested IF)</h3>
-     <div class="text-[10px] text-gray-500 mb-1">โจทย์: คะแนน >80=A, >70=B, >60=C...</div>
-     <div class="bg-red-100 p-2 rounded mb-2 opacity-60">
-       <b class="text-red-700">มนุษย์ (Headache):</b><br>
-       <code class="text-[10px] text-red-600">=IF(A2>80,"A",IF(A2>70,"B",IF(A2>60,"C","F")))</code>
-     </div>
-     <div class="bg-green-100 p-2 rounded shadow-sm">
-       <b class="text-green-700">AI Prompt:</b><br>
-       <p class="text-[10px] italic">"เขียนสูตรตัดเกรดจากช่อง A2 โดยถ้ามากกว่า 80 ได้ A, 70 ได้ B, 60 ได้ C นอกนั้นตก"</p>
-     </div>
-  </div>
-
-</div>
-
----
-
-<div class="mt-4 p-4 bg-purple-50 rounded-xl border border-purple-200">
-  <h3 class="font-bold text-purple-800 mb-2">3. ข้าม Sheet (VLOOKUP / XLOOKUP) 🚀</h3>
-  <div class="flex items-center gap-4">
-    <div class="flex-1 text-sm bg-gray-100 p-2 rounded">
-      <b>Prompt:</b> "ช่วยเขียนสูตร <b>VLOOKUP</b> ให้หน่อย เอาข้อมูล <b>'ราคาสินค้า'</b> จาก Sheet ชื่อ <b>'PriceList'</b> มาใส่ใน Sheet นี้ โดยอ้างอิงจาก <b>'รหัสสินค้า'</b> ในช่อง <b>A2</b>"
-    </div>
-    <div class="text-2xl">👉</div>
-    <div class="flex-1 bg-white p-2 rounded border border-gray-300 font-mono text-xs text-blue-600 overflow-x-auto">
-      =VLOOKUP(A2, 'PriceList'!A:B, 2, FALSE)
-    </div>
-  </div>
-</div>
-
-<div class="grid grid-cols-2 gap-4 mt-4">
-
-  <!-- Example 4 -->
-  <div class="p-4 bg-pink-50 rounded-xl border border-pink-200">
-    <h3 class="font-bold text-pink-800 mb-2">4. คำนวณอายุงาน (Date) 🗓️</h3>
-    <div class="space-y-2">
-      <div class="text-xs bg-white p-2 rounded italic text-gray-600">
-        "คำนวณ <b>อายุงาน</b> จากวันเริ่ม (A2) ถึงวันนี้ ขอหน่วย <b>ปี-เดือน</b>"
-      </div>
-      <div class="font-mono text-[10px] text-pink-600 bg-white p-1 rounded border overflow-x-auto">
-        =DATEDIF(A2,TODAY(),"Y")&"ปี "&DATEDIF(A2,TODAY(),"YM")&"ด."
-      </div>
-    </div>
-  </div>
-
-  <!-- Example 5 -->
-  <div class="p-4 bg-yellow-50 rounded-xl border border-yellow-200">
-    <h3 class="font-bold text-yellow-800 mb-2">5. รวมยอดแบบมีเงื่อนไข (SUMIFS) �</h3>
-    <div class="space-y-2">
-      <div class="text-xs bg-white p-2 rounded italic text-gray-600">
-        "รวมเงิน (Col D) เฉพาะของ <b>'แผนก IT'</b> (Col B) ที่สถานะ <b>'Active'</b> (Col C)"
-      </div>
-      <div class="font-mono text-[10px] text-yellow-600 bg-white p-1 rounded border overflow-x-auto">
-        =SUMIFS(D:D, B:B, "IT", C:C, "Active")
-      </div>
-    </div>
-  </div>
-
+<div class="mt-4 rounded-xl bg-gray-50 border border-gray-200 p-3 text-xs text-gray-600 text-center">
+  💡 <b>สูตรเลือก:</b> ภาษาไทย/วิเคราะห์ → <b class="text-orange-600">Claude</b> · งานรอบด้าน → <b class="text-emerald-600">ChatGPT</b> · ใช้ Google อยู่แล้ว → <b class="text-blue-600">Gemini</b>
 </div>
 
 ---
 layout: center
 ---
 
-# 🗝️ สูตรลับสั่งงาน (Prompt Engineering)
-สั่งยังไงให้ได้ดั่งใจ? (C-T-F Formula)
+# 🎨 ลองเล่นสักนิด...
 
-<div class="mt-6 p-6 bg-gray-50 rounded-xl border-l-8 border-indigo-500 text-left shadow-lg">
-  <div class="grid grid-cols-1 gap-4 text-lg">
-    <div>1. 🎭 <b>Role (บทบาท):</b> "รับบทเป็น <b>เจ้าหน้าที่งานอาคารฯ</b>..."</div>
-    <div>2. 📝 <b>Task (งาน):</b> "ช่วยร่าง <b>ประกาศแจ้งปิดซ่อมลิฟต์</b>..."</div>
-    <div>3.  Context (บริบท): "ปิด 2 วัน ให้ใช้บันไดหนีไฟแทน..."</div>
-    <div>4. 📦 <b>Format (รูปแบบ):</b> "ขอภาษา <b>สุภาพแต่ชัดเจน</b>..."</div>
+<div class="text-sm text-gray-500 mb-8">AI อาจฉลาดน้อยกว่าที่คิด... หรือมากกว่าที่คิด?</div>
+
+<div class="grid grid-cols-2 gap-6 max-w-3xl mx-auto">
+  <a href="https://quickdraw.withgoogle.com/" target="_blank" class="group">
+    <div class="rounded-2xl border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 p-8 text-center transition-all">
+      <div class="text-5xl mb-3">🖍️</div>
+      <div class="font-bold text-blue-600 group-hover:text-blue-800">Quick, Draw!</div>
+      <div class="text-xs text-gray-500 mt-1">AI ทายภาพวาดของเรา</div>
+    </div>
+  </a>
+  <a href="https://teachablemachine.withgoogle.com/" target="_blank" class="group">
+    <div class="rounded-2xl border-2 border-dashed border-gray-300 hover:border-purple-500 hover:bg-purple-50 p-8 text-center transition-all">
+      <div class="text-5xl mb-3">🎓</div>
+      <div class="font-bold text-purple-600 group-hover:text-purple-800">Teachable Machine</div>
+      <div class="text-xs text-gray-500 mt-1">สอน AI ได้ใน 3 นาที</div>
+    </div>
+  </a>
+</div>
+
+---
+layout: section
+---
+
+# Chapter 2
+## Agentic AI
+### ยุคของ "AI ที่ทำงานเอง"
+
+<div class="mt-6 text-sm opacity-70">ไม่ใช่แค่ตอบ · แต่ "ลงมือทำ"</div>
+
+---
+
+# 🤖 Agentic AI คืออะไร?
+
+<div class="grid grid-cols-2 gap-8 mt-4">
+  <div>
+    <div class="rounded-2xl bg-gradient-to-br from-pink-50 to-orange-50 border border-pink-200 p-5">
+      <div class="text-xs font-bold text-pink-600 tracking-widest mb-2">DEFINITION</div>
+      <p class="text-base text-gray-800 leading-relaxed">
+        AI ที่ <b>วางแผนงาน</b> · <b>ใช้เครื่องมือ</b> (เปิดเว็บ, เขียนไฟล์, ส่งเมล) · และ <b>ตัดสินใจเอง</b> เพื่อให้งานสำเร็จ
+      </p>
+    </div>
+    <div class="mt-4 text-sm text-gray-600">
+      <b>พูดง่ายๆ:</b> Gen AI เป็น <i>"คนตอบคำถาม"</i><br>
+      Agentic AI เป็น <i>"คนรับผิดชอบโปรเจกต์"</i>
+    </div>
+  </div>
+
+  <div class="space-y-3">
+    <div class="flex gap-3 items-start">
+      <div class="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 text-white flex items-center justify-center font-bold flex-shrink-0">1</div>
+      <div>
+        <div class="font-bold text-sm">🎯 Planning — วางแผน</div>
+        <div class="text-xs text-gray-600">แตกงานใหญ่เป็นขั้นๆ เอง</div>
+      </div>
+    </div>
+    <div class="flex gap-3 items-start">
+      <div class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 text-white flex items-center justify-center font-bold flex-shrink-0">2</div>
+      <div>
+        <div class="font-bold text-sm">🛠️ Tool Use — ใช้เครื่องมือ</div>
+        <div class="text-xs text-gray-600">เปิด Chrome, รัน Excel, เขียนโค้ด, ส่งเมล</div>
+      </div>
+    </div>
+    <div class="flex gap-3 items-start">
+      <div class="w-10 h-10 rounded-full bg-gradient-to-br from-amber-500 to-orange-600 text-white flex items-center justify-center font-bold flex-shrink-0">3</div>
+      <div>
+        <div class="font-bold text-sm">🧠 Memory — จดจำบริบท</div>
+        <div class="text-xs text-gray-600">รู้ว่าทำอะไรไปแล้ว ต้องทำอะไรต่อ</div>
+      </div>
+    </div>
+    <div class="flex gap-3 items-start">
+      <div class="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center font-bold flex-shrink-0">4</div>
+      <div>
+        <div class="font-bold text-sm">🔄 Self-correction — แก้เอง</div>
+        <div class="text-xs text-gray-600">ลองผิดลองถูก จนกว่าจะสำเร็จ</div>
+      </div>
+    </div>
   </div>
 </div>
 
 ---
 
-# 3 Steps ในการสร้างคำสั่ง (The 3 Steps)
-หัวใจสำคัญ: **Role (บทบาท) + Task (งาน) + Context & Format (บริบทและรูปแบบ)**
+# 🌟 Agentic AI ยุคใหม่ (2026)
 
-<div class="grid grid-cols-3 gap-4 mt-8">
-  <div class="bg-blue-50 p-4 rounded-xl border border-blue-200">
-    <div class="text-3xl mb-2">🎭</div>
-    <b class="text-blue-700">1. Role</b>
-    <p class="text-sm mt-2">ระบุตัวตนให้ AI เช่น <br>"รับบทเป็น HR มืออาชีพ...", "รับบทเป็นวิศวกร..."</p>
+<div class="grid grid-cols-2 gap-4 mt-4 text-sm">
+
+  <div class="rounded-2xl bg-white border border-gray-200 p-4 shadow-sm hover:shadow-md transition">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center text-lg">🖥️</div>
+      <div>
+        <div class="font-bold">Claude Computer Use</div>
+        <div class="text-[10px] text-gray-500">Anthropic</div>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">เปิดเว็บไซต์ · คลิก · พิมพ์ · กรอกฟอร์มแทนเราได้จริง</p>
   </div>
-  <div class="bg-yellow-50 p-4 rounded-xl border border-yellow-200">
-    <div class="text-3xl mb-2">📝</div>
-    <b class="text-yellow-700">2. Task</b>
-    <p class="text-sm mt-2">สั่งงานให้ชัดเจน พุ่งเป้า <br>"ร่างจดหมาย...", "สรุปรายงาน...", "เขียนสูตร Excel..."</p>
+
+  <div class="rounded-2xl bg-white border border-gray-200 p-4 shadow-sm hover:shadow-md transition">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center text-lg">🤝</div>
+      <div>
+        <div class="font-bold">ChatGPT Agent / Operator</div>
+        <div class="text-[10px] text-gray-500">OpenAI</div>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">สั่ง "จองตั๋ว/หาข้อมูล/สรุปเว็บ" แล้วเดินไปชงกาแฟได้</p>
   </div>
-  <div class="bg-green-50 p-4 rounded-xl border border-green-200">
-    <div class="text-3xl mb-2">📦</div>
-    <b class="text-green-700">3. Format</b>
-    <p class="text-sm mt-2">กำหนดหน้าตาผลลัพธ์ <br>"ขอเป็นตาราง", "ขอเป็นข้อๆ", "ขอภาษาที่เป็นทางการ"</p>
+
+  <div class="rounded-2xl bg-white border border-gray-200 p-4 shadow-sm hover:shadow-md transition">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center text-lg">📓</div>
+      <div>
+        <div class="font-bold">NotebookLM</div>
+        <div class="text-[10px] text-gray-500">Google</div>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">อัปโหลดเอกสาร → ได้ Podcast 2 คนคุยกันภาษาอังกฤษ/ไทย</p>
+  </div>
+
+  <div class="rounded-2xl bg-white border border-gray-200 p-4 shadow-sm hover:shadow-md transition">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center text-lg">💼</div>
+      <div>
+        <div class="font-bold">Copilot / Gemini in Workspace</div>
+        <div class="text-[10px] text-gray-500">Microsoft · Google</div>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">ฝังอยู่ใน Word/Excel/Docs — สั่งงานในโปรแกรมได้เลย</p>
+  </div>
+
+</div>
+
+<div class="mt-4 rounded-xl bg-gradient-to-r from-pink-50 to-orange-50 border border-pink-200 p-3 text-center text-xs">
+  🔥 <b>Trend สำคัญ:</b> ปี 2026 เจ้าของซอฟต์แวร์ทุกตัว <b>ฝัง Agent เข้าไปในแอป</b> — ไม่ต้องเปิด ChatGPT แยกอีกแล้ว
+</div>
+
+---
+
+# 🔬 Agent ทำงานยังไง? (Inside the Loop)
+
+<div class="text-sm text-gray-500 mb-3">โจทย์: "หาตัวอย่างหลักสูตรวิศวกรรม AI จาก 5 มหาวิทยาลัยชั้นนำ สรุปเป็นตาราง"</div>
+
+<div class="space-y-2">
+
+  <div class="flex items-start gap-3 rounded-xl bg-white border border-gray-200 p-3">
+    <div class="w-7 h-7 rounded-full bg-blue-500 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">1</div>
+    <div class="flex-1 text-sm">
+      <b class="text-blue-700">🧠 Think:</b> "ผมต้องค้นหาเว็บไซต์ของ MIT, Stanford, CMU, NTU, จุฬาฯ ก่อน..."
+    </div>
+  </div>
+
+  <div class="flex items-start gap-3 rounded-xl bg-white border border-gray-200 p-3">
+    <div class="w-7 h-7 rounded-full bg-purple-500 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">2</div>
+    <div class="flex-1 text-sm">
+      <b class="text-purple-700">🛠️ Act:</b> เรียก <code class="bg-purple-50 px-1 rounded text-[11px]">web_search("MIT AI engineering curriculum 2026")</code>
+    </div>
+  </div>
+
+  <div class="flex items-start gap-3 rounded-xl bg-white border border-gray-200 p-3">
+    <div class="w-7 h-7 rounded-full bg-amber-500 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">3</div>
+    <div class="flex-1 text-sm">
+      <b class="text-amber-700">👀 Observe:</b> อ่านผลลัพธ์ → พบ 10 ลิงก์ → <i>"ลิงก์ที่ 3 คือหลักสูตรจริง ไม่ใช่ข่าว"</i>
+    </div>
+  </div>
+
+  <div class="flex items-start gap-3 rounded-xl bg-white border border-gray-200 p-3">
+    <div class="w-7 h-7 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">4</div>
+    <div class="flex-1 text-sm">
+      <b class="text-emerald-700">🔁 Repeat:</b> <code class="bg-emerald-50 px-1 rounded text-[11px]">fetch_page(url)</code> → extract → ทำซ้ำกับ 4 มหาลัยที่เหลือ
+    </div>
+  </div>
+
+  <div class="flex items-start gap-3 rounded-xl bg-gradient-to-r from-pink-50 to-orange-50 border-2 border-pink-300 p-3 shadow-md">
+    <div class="w-7 h-7 rounded-full bg-pink-500 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">✓</div>
+    <div class="flex-1 text-sm">
+      <b class="text-pink-700">📤 Deliver:</b> สร้างตารางเปรียบเทียบ · ส่งกลับให้เรา (รวมเวลา ~3 นาที · เทียบกับคนทำ 3 ชม.)
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-3 text-center text-xs text-gray-500 italic">
+  <b>ReAct Loop:</b> Think → Act → Observe → Repeat · เป็นหัวใจของทุก Agent
+</div>
+
+---
+layout: center
+class: "!px-16"
+---
+
+<div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-2">✨ WOW EXAMPLE</div>
+
+# 🔍 Deep Research
+
+<div class="text-sm text-gray-500 mb-5">สั่งครั้งเดียว · Agent ค้นเว็บ 50+ แหล่ง · ได้รายงานพร้อมอ้างอิง</div>
+
+<div class="grid grid-cols-2 gap-6">
+  <div>
+    <div class="rounded-2xl bg-gray-900 text-green-300 font-mono text-xs p-4 shadow-lg">
+      <div class="text-gray-500 mb-2"># Prompt ของคุณ:</div>
+      <div class="text-white leading-relaxed">
+        "เขียนรายงาน 10 หน้า <br>
+        เปรียบเทียบหลักสูตร AI Engineering <br>
+        จาก 5 มหาลัยชั้นนำ ระดับโลก <br>
+        พร้อมวิเคราะห์ว่าภาควิชาเรา <br>
+        ควรปรับปรุงอะไรบ้าง"
+      </div>
+    </div>
+    <div class="mt-3 text-xs text-gray-500 text-center">⏱️ ใช้เวลา 10–15 นาที</div>
+  </div>
+
+  <div class="space-y-2">
+    <div class="rounded-lg bg-blue-50 border border-blue-200 p-2 text-xs flex items-center gap-2">
+      <span class="text-lg">🌐</span> ค้น Google · Scholar · arXiv <b>(53 แหล่ง)</b>
+    </div>
+    <div class="rounded-lg bg-purple-50 border border-purple-200 p-2 text-xs flex items-center gap-2">
+      <span class="text-lg">📑</span> อ่าน PDF/เว็บ <b>(41 หน้า)</b>
+    </div>
+    <div class="rounded-lg bg-amber-50 border border-amber-200 p-2 text-xs flex items-center gap-2">
+      <span class="text-lg">🧮</span> เปรียบเทียบ · สรุปประเด็น
+    </div>
+    <div class="rounded-lg bg-emerald-50 border border-emerald-200 p-2 text-xs flex items-center gap-2">
+      <span class="text-lg">✍️</span> เขียนรายงาน <b>พร้อม citation</b>
+    </div>
+    <div class="rounded-lg bg-pink-50 border-2 border-pink-300 p-2 text-xs flex items-center gap-2 font-bold">
+      <span class="text-lg">📄</span> ได้รายงาน 10 หน้า · 50+ footnotes
+    </div>
+  </div>
+</div>
+
+<div class="mt-5 rounded-xl bg-gradient-to-r from-pink-50 to-orange-50 border border-pink-200 p-3 text-center text-xs">
+  🎯 <b>Tools จริง:</b> ChatGPT Deep Research · Gemini Deep Research · Perplexity Pro · Claude Research
+</div>
+
+---
+
+# 🖥️ Computer Use — AI คุม "หน้าจอ" ให้
+
+<div class="text-sm text-gray-500 mb-4">AI เปิดเบราว์เซอร์ คลิก พิมพ์ กรอกฟอร์ม <b>แทนเรา</b></div>
+
+<div class="grid grid-cols-2 gap-6">
+
+  <div>
+    <div class="rounded-2xl bg-gradient-to-br from-red-50 to-orange-50 border border-red-200 p-4">
+      <div class="text-xs font-bold text-red-700 mb-2 tracking-wider">❌ งานเดิม (30 นาที)</div>
+      <ol class="text-sm text-gray-700 space-y-1 list-decimal pl-5">
+        <li>เปิดระบบ e-GP / ERP ของมหาลัย</li>
+        <li>Login (จำรหัสไม่ค่อยได้)</li>
+        <li>กรอกข้อมูลจัดซื้อ 15 ช่อง</li>
+        <li>Upload ใบเสนอราคา 3 ไฟล์</li>
+        <li>กด "ตรวจสอบ" → เจอ error → แก้</li>
+        <li>กดส่ง → รอ Capture หน้าจอยืนยัน</li>
+      </ol>
+    </div>
+  </div>
+
+  <div>
+    <div class="rounded-2xl bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-300 p-4 shadow-md">
+      <div class="text-xs font-bold text-emerald-700 mb-2 tracking-wider">✨ ใช้ Computer Use (3 นาที)</div>
+      <div class="rounded-lg bg-white border border-gray-200 p-3 text-xs italic text-gray-700 mb-3">
+        "กรอกข้อมูลจัดซื้อตามไฟล์ Excel นี้ ลงระบบ e-GP แล้วแนบใบเสนอราคา 3 ไฟล์ในโฟลเดอร์"
+      </div>
+      <div class="text-xs text-gray-600 space-y-1">
+        <div>🤖 AI เปิด browser</div>
+        <div>🤖 Login (ผ่าน SSO ที่เราอนุญาต)</div>
+        <div>🤖 กรอก 15 ช่องตาม Excel</div>
+        <div>🤖 Upload ไฟล์ · ตรวจสอบ · ส่ง</div>
+        <div class="pt-1 font-bold text-emerald-700">👉 เรากดปุ่ม "Approve" ครั้งเดียว</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-4 rounded-xl bg-gray-50 border border-gray-200 p-3 text-center text-xs">
+  🛠️ <b>Tools จริง:</b> Claude Computer Use · ChatGPT Operator · Gemini Browser · Manus Agent
+</div>
+
+---
+layout: center
+class: "!px-20"
+---
+
+<div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-2">✨ WOW EXAMPLE</div>
+
+# 🤖🤖🤖 Multi-Agent Team
+
+<div class="text-sm text-gray-500 mb-6">แทนที่จะใช้ AI ตัวเดียว · ให้ <b>"ทีม AI"</b> ทำงานร่วมกัน</div>
+
+<div class="text-sm text-gray-600 mb-4">โจทย์: "จัดงานเปิดบ้านภาควิชา 25 เม.ย. 2569"</div>
+
+<div class="grid grid-cols-4 gap-3 text-xs">
+  <div class="rounded-2xl bg-blue-50 border border-blue-200 p-3 text-center">
+    <div class="text-3xl mb-2">📋</div>
+    <div class="font-bold text-blue-700">Agent-Planner</div>
+    <div class="text-[10px] text-gray-600 mt-1">วางกำหนดการ · จัดคิวกิจกรรม</div>
+  </div>
+  <div class="rounded-2xl bg-purple-50 border border-purple-200 p-3 text-center">
+    <div class="text-3xl mb-2">✍️</div>
+    <div class="font-bold text-purple-700">Agent-Writer</div>
+    <div class="text-[10px] text-gray-600 mt-1">ร่างประกาศ · เชิญ · สคริปต์พิธีกร</div>
+  </div>
+  <div class="rounded-2xl bg-amber-50 border border-amber-200 p-3 text-center">
+    <div class="text-3xl mb-2">🎨</div>
+    <div class="font-bold text-amber-700">Agent-Designer</div>
+    <div class="text-[10px] text-gray-600 mt-1">ทำโปสเตอร์ · Infographic · Social</div>
+  </div>
+  <div class="rounded-2xl bg-emerald-50 border border-emerald-200 p-3 text-center">
+    <div class="text-3xl mb-2">📊</div>
+    <div class="font-bold text-emerald-700">Agent-Analyst</div>
+    <div class="text-[10px] text-gray-600 mt-1">สรุปยอดลงทะเบียน · รายงานผล</div>
+  </div>
+</div>
+
+<div class="mt-5 rounded-2xl bg-gradient-to-r from-pink-50 via-purple-50 to-indigo-50 border border-purple-200 p-4">
+  <div class="text-xs font-bold text-purple-700 tracking-wider mb-2">⚡ ORCHESTRATOR (หัวหน้าทีม AI)</div>
+  <div class="text-sm text-gray-700">
+    สั่งงาน → กระจายให้ Agent ลูกทีม → รวบรวม → <b>ส่งสรุปให้เราอนุมัติ</b> · พอเราบอกว่า "เริ่มได้" → ลงมือทำจริง
+  </div>
+</div>
+
+<div class="mt-3 text-xs text-center text-gray-500 italic">
+  📌 เครื่องมือ: Microsoft Copilot Studio · CrewAI · LangGraph · Claude Sub-agents
+</div>
+
+---
+layout: center
+class: "!px-20"
+---
+
+<div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-4">✨ WOW MOMENT #2</div>
+
+# 🎙️ NotebookLM
+
+<div class="text-lg text-gray-600 mb-6">อัปโหลด PDF ระเบียบพัสดุ 100 หน้า → ได้ <b>Podcast 2 คนคุยภาษาไทย</b> 10 นาที</div>
+
+<div class="grid grid-cols-3 gap-4 max-w-4xl mx-auto">
+  <div class="rounded-xl bg-gray-50 p-4 text-center">
+    <div class="text-3xl mb-2">📄</div>
+    <div class="text-xs font-bold text-gray-700">Upload</div>
+    <div class="text-[10px] text-gray-500">PDF/Slides/URL</div>
+  </div>
+  <div class="rounded-xl bg-indigo-50 p-4 text-center">
+    <div class="text-3xl mb-2">⚡</div>
+    <div class="text-xs font-bold text-indigo-700">Generate</div>
+    <div class="text-[10px] text-gray-500">5 นาที</div>
+  </div>
+  <div class="rounded-xl bg-gradient-to-br from-pink-50 to-orange-50 border border-pink-200 p-4 text-center">
+    <div class="text-3xl mb-2">🎧</div>
+    <div class="text-xs font-bold text-pink-700">Podcast</div>
+    <div class="text-[10px] text-gray-500">ฟังในรถได้</div>
+  </div>
+</div>
+
+<div class="mt-6 text-sm text-gray-500 italic">→ Use case: ฟังระเบียบระหว่างขับรถมาทำงาน</div>
+
+---
+layout: section
+---
+
+# Chapter 3
+## Prompt Engineering
+### สั่งงานอย่างไร ให้ได้ดั่งใจ
+
+<div class="mt-6 text-sm opacity-70">AI ไม่ใช่หมอดู · ยิ่งบอกชัด ยิ่งได้ของดี</div>
+
+---
+
+# 🗝️ สูตร R-T-C-F (จำแค่นี้พอ)
+
+<div class="grid grid-cols-4 gap-4 mt-6">
+  <div class="rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 text-white p-5 relative overflow-hidden">
+    <div class="absolute -top-4 -right-4 text-6xl opacity-20">R</div>
+    <div class="relative z-10">
+      <div class="text-2xl mb-2">🎭</div>
+      <div class="font-bold mb-1">Role</div>
+      <div class="text-xs opacity-90">"รับบทเป็น เจ้าหน้าที่ภาควิชา..."</div>
+    </div>
+  </div>
+  <div class="rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 text-white p-5 relative overflow-hidden">
+    <div class="absolute -top-4 -right-4 text-6xl opacity-20">T</div>
+    <div class="relative z-10">
+      <div class="text-2xl mb-2">📝</div>
+      <div class="font-bold mb-1">Task</div>
+      <div class="text-xs opacity-90">"ร่างบันทึกขออนุมัติจัดโครงการ..."</div>
+    </div>
+  </div>
+  <div class="rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 text-white p-5 relative overflow-hidden">
+    <div class="absolute -top-4 -right-4 text-6xl opacity-20">C</div>
+    <div class="relative z-10">
+      <div class="text-2xl mb-2">🧩</div>
+      <div class="font-bold mb-1">Context</div>
+      <div class="text-xs opacity-90">"งบ 50,000 บาท · เรียนคณบดี..."</div>
+    </div>
+  </div>
+  <div class="rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-5 relative overflow-hidden">
+    <div class="absolute -top-4 -right-4 text-6xl opacity-20">F</div>
+    <div class="relative z-10">
+      <div class="text-2xl mb-2">📦</div>
+      <div class="font-bold mb-1">Format</div>
+      <div class="text-xs opacity-90">"รูปแบบบันทึกราชการ · 1 หน้า"</div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-8 rounded-2xl bg-gray-50 border border-gray-200 p-5">
+  <div class="text-xs text-gray-500 mb-2 tracking-wider">ตัวอย่างเต็มรูปแบบ</div>
+  <div class="text-sm text-gray-800 leading-relaxed">
+    <span class="bg-blue-100 text-blue-800 px-1 rounded">รับบทเป็นเจ้าหน้าที่บริหารงานทั่วไปของภาควิชาวิศวกรรมคอมพิวเตอร์</span>
+    <span class="bg-purple-100 text-purple-800 px-1 rounded">ช่วยร่างบันทึกข้อความขออนุมัติจัดโครงการอบรม</span>
+    <span class="bg-amber-100 text-amber-800 px-1 rounded">"AI for Everyone" งบประมาณ 30,000 บาท เรียน หัวหน้าภาควิชา</span>
+    <span class="bg-emerald-100 text-emerald-800 px-1 rounded">ขอรูปแบบตามระเบียบงานสารบรรณ 2565 ความยาว 1 หน้า A4</span>
   </div>
 </div>
 
 ---
 
-# Specific Prompt (เจาะจงให้ชัด)
-อย่าสั่งกว้างๆ ให้สั่งเหมือนสั่งลูกน้องที่ยังไม่รู้งาน
+# ⚡ Specific vs General — ต่างกันชัด
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="bg-red-50 p-6 rounded-xl border border-red-200 opacity-70">
-    <h3 class="font-bold text-red-700 mb-2">❌ General (กว้างไป)</h3>
-    <p class="text-xl">"เขียนอีเมลลางานให้หน่อย"</p>
-    <p class="text-sm text-gray-500 mt-4">(AI จะเขียนมาแบบกลางๆ อาจจะไม่ตรงเหตุผลของเรา)</p>
+<div class="grid grid-cols-2 gap-6 mt-6">
+  <div class="rounded-2xl bg-red-50 border border-red-200 p-5 opacity-80">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="w-6 h-6 rounded-full bg-red-500 text-white flex items-center justify-center text-xs font-bold">✗</div>
+      <div class="text-xs font-bold text-red-700 tracking-wider">GENERAL</div>
+    </div>
+    <div class="text-base text-gray-800">"เขียนอีเมลลางานให้หน่อย"</div>
+    <div class="mt-4 text-xs text-gray-500 italic">→ ได้แบบกลางๆ · อาจไม่ตรงจริตเรา · ต้องแก้เยอะ</div>
   </div>
-  <div class="bg-green-50 p-6 rounded-xl border border-green-200 shadow-lg">
-    <h3 class="font-bold text-green-700 mb-2">✅ Specific (เจาะจง)</h3>
-    <CopyBox text="เขียนอีเมลลางาน เนื่องจากป่วยเป็นไข้หวัดใหญ่ ขอลา 2 วัน (27-28 ม.ค.) ส่งถึง ผอ.กองอาคารฯ ขอภาษา สุภาพและเป็นทางการ">
-      <p class="text-lg">"เขียนอีเมลลางาน <b>เนื่องจากป่วยเป็นไข้หวัดใหญ่</b> ขอลา <b>2 วัน (27-28 ม.ค.)</b> ส่งถึง <b>ผอ.กองอาคารฯ</b> ขอภาษา <b>สุภาพและเป็นทางการ</b>"</p>
+  <div class="rounded-2xl bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-300 p-5 shadow-md">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="w-6 h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xs font-bold">✓</div>
+      <div class="text-xs font-bold text-emerald-700 tracking-wider">SPECIFIC</div>
+    </div>
+    <CopyBox text="เขียนอีเมลลางาน เนื่องจากป่วยเป็นไข้หวัดใหญ่ ขอลา 2 วัน (27-28 ม.ค.) ส่งถึงหัวหน้าภาควิชา ขอภาษาสุภาพและเป็นทางการ ความยาวไม่เกิน 4 บรรทัด">
+      <div class="text-sm text-gray-800">
+        "เขียนอีเมลลางาน <b>เนื่องจากป่วยเป็นไข้หวัดใหญ่</b><br>
+        ขอลา <b>2 วัน (27-28 ม.ค.)</b><br>
+        ส่งถึง <b>หัวหน้าภาควิชา</b><br>
+        ขอภาษา <b>สุภาพและเป็นทางการ</b> · ไม่เกิน 4 บรรทัด"
+      </div>
+    </CopyBox>
+    <div class="mt-3 text-xs text-emerald-600 font-semibold">→ ได้ผลลัพธ์พร้อมใช้ ไม่ต้องแก้</div>
+  </div>
+</div>
+
+---
+
+# 🔁 ไม่ถูกใจ? คุยต่อได้ ไม่ต้องเริ่มใหม่
+
+<div class="text-sm text-gray-500 mb-4">AI คือ "แชท" · สั่งแก้ได้เรื่อยๆ จนกว่าจะใช่</div>
+
+<div class="space-y-3 max-w-3xl mx-auto">
+  <div class="flex justify-end">
+    <div class="bg-blue-500 text-white px-4 py-2 rounded-2xl rounded-br-sm text-sm max-w-md shadow">
+      "ร่างหนังสือเชิญวิทยากรให้หน่อย"
+    </div>
+  </div>
+  <div class="flex justify-start">
+    <div class="bg-gray-100 px-4 py-2 rounded-2xl rounded-bl-sm text-sm max-w-md italic text-gray-600">
+      🤖 (ร่างมาให้... ยาวไปและดูโบราณ)
+    </div>
+  </div>
+  <div class="flex justify-end">
+    <div class="bg-blue-500 text-white px-4 py-2 rounded-2xl rounded-br-sm text-sm max-w-md shadow">
+      "สั้นลงครึ่งนึง ปรับภาษาให้ทันสมัย เลิกใช้คำฟุ่มเฟือย"
+    </div>
+  </div>
+  <div class="flex justify-start">
+    <div class="bg-gray-100 px-4 py-2 rounded-2xl rounded-bl-sm text-sm max-w-md italic text-gray-600">
+      🤖 (ปรับให้ใหม่...)
+    </div>
+  </div>
+  <div class="flex justify-end">
+    <div class="bg-blue-500 text-white px-4 py-2 rounded-2xl rounded-br-sm text-sm max-w-md shadow">
+      "เก็บโครงนี้ไว้ แต่เพิ่มความอบอุ่นใส่ลงไปนิด"
+    </div>
+  </div>
+</div>
+
+<div class="mt-6 text-center text-xs text-gray-500">
+  💡 <b>สูตรลัด:</b> "สั้นลง" · "เป็นทางการกว่านี้" · "ใส่ Emoji" · "เปลี่ยนโทนให้อบอุ่น" · "ขอเป็นตาราง"
+</div>
+
+---
+
+# 🪄 AI เสกสูตร Excel (ลืมจำสูตรได้เลย)
+
+<div class="grid grid-cols-2 gap-4 mt-4 text-sm">
+
+  <div class="rounded-2xl bg-white border border-emerald-200 p-4">
+    <div class="text-xs font-bold text-emerald-700 mb-1">1. แยกชื่อ-นามสกุล</div>
+    <div class="text-[11px] text-gray-500 mb-2">"นายสมชาย ใจดี" → 2 ช่อง</div>
+    <div class="rounded-lg bg-emerald-50 p-2 text-[11px] italic text-gray-700">
+      "เขียนสูตร Excel แยกคำหน้าและคำหลังจาก A2 โดยใช้ช่องว่างเป็นตัวแบ่ง"
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-white border border-blue-200 p-4">
+    <div class="text-xs font-bold text-blue-700 mb-1">2. ตัดเกรด (Nested IF)</div>
+    <div class="text-[11px] text-gray-500 mb-2">80↑=A, 70↑=B, 60↑=C</div>
+    <div class="rounded-lg bg-blue-50 p-2 text-[11px] italic text-gray-700">
+      "เขียนสูตรตัดเกรดจาก A2: ≥80=A, ≥70=B, ≥60=C, นอกนั้น F"
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-white border border-purple-200 p-4">
+    <div class="text-xs font-bold text-purple-700 mb-1">3. VLOOKUP ข้าม Sheet</div>
+    <div class="text-[11px] text-gray-500 mb-2">ดึงราคาจาก PriceList</div>
+    <div class="rounded-lg bg-purple-50 p-2 text-[11px] italic text-gray-700">
+      "เขียน VLOOKUP ดึงราคาจาก Sheet 'PriceList' โดยอ้างรหัสสินค้าใน A2"
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-white border border-pink-200 p-4">
+    <div class="text-xs font-bold text-pink-700 mb-1">4. คำนวณอายุงาน</div>
+    <div class="text-[11px] text-gray-500 mb-2">จากวันที่เริ่มถึงวันนี้</div>
+    <div class="rounded-lg bg-pink-50 p-2 text-[11px] italic text-gray-700">
+      "คำนวณอายุงานจาก A2 ถึงวันนี้ ผลเป็น 'X ปี Y เดือน'"
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-4 rounded-xl bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 p-3 text-xs text-center text-gray-700">
+  💎 <b>Pro tip:</b> Upload ไฟล์ Excel จริงให้ AI ดูก่อน → มันจะเขียนสูตรที่ตรงกับข้อมูลเราเป๊ะ
+</div>
+
+---
+
+# 🎯 Analogy — อธิบายเรื่องยากให้ "เห็นภาพ"
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+  <div>
+    <div class="rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 border border-purple-200 p-5">
+      <div class="text-xs font-bold text-purple-700 tracking-wider mb-2">PROMPT TEMPLATE</div>
+      <CopyBox text="ช่วยอธิบาย [หัวข้อยาก] ให้เข้าใจง่าย โดยเปรียบเทียบกับ [เรื่องในชีวิตประจำวัน]">
+        <div class="text-sm font-mono text-gray-700 bg-white rounded-lg p-3 border">
+          "ช่วยอธิบาย <b class="text-purple-600">[หัวข้อยาก]</b><br>
+          โดยเปรียบเทียบกับ<br>
+          <b class="text-pink-600">[เรื่องในชีวิตประจำวัน]</b>"
+        </div>
+      </CopyBox>
+    </div>
+  </div>
+  <div class="space-y-3">
+    <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
+      <div class="text-xs font-bold text-gray-500 mb-1">ตัวอย่าง 1</div>
+      <div class="text-sm">"อธิบาย <b>Blockchain</b> เหมือน<br><b class="text-purple-600">ป้าข้างบ้านที่จำหนี้ได้แม่น</b>"</div>
+    </div>
+    <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
+      <div class="text-xs font-bold text-gray-500 mb-1">ตัวอย่าง 2</div>
+      <div class="text-sm">"อธิบาย <b>ระบบ ERP</b> เหมือน<br><b class="text-purple-600">ตู้เย็นในบ้านที่รู้ว่ามีอะไรเหลือ</b>"</div>
+    </div>
+    <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
+      <div class="text-xs font-bold text-gray-500 mb-1">ตัวอย่าง 3</div>
+      <div class="text-sm">"อธิบาย <b>Cloud</b> เหมือน<br><b class="text-purple-600">ตู้เซฟธนาคารที่ฝาก-ถอนได้ตลอด</b>"</div>
+    </div>
+  </div>
+</div>
+
+---
+
+# 😌 ปรับโทนเสียง — จาก "โกรธ" เป็น "มืออาชีพ"
+
+<div class="text-sm text-gray-500 mb-4">เหมาะสุดสำหรับตอบ complaint · ทวงงาน · แจ้งเรื่องยากๆ</div>
+
+<div class="grid grid-cols-2 gap-6">
+  <div class="rounded-2xl bg-red-50 border border-red-200 p-5">
+    <div class="text-xs font-bold text-red-700 tracking-wider mb-2">🤬 BEFORE</div>
+    <p class="text-sm text-gray-800 italic leading-relaxed">"ทำไมยังไม่ส่งของ?! รอมา 2 อาทิตย์แล้ว ถ้าทำไม่ได้ก็บอกเลิกสัญญาไปเลย!"</p>
+  </div>
+  <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-300 p-5 shadow-md">
+    <div class="text-xs font-bold text-blue-700 tracking-wider mb-2">👔 AFTER (AI ช่วยเกลา)</div>
+    <p class="text-sm text-gray-800 leading-relaxed">"ขออนุญาตสอบถามสถานะการจัดส่งครับ เนื่องจากทางภาควิชาจำเป็นต้องใช้ในการเรียนการสอน หากติดขัดตรงไหนแจ้งได้เลย ยินดีช่วยประสานงานครับ"</p>
+  </div>
+</div>
+
+<CopyBox text="ช่วยปรับข้อความนี้ให้สุภาพ เป็นมืออาชีพ และมี Empathy (เห็นอกเห็นใจ) โดยคงเจตนาเดิมไว้">
+  <div class="mt-5 rounded-xl bg-gray-50 border border-gray-200 p-3 text-center text-sm text-gray-700">
+    <b class="text-gray-500">Prompt:</b> "ช่วยปรับข้อความนี้ให้ <b>สุภาพ · เป็นมืออาชีพ · มี Empathy</b> โดยคงเจตนาเดิม"
+  </div>
+</CopyBox>
+
+---
+
+# 🔎 ต้องการข้อมูลจริง? ใช้ Perplexity
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+  <div>
+    <div class="text-sm font-bold text-gray-700 mb-2">ทำไม ChatGPT ไม่พอ?</div>
+    <ul class="text-sm text-gray-600 space-y-2 list-disc pl-5">
+      <li>Gen AI "มั่วได้" (Hallucination) ถ้าไม่มีข้อมูล</li>
+      <li>ข้อมูลอาจเก่า · ไม่ Real-time</li>
+      <li>ไม่มี "แหล่งอ้างอิง" ให้ตรวจ</li>
+    </ul>
+    <div class="mt-4 rounded-2xl bg-gradient-to-br from-teal-50 to-cyan-50 border border-teal-200 p-4">
+      <div class="text-xs font-bold text-teal-700 tracking-wider mb-1">✅ SOLUTION</div>
+      <div class="font-bold text-teal-800">Perplexity.ai</div>
+      <p class="text-xs text-gray-700 mt-1">Google Search + AI Summary + <b>Citation ทุกประโยค</b> ✨</p>
+    </div>
+  </div>
+  <div class="flex items-center justify-center">
+    <div class="text-center">
+      <div class="text-7xl">🔎</div>
+      <div class="mt-3 text-sm text-gray-500 italic">"Trust, but Verify"</div>
+      <div class="mt-1 text-xs text-gray-400">เชื่อได้ · แต่ต้องตรวจเสมอ</div>
+    </div>
+  </div>
+</div>
+
+---
+
+# 🛡️ ข้อควรระวัง 3 ข้อ
+
+<div class="grid grid-cols-3 gap-4 mt-6">
+  <div class="rounded-2xl bg-white border-t-4 border-red-500 shadow-sm p-5 text-center">
+    <div class="text-4xl mb-3">🔒</div>
+    <h3 class="font-bold text-red-700 mb-2">ห้ามใส่ความลับ</h3>
+    <p class="text-xs text-gray-600">รหัสผ่าน · เงินเดือน · ข้อมูลส่วนตัวนิสิต/อาจารย์ · เลขบัตร ปชช.</p>
+    <div class="text-[10px] text-gray-400 mt-2 italic">(ถือว่า upload ขึ้น server เขา)</div>
+  </div>
+  <div class="rounded-2xl bg-white border-t-4 border-amber-500 shadow-sm p-5 text-center">
+    <div class="text-4xl mb-3">🧐</div>
+    <h3 class="font-bold text-amber-700 mb-2">ตรวจก่อนส่ง</h3>
+    <p class="text-xs text-gray-600">AI มั่วได้ (Hallucination) โดยเฉพาะตัวเลข · วันที่ · ชื่อคน</p>
+    <div class="text-[10px] text-gray-400 mt-2 italic">"AI ฉลาด — แต่เราต้องฉลาดกว่า"</div>
+  </div>
+  <div class="rounded-2xl bg-white border-t-4 border-emerald-500 shadow-sm p-5 text-center">
+    <div class="text-4xl mb-3">⚖️</div>
+    <h3 class="font-bold text-emerald-700 mb-2">ลิขสิทธิ์</h3>
+    <p class="text-xs text-gray-600">ภาพจาก AI ปัจจุบันยังจดลิขสิทธิ์ไม่ได้ (Public Domain)</p>
+    <div class="text-[10px] text-gray-400 mt-2 italic">ใช้ได้ · แต่คนอื่นใช้ได้เหมือนกัน</div>
+  </div>
+</div>
+
+---
+layout: section
+---
+
+# Chapter 4
+## 🎬 Live Demo
+### แก้โจทย์จริง 5 เคส จากงานภาควิชาฯ
+
+<div class="mt-6 text-sm opacity-70">เห็นของจริง · กลับไปใช้ได้จริง</div>
+
+---
+
+# 🔮 Demo 1 · งานสารบรรณ &amp; วิเทศฯ
+
+<div class="text-sm text-gray-500 mb-3">ร่างบันทึก + แปลอีเมลเชิญ Professor ต่างชาติ</div>
+
+<div class="grid grid-cols-2 gap-5">
+  <div>
+    <div class="rounded-xl bg-blue-50 border border-blue-200 p-3 mb-2 text-xs">
+      <span class="font-bold text-blue-700">Step 1 · ขออนุมัติโครงการ</span>
+    </div>
+    <CopyBox text="ร่างบันทึกข้อความขออนุมัติจัดโครงการสัมมนา 'International AI Seminar 2026' เพื่อยกระดับความเป็นนานาชาติของภาควิชา งบประมาณ 50,000 บาท เรียน หัวหน้าภาควิชา ขอรูปแบบตามระเบียบงานสารบรรณ พ.ศ. 2565">
+      <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700 leading-relaxed">
+        "ร่างบันทึกข้อความ <b>ขออนุมัติจัดโครงการ 'International AI Seminar 2026'</b> เพื่อยกระดับความเป็นนานาชาติของภาควิชา งบ <b>50,000 บาท</b> เรียน <b>หัวหน้าภาควิชา</b> ขอรูปแบบตามระเบียบงานสารบรรณ 2565"
+      </div>
+    </CopyBox>
+  </div>
+  <div>
+    <div class="rounded-xl bg-indigo-50 border border-indigo-200 p-3 mb-2 text-xs">
+      <span class="font-bold text-indigo-700">Step 2 · เชิญวิทยากร (ต่อเนื่อง)</span>
+    </div>
+    <CopyBox text="จากโครงการเมื่อกี้ ช่วยร่างอีเมลเชิญ Prof. Hiroshi Tanaka (University of Tokyo) เป็น Keynote Speaker หัวข้อ 'AI for Future Administration' ทางเราออกค่าตั๋วเครื่องบินและที่พัก ขอภาษา Business English โทนสุภาพแต่อบอุ่น">
+      <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700 leading-relaxed">
+        "จากโครงการเมื่อกี้ ร่างอีเมลเชิญ <b>Prof. Hiroshi Tanaka (U. of Tokyo)</b> เป็น Keynote หัวข้อ <b>'AI for Future Administration'</b> ทางเราออกค่าตั๋ว+ที่พัก ขอ <b>Business English</b> โทนอบอุ่น"
+      </div>
     </CopyBox>
   </div>
 </div>
 
----
-
-# Adjusting Prompt (จูงใจให้ได้ผลลัพธ์)
-AI คือแชทบอท... **"คุยโต้ตอบได้"** ไม่ต้องเริ่มใหม่ถ้ามันทำผิด
-
-<div class="mt-6 flex flex-col gap-4">
-  <CopyBox text="ร่างหนังสือเชิญวิทยากรให้หน่อย">
-  <div class="bg-gray-100 p-4 rounded-lg flex items-center gap-4">
-    <div class="bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">You</div>
-    <div>"ร่างหนังสือเชิญวิทยากรให้หน่อย"</div>
-  </div>
-  </CopyBox>
-  <div class="bg-white border p-4 rounded-lg flex items-center gap-4 ml-8">
-     <div class="text-2xl">🤖</div>
-     <div class="text-gray-500 italic">(AI ร่างมาให้... แต่มันยาวเกินไป และดูโบราณ)</div>
-  </div>
-  <CopyBox text="ขอสั้นลงกว่านี้ครึ่งนึง และปรับภาษาให้ทันสมัยขึ้น ไม่เอาคำฟุ่มเฟือย">
-  <div class="bg-blue-50 p-4 rounded-lg flex items-center gap-4 border border-blue-200">
-    <div class="bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">You</div>
-    <div class="font-bold text-blue-800">"ขอสั้นลงกว่านี้ครึ่งนึง และปรับภาษาให้ทันสมัยขึ้น ไม่เอาคำฟุ่มเฟือย"</div>
-  </div>
-  </CopyBox>
-</div>
-
-<div class="mt-4 text-center text-gray-600">
-  💡 Tip: สั่งแก้ได้เรื่อยๆ จนกว่าจะพอใจ (Make it shorter, Make it professional, Add emojis)
+<div class="mt-3 rounded-xl bg-gradient-to-r from-pink-50 to-orange-50 border border-pink-200 p-2 text-center text-xs text-pink-700">
+  💎 <b>จุดว้าว:</b> AI จำ "บริบทตะกี้" ได้ · ไม่ต้องอธิบายโครงการใหม่ซ้ำ
 </div>
 
 ---
 
-# Present ให้เห็นภาพ ด้วย AI Analogy
-เทคนิคอธิบายเรื่องยากๆ ให้เข้าใจง่าย **"เปรียบเทียบกับสิ่งที่คุ้นเคย"**
+# 🔮 Demo 2 · งานอาคาร &amp; ประกาศภาควิชา
 
-<div class="mt-6 p-6 bg-purple-50 rounded-xl border border-purple-200">
-  <h3 class="font-bold text-purple-700 text-xl mb-4">🔮 Analogy Prompting</h3>
-  <CopyBox text="ช่วยอธิบายเรื่อง [หัวข้อยากๆ] ให้เข้าใจง่ายๆ โดยเปรียบเทียบกับ [เรื่องในชีวิตประจำวัน]">
-    <div class="text-lg bg-white p-4 rounded border border-gray-200 font-mono text-gray-700">
-      "ช่วยอธิบายเรื่อง <b>[หัวข้อยากๆ]</b> ให้เข้าใจง่ายๆ <br>
-      โดยเปรียบเทียบกับ <b>[เรื่องในชีวิตประจำวัน]</b>"
-    </div>
-  </CopyBox>
-  
-  <div class="mt-6 grid grid-cols-2 gap-4">
-    <div class="bg-white p-3 rounded shadow-sm">
-      <b>ตัวอย่าง 1:</b>
-      <p class="text-sm mt-1">"อธิบายระบบ <b>Blockchain</b> โดยเปรียบเทียบกับ <b>'ป้าข้างบ้าน'</b>" <br></p>
-    </div>
-      <div class="bg-white p-3 rounded shadow-sm">
-      <b>ตัวอย่าง 2:</b>
-      <p class="text-sm mt-1">"อธิบายระบบ <b>ERP</b> โดยเปรียบเทียบกับ <b>'มนุษย์เมีย (ภรรยา)'</b>" <br></p>
-    </div>
-  </div>
-</div>
+<div class="text-sm text-gray-500 mb-3">ประกาศปิดห้องแล็บ + สร้างคลิป Avatar อ่านประกาศ</div>
 
----
-
-# Framework สร้าง Presentation
-ให้ AI ช่วยคิด **"โครงเรื่อง"** ก่อนเริ่มทำสไลด์จริง
-
-<div class="grid grid-cols-2 gap-8 mt-6">
+<div class="grid grid-cols-2 gap-5">
   <div>
-     <h3 class="text-xl font-bold mb-2">ทำไมต้องใช้ AI คิดโครง?</h3>
-     <ul class="list-disc pl-5 space-y-2 text-gray-700">
-       <li>ไม่ตกหล่นประเด็นสำคัญ</li>
-       <li>จัดลำดับเรื่องเล่า (Storytelling) ให้น่าสนใจ</li>
-       <li>ประหยัดเวลา "กระดาษเปล่า" (Blank Page Syndrome)</li>
-     </ul>
+    <div class="rounded-xl bg-amber-50 border border-amber-200 p-3 mb-2 text-xs">
+      <span class="font-bold text-amber-700">Step 1 · ร่างประกาศ</span>
+    </div>
+    <CopyBox text="ร่างประกาศปิดปรับปรุงห้องแล็บคอมฯ ของภาควิชาฯ วันที่ 15-17 พ.ค. 2569 ขอโทนขออภัยในความไม่สะดวก แนะนำห้องแล็บสำรอง พร้อมอีโมจิ 🙏 เพื่อติดบอร์ดประกาศและโพสต์เฟซบุ๊กเพจภาค">
+      <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700">
+        "ร่างประกาศ <b>ปิดปรับปรุงห้องแล็บคอมฯ</b> วันที่ 15-17 พ.ค. 2569 โทนขออภัย แนะนำห้องสำรอง พร้อมอีโมจิ 🙏 — <b>สำหรับติดบอร์ด + โพสต์เพจภาค</b>"
+      </div>
+    </CopyBox>
+    <div class="rounded-xl bg-amber-50 border border-amber-200 p-3 mb-2 mt-2 text-xs">
+      <span class="font-bold text-amber-700">Step 2 · แปลงเป็นบทพูด</span>
+    </div>
+    <CopyBox text="ช่วยแปลงประกาศนี้เป็นบทพูดสำหรับวิดีโอ 30 วินาที ภาษาพูดเป็นกันเองและจริงใจ สำหรับให้ AI Avatar พูด">
+      <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700">
+        "แปลงประกาศนี้เป็นบทพูด <b>30 วินาที</b> · ภาษาพูดเป็นกันเอง สำหรับ <b>AI Avatar</b>"
+      </div>
+    </CopyBox>
   </div>
-  <div class="bg-indigo-50 p-5 rounded-xl border border-indigo-200">
-     <h3 class="font-bold text-indigo-700 mb-2">🚀 The Prompt</h3>
-     <CopyBox text="ช่วยวาง Outline สำหรับ Slide Presentation เรื่อง [รายงานผลการดำเนินงานประจำปี] สำหรับนำเสนอ [คณบดีและผู้บริหาร] จำนวน [10] หน้า เน้นเรื่อง [ความคุ้มค่าและผลสำเร็จ]">
-       <p class="font-mono text-sm bg-white p-3 rounded border border-indigo-100">
-         "ช่วยวาง Outline สำหรับ Slide Presentation เรื่อง <b>[รายงานผลการดำเนินงานประจำปี]</b> <br>
-         สำหรับนำเสนอ <b>[คณบดีและผู้บริหาร]</b> <br>
-         จำนวน <b>[10]</b> หน้า <br>
-         เน้นเรื่อง <b>[ความคุ้มค่าและผลสำเร็จ]</b>"
-       </p>
-     </CopyBox>
+  <div class="flex flex-col gap-3">
+    <div class="rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 border border-purple-200 p-4">
+      <div class="text-xs font-bold text-purple-700 mb-2 tracking-wider">🎥 TOOLS</div>
+      <div class="text-sm space-y-2">
+        <div class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-purple-200 flex items-center justify-center text-[10px] font-bold">H</span> <b>HeyGen</b> — Avatar พูดไทยได้ดี</div>
+        <div class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-pink-200 flex items-center justify-center text-[10px] font-bold">D</span> <b>D-ID</b> — Photo → Talking Head</div>
+        <div class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-orange-200 flex items-center justify-center text-[10px] font-bold">S</span> <b>Synthesia</b> — Avatar มืออาชีพ</div>
+      </div>
+    </div>
+    <div class="rounded-xl bg-gray-50 border border-gray-200 p-3 text-xs text-gray-600 text-center">
+      Prompt → Script → Avatar Video <br>
+      <b>ใช้เวลา ~10 นาที</b>
+    </div>
   </div>
 </div>
 
 ---
 
-# ทำ Executive Summary (สรุปผู้บริหาร)
-เปลี่ยน 'น้ำ' ให้เป็น 'เนื้อ' สำหรับผู้บริหารที่มีเวลาน้อย
+# 🔮 Demo 3 · Chat with PDF (ถามระเบียบ)
 
-<div class="mt-6">
-  <div class="bg-orange-50 p-6 rounded-xl border border-orange-200">
-    <h3 class="font-bold text-orange-700 mb-4">📝 Summarization Prompt</h3>
-    <div class="grid grid-cols-2 gap-8">
-      <div class="text-sm">
-        <p class="mb-2"><b>Input:</b> (Copy text ยาวๆ หรือ Upload File)</p>
-        <p class="mb-4"><b>Prompt:</b></p>
-        <CopyBox text="ช่วยสรุปเอกสารนี้แบบ Executive Summary ความยาวไม่เกิน 1 หน้ากระดาษ โดยแยกหัวข้อเป็น: 1. ประเด็นสำคัญ (Key Findings) 2. สิ่งที่ต้องตัดสินใจ (Decisions Needed) 3. งบประมาณที่ใช้ (Budget)">
-          <div class="bg-white p-3 rounded border border-orange-100 font-mono text-gray-700">
-            "ช่วยสรุปเอกสารนี้แบบ Executive Summary <br>
-            ความยาวไม่เกิน <b>1 หน้ากระดาษ</b> <br>
-            โดยแยกหัวข้อเป็น: <br>
-            1. ประเด็นสำคัญ (Key Findings) <br>
-            2. สิ่งที่ต้องตัดสินใจ (Decisions Needed) <br>
-            3. งบประมาณที่ใช้ (Budget)"
-          </div>
-        </CopyBox>
-      </div>
-      <div class="flex items-center justify-center">
-         <div class="text-center">
-           <div class="text-6xl mb-2">📑 ➡ 📄</div>
-           <p class="text-gray-500">จาก 50 หน้า เหลือ 1 หน้า</p>
-         </div>
+<div class="text-sm text-gray-500 mb-3">ไม่ต้องอ่าน 100 หน้า · ถามตรงเลย</div>
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+  <div>
+    <div class="rounded-xl bg-emerald-50 border border-emerald-200 p-4">
+      <div class="text-xs font-bold text-emerald-700 mb-2">📋 โจทย์จริง</div>
+      <ul class="text-sm text-gray-700 space-y-2 list-disc pl-5">
+        <li>PDF "ระเบียบการเบิกจ่าย" หนา 100 หน้า</li>
+        <li>อยากรู้แค่ <b>"ค่าที่พักเบิกได้เท่าไหร่?"</b></li>
+        <li>ถ้าเปิดอ่าน → ใช้เวลา 30 นาที</li>
+      </ul>
+    </div>
+    <div class="mt-3 text-sm">
+      <b class="text-gray-500 text-xs tracking-wider">⚡ ACTION</b>
+      <CopyBox text="ช่วยสรุปเกณฑ์การเบิก 'ค่าเช่าที่พัก' สำหรับพนักงานสายสนับสนุน ว่าเบิกได้คืนละกี่บาท ต้องใช้หลักฐานอะไรบ้าง และอ้างถึงหน้าไหนในเอกสาร">
+        <div class="mt-2 rounded-lg bg-white border border-gray-200 p-3 text-[11px] italic">
+          "สรุป <b>'ค่าเช่าที่พัก'</b> สำหรับพนักงานสายสนับสนุน เบิกคืนละกี่บาท · ใช้หลักฐานอะไร · อ้างหน้าไหน"
+        </div>
+      </CopyBox>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center">
+    <div class="rounded-2xl bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-200 p-6 text-center w-full">
+      <div class="text-5xl mb-2">📑</div>
+      <div class="text-sm font-bold text-emerald-700">100 หน้า → 1 ประโยค</div>
+      <div class="text-xs text-gray-500 mt-2">30 นาที → 10 วินาที</div>
+      <div class="mt-4 text-[10px] text-gray-400">
+        Best for this: <br>
+        <b class="text-gray-600">Claude · Gemini · NotebookLM</b>
       </div>
     </div>
   </div>
@@ -637,482 +1113,373 @@ AI คือแชทบอท... **"คุยโต้ตอบได้"** ไ
 
 ---
 
-# สุดยอด AI ช่วยทำสไลด์ (Presentation Tools) 🖥️
-"เบื่อทำสไลด์เองใช่ไหม? ให้ AI ช่วยสิ!"
+# 🔮 Demo 4 · PDF → Infographic
 
-<div class="grid grid-cols-2 gap-6 mt-6">
-  <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-200">
-    <h3 class="font-bold text-indigo-700 mb-2">🚀 สร้างใหม่จากศูนย์ (Text-to-Slide)</h3>
-    <p class="text-xs mb-2 text-gray-600">แค่พิมพ์หัวข้อ -> ได้สไลด์ครบชุด</p>
-    <ul class="list-disc pl-5 text-sm space-y-1">
-      <li><b>Gamma.app:</b> สวย, เร็ว, รองรับภาษาไทยดีเยี่ยม (Top Pick! ⭐)</li>
-      <li><b>AIppt:</b> สร้างเนื้อหาอัตโนมัติจาก Prompt</li>
-      <li><b>Slidesgo.ai:</b> มี Template พรีเมียมเยอะ</li>
-    </ul>
+<div class="text-sm text-gray-500 mb-3">เปลี่ยนกำหนดการงานสัมมนา → Infographic สวยใน 5 นาที</div>
+
+<div class="grid grid-cols-4 gap-3 mt-4">
+  <div class="rounded-xl bg-gray-50 border border-gray-200 p-4 text-center">
+    <div class="text-3xl mb-2">📄</div>
+    <div class="text-xs font-bold">1. PDF</div>
+    <div class="text-[10px] text-gray-500">กำหนดการ</div>
   </div>
-
-  <div class="bg-pink-50 p-4 rounded-xl border border-pink-200">
-     <h3 class="font-bold text-pink-700 mb-2">🎨 เน้นดีไซน์สวย (Design Focus)</h3>
-     <p class="text-xs mb-2 text-gray-600">จัดวางเลย์เอาต์ให้อัตโนมัติ</p>
-     <ul class="list-disc pl-5 text-sm space-y-1">
-       <li><b>Beautiful.ai:</b> สไลด์ดูแพง แบบมือโปร (Smart Layouts)</li>
-       <li><b>Wonderslide:</b> จัดเรียงเนื้อหาให้สวยงามทันใจ</li>
-       <li><b>DesignCap:</b> เน้นทำโปสเตอร์/Infographic ง่ายๆ</li>
-     </ul>
+  <div class="rounded-xl bg-blue-50 border border-blue-200 p-4 text-center">
+    <div class="text-3xl mb-2">✂️</div>
+    <div class="text-xs font-bold text-blue-700">2. Extract</div>
+    <div class="text-[10px] text-gray-500">ดึง Text ด้วย AI</div>
   </div>
-</div>
-
----
-
-# AI เสกภาพตกแต่ง (Image Generators) 🖼️
-หยุดหาภาพใน Google (ที่อาจติดลิขสิทธิ์)... **"สร้างเองเลย!"**
-
-<div class="grid grid-cols-3 gap-4 mt-6">
-  <div class="bg-white p-4 rounded-xl shadow-lg border-t-4 border-purple-500">
-    <div class="text-3xl mb-2">🦁</div>
-    <b class="text-purple-700">Leonardo.ai</b>
-    <p class="text-xs mt-2 text-gray-600">คุณภาพสูงมาก สวยระดับสตูดิโอ (สายฟรีใช้ได้เยอะ)</p>
-  </div>
-  <div class="bg-white p-4 rounded-xl shadow-lg border-t-4 border-pink-500">
-    <div class="text-3xl mb-2">🔮</div>
-    <b class="text-pink-700">Dream by Wombo</b>
-    <p class="text-xs mt-2 text-gray-600">เน้นงานศิลปะ อาร์ตๆ ใช้งานง่ายบนมือถือ</p>
-  </div>
-  <div class="bg-white p-4 rounded-xl shadow-lg border-t-4 border-blue-500">
+  <div class="rounded-xl bg-purple-50 border border-purple-200 p-4 text-center">
     <div class="text-3xl mb-2">🎨</div>
-    <b class="text-blue-700">DALL-E 3</b>
-    <p class="text-xs mt-2 text-gray-600">ใช้ผ่าน ChatGPT ได้เลย สั่งเป็นภาษาไทยได้</p>
+    <div class="text-xs font-bold text-purple-700">3. Design</div>
+    <div class="text-[10px] text-gray-500">Piktochart/Gamma</div>
   </div>
-</div>
-<CopyBox text="ภาพวาดสีน้ำมัน ของแมวใส่สูททางาน ในออฟฟิศสมัยใหม่ แสงอบอุ่น">
-<div class="mt-4 text-center text-xs text-gray-500 bg-gray-100 p-2 rounded">
-  <b>Prompt Idea:</b> "ภาพวาดสีน้ำมัน ของแมวใส่สูททางาน ในออฟฟิศสมัยใหม่ แสงอบอุ่น"
-</div>
-</CopyBox>
-
----
-
-# AI สร้างวิดีโอและเสียง (Video & Voice) 🎬
-เพิ่มมูลค่าให้งานนำเสนอ ด้วยสื่อมัลติมีเดียล้ำๆ
-
-<div class="grid grid-cols-2 gap-6 mt-6">
-  <div class="p-4 border rounded-xl bg-orange-50">
-     <h3 class="font-bold text-orange-700 text-lg mb-2">🎥 Text-to-Video</h3>
-     <ul class="space-y-2 text-sm">
-       <li><b>Lumen5:</b> แปลงบทความ/Blog ให้เป็นวิดีโอ (เหมาะกับทำสื่อการสอน)</li>
-       <li><b>Invideo:</b> ตัดต่อวิดีโอออนไลน์ มี Template ให้เลือกเยอะ</li>
-       <li><b>Pictory:</b> ตัดคลิปยาวๆ ให้สั้นลงอัตโนมัติ</li>
-     </ul>
-  </div>
-  <div class="p-4 border rounded-xl bg-teal-50">
-     <h3 class="font-bold text-teal-700 text-lg mb-2">🎙️ Text-to-Speech (เสียงบรรยาย)</h3>
-     <ul class="space-y-2 text-sm">
-       <li><b>Murf.ai:</b> เสียงพากย์ AI ที่ "เหมือนคนจริง" ที่สุด (เลือกอารมณ์ได้)</li>
-       <li><b>NaturalReader:</b> แปลงข้อความเป็นเสียง อ่านเอกสารให้ฟังฟรีๆ</li>
-     </ul>
+  <div class="rounded-xl bg-gradient-to-br from-pink-50 to-orange-50 border border-pink-200 p-4 text-center">
+    <div class="text-3xl mb-2">🎁</div>
+    <div class="text-xs font-bold text-pink-700">4. Share</div>
+    <div class="text-[10px] text-gray-500">โพสต์ได้เลย</div>
   </div>
 </div>
 
-
----
-
-# AI ปรับจูนอารมณ์ (EQ & Professional Tone)
-เปลี่ยน "อารมณ์โกรธ" ให้เป็น "ความเป็นมืออาชีพ" (เหมาะกับงานตอบ Complain)
-
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="bg-red-50 p-4 rounded-xl border border-red-200 opacity-60">
-    <h3 class="font-bold text-red-700 mb-2">🤬 Before (สิ่งที่เราคิด)</h3>
-    <p class="italic text-gray-700">"ส่งของช้ามาก! ทำงานกันยังไง? ลูกค้ารอจนหงุดหงิดหมดแล้ว ถ้าทำไม่ได้ก็บอกเลิกสัญญาไปเลย!"</p>
-  </div>
-  <div class="bg-blue-50 p-4 rounded-xl border border-blue-200 shadow-lg">
-    <h3 class="font-bold text-blue-700 mb-2">👔 After (AI ช่วยเกลา)</h3>
-    <p class="text-gray-800">"ขอสอบถามสถานะการจัดส่งครับ เนื่องจากลูกค้าเริ่มสอบถามเข้ามา ขอกำหนดการที่ชัดเจนเพื่อแจ้งลูกค้าครับ (หากติดขัดตรงไหนแจ้งได้เลยนะครับ)"</p>
-  </div>
-</div>
-<CopyBox text="ช่วยปรับข้อความนี้ให้ดู Suffer (สุภาพ), Professional (มืออาชีพ) และมี Empathy (เห็นอกเห็นใจ)">
-  <div class="mt-4 text-center bg-gray-100 p-2 rounded text-sm text-gray-600">
-    <b>Prompt:</b> "ช่วยปรับข้อความนี้ให้ดู <b>Suffer (สุภาพ)</b>, <b>Professional (มืออาชีพ)</b> และมี <b>Empathy (เห็นอกเห็นใจ)</b>"
+<CopyBox text="ช่วยดึงข้อความจาก PDF นี้ แล้วสรุปเป็นหัวข้อสั้นๆ (Topic + Bullet Point) สำหรับนำไปทำ Infographic เน้นตัวเลขและกำหนดเวลา">
+  <div class="mt-4 rounded-xl bg-gray-50 border border-gray-200 p-3 text-sm text-gray-700 italic">
+    <b>Prompt:</b> "ดึงข้อความจาก PDF นี้ สรุปเป็น Topic + Bullet สำหรับ Infographic · เน้นตัวเลขและกำหนดเวลา"
   </div>
 </CopyBox>
 
+<div class="mt-3 text-center text-xs text-gray-500">
+  🛠️ <b>Tools แนะนำ:</b> Piktochart AI · Gamma · Canva Magic Design · Napkin.ai
+</div>
+
 ---
 
-# งานวิจัยและค้นหาข้อมูล (Perplexity)
-ลืมพฤติกรรม "ถาม ChatGPT แล้วเชื่อเลย" ไปซะ... ถ้าอยากได้ Fact ต้อง Perplexity
+# 🔮 Demo 5 · วิเคราะห์ Excel หลายไฟล์
 
-<div class="grid grid-cols-2 gap-6 mt-6">
+<div class="text-sm text-gray-500 mb-3">เปรียบเทียบราคาวัสดุ 4 เดือน · หาที่ "ขึ้นราคา"</div>
+
+<div class="grid grid-cols-2 gap-6 mt-4">
   <div>
-    <h3 class="text-xl font-bold mb-3">ทำไม ChatGPT ถึงไม่พอ?</h3>
-    <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
-      <li>ChatGPT อาจจะ "มั่ว" (Hallucination) ถ้าไม่มีข้อมูล</li>
-      <li>ข้อมูลอาจจะเก่า (ไม่อัปเดต Real-time เท่า Google)</li>
-    </ul>
-    <div class="mt-4 p-4 bg-teal-50 border border-teal-200 rounded-xl">
-       <b class="text-teal-700">✅ Solution: Perplexity.ai</b>
-       <p class="text-xs mt-1">มันคือ "Google Search + AI Summary" <br>ค้นหาข้อมูลจริง + สรุปให้ + <b>แนบอ้างอิงให้กดเช็ค</b></p>
+    <div class="rounded-xl bg-red-50 border border-red-200 p-4">
+      <div class="text-xs font-bold text-red-700 mb-2">📋 โจทย์จริง</div>
+      <ul class="text-sm text-gray-700 space-y-2 list-disc pl-5">
+        <li>Excel 4 ไฟล์ (ก.ย.–ธ.ค. 2568)</li>
+        <li>หาว่า <b>"รายการไหนปรับราคาขึ้น?"</b> และ <b>"กี่ %?"</b></li>
+        <li>เปิดเทียบทีละไฟล์ = ตาลาย</li>
+      </ul>
     </div>
-  </div>
-  <div class="flex items-center justify-center p-4">
-     <div class="text-center">
-        <span class="text-8xl">🔎</span>
-        <p class="mt-2 text-gray-400">"Trust, but Verify"</p>
-     </div>
-  </div>
-</div>
-
----
-
-# โครงสร้าง AIDA (สำหรับงาน PR)
-เขียนประกาศ/ข่าวประชาสัมพันธ์ ให้น่าอ่านและ "มีคนกด"
-
-<div class="mt-6 p-6 bg-yellow-50 rounded-xl border border-yellow-200">
-  <h3 class="font-bold text-yellow-800 mb-4">📢 Prompt สูตรการตลาด (AIDA Model)</h3>
-  <!-- ... grid ... -->
-  <div class="grid grid-cols-4 gap-2 text-center text-xs">
-    <div class="bg-white p-2 rounded border shadow-sm">
-      <b class="block text-red-600 text-lg">A</b>ttention<br>(ดึงความสนใจ)
-    </div>
-    <div class="bg-white p-2 rounded border shadow-sm">
-      <b class="block text-orange-600 text-lg">I</b>nterest<br>(ให้ข้อมูลน่ารู้)
-    </div>
-    <div class="bg-white p-2 rounded border shadow-sm">
-      <b class="block text-blue-600 text-lg">D</b>esire<br>(กระตุ้นความอยาก)
-    </div>
-    <div class="bg-white p-2 rounded border shadow-sm">
-      <b class="block text-green-600 text-lg">A</b>ction<br>(บอกให้ทำอะไร)
-    </div>
-  </div>
-  <CopyBox text="ช่วยเขียน [ประกาศรับสมัครงาน] โดยใช้โครงสร้าง AIDA Framework เพื่อให้ดูท้าทายและน่าตื่นเต้น สำหรับคนรุ่นใหม่">
-    <div class="mt-4 bg-white p-3 rounded font-mono text-gray-700 text-sm">
-      "ช่วยเขียน <b>[ประกาศรับสมัครงาน]</b> โดยใช้โครงสร้าง <b>AIDA Framework</b> <br>
-      เพื่อให้ดูท้าทายและน่าตื่นเต้น สำหรับคนรุ่นใหม่"
-    </div>
-  </CopyBox>
-</div>
-
----
-
-# ข้อควรระวัง (Do's & Don'ts) 🛡️
-AI ฉลาด... แต่เราต้องฉลาดกว่าเรื่อง "ความปลอดภัย"
-
-<div class="grid grid-cols-3 gap-4 mt-8">
-  <div class="bg-red-50 p-4 rounded-xl border-t-4 border-red-500 text-center">
-    <div class="text-4xl mb-2">🚫</div>
-    <h3 class="font-bold text-red-700">ความลับห้ามใส่</h3>
-    <p class="text-xs mt-2 text-gray-600">รหัสผ่าน, เงินเดือน, ข้อมูลส่วนตัวนิสิต/อาจารย์ <br>(ถือว่า Upload ขึ้น Server เขา)</p>
-  </div>
-  <div class="bg-yellow-50 p-4 rounded-xl border-t-4 border-yellow-500 text-center">
-    <div class="text-4xl mb-2">🤥</div>
-    <h3 class="font-bold text-yellow-700">อย่าเชื่อ 100%</h3>
-    <p class="text-xs mt-2 text-gray-600">AI มั่วได้ (Hallucination) <br>ต้องตรวจทาน (Verify) เสมอ ก่อนส่งนาย</p>
-  </div>
-  <div class="bg-green-50 p-4 rounded-xl border-t-4 border-green-500 text-center">
-    <div class="text-4xl mb-2">⚖️</div>
-    <h3 class="font-bold text-green-700">ลิขสิทธิ์</h3>
-    <p class="text-xs mt-2 text-gray-600">ภาพที่ AI สร้าง ปัจจุบันยัง <br>"จดลิขสิทธิ์ไม่ได้" (Public Domain)</p>
-  </div>
-</div>
-
----
-layout: section
----
-
-# 🎬 ช่วงสาธิต: Live Demos (30 นาที)
-แก้โจทย์จริงจากแบบสอบถาม!
-
----
-
-# 🔮 Demo 1: งานสารบรรณ & วิเทศฯ (Top Vote!)
-**Scenario:** ร่างหนังสือ + แปลอีเมลถึง Professor ญี่ปุ่น
-
-<div class="grid grid-cols-2 gap-8 mt-4">
-  <div>
-    <h3 class="font-bold text-blue-600">โจทย์จากทางบ้าน:</h3>
-    <ul class="list-disc pl-5 text-sm space-y-2">
-      <li><b>Task 1:</b> ร่าง "บันทึกข้อความขออนุมัติโครงการ" (International AI Seminar)</li>
-      <li><b>Task 2:</b> ร่าง "อีเมลเชิญวิทยากร" (ต่อเนื่องจากโครงการตะกี้)</li>
-    </ul>
-    <div class="mt-4 space-y-2">
-      <div class="flex items-center gap-2 text-[10px] text-gray-500">
-        <span class="bg-blue-100 text-blue-800 px-1 rounded font-bold">Step 1</span> ขออนุมัติจัดโครงการ:
+    <CopyBox text="ช่วยเปรียบเทียบราคาวัสดุจาก 4 ไฟล์นี้ (M9–M12) สร้างตารางสรุปรายการที่ 'ปรับราคาขึ้น' พร้อมคำนวณ % การเปลี่ยนแปลง เรียงจากมากไปน้อย">
+      <div class="mt-3 rounded-lg bg-white border border-gray-200 p-3 text-[11px] italic text-gray-700">
+        "เปรียบเทียบ 4 ไฟล์ · ตารางสรุปรายการ <b>'ปรับราคาขึ้น'</b> · คำนวณ <b>%</b> เรียงมาก→น้อย"
       </div>
-      <CopyBox text="ช่วยร่างบันทึกข้อความ 'ขออนุมัติจัดโครงการสัมมนา International AI Seminar 2026' เพื่อยกระดับความเป็นนานาชาติ งบประมาณ 50,000 บาท เรียน คณบดี ขอภาษาทางการถูกต้องตามระเบียบงานสารบรรณ">
-        <div class="bg-gray-100 p-2 rounded text-xs border border-gray-200">
-          <b>Prompt (Memo):</b> "ร่างบันทึกข้อความขออนุมัติโครงการ International AI Seminar..."
-        </div>
-      </CopyBox>
-      <div class="flex items-center gap-2 text-[10px] text-gray-500 mt-1">
-        <span class="bg-blue-100 text-blue-800 px-1 rounded font-bold">Step 2</span> เชิญวิทยากร (ต่อเนื่อง):
-      </div>
-      <CopyBox text="จากโครงการในข้อเมื่อกี้ ช่วยร่างอีเมลเชิญ Prof. Hiroshi Tanaka (University of Tokyo) มาเป็น Keynote Speaker ในหัวข้อ 'AI for Future Administration' โดยทางเราจะออกค่าตั๋วเครื่องบินและที่พักให้ ขอภาษา Business English">
-        <div class="bg-blue-50 p-2 rounded text-xs border border-blue-200">
-          <b>Prompt (Email):</b> "จากโครงการตะกี้... ช่วยร่างอีเมลเชิญ Prof. Hiroshi Tanaka..."
-        </div>
-      </CopyBox>
-    </div>
+    </CopyBox>
   </div>
-  <div class="flex items-center justify-center bg-blue-50 rounded-xl">
-    <span class="text-6xl">🌍</span>
-  </div>
-</div>
-
----
-
-# 🔮 Demo 2: งานอาคารสถานที่ & ยานพาหนะ (VIP Group)
-**Scenario:** ประกาศปิดพื้นที่ & แจ้งซ่อม
-
-<div class="grid grid-cols-2 gap-8 mt-4">
-  <div>
-    <h3 class="font-bold text-yellow-600">โจทย์จากทางบ้าน:</h3>
-    <ul class="list-disc pl-5 text-sm space-y-2">
-      <li>ร่างประกาศปิดปรับปรุงห้องน้ำ อาคาร 81 (ด่วน!)</li>
-      <li>ต้องแจ้งนิสิตและบุคลากรไม่ให้หงุดหงิด</li>
-      <li><b>Challenge:</b> สร้างคลิปวิดีโอ "คนพูดประกาศ" จากรูปถ่าย (Avatar)</li>
-    </ul>
-    <div class="mt-4 space-y-2">
-      <div class="flex items-center gap-2 text-[10px] text-gray-500">
-        <span class="bg-green-100 text-green-800 px-1 rounded font-bold">ChatGPT</span> ทำร่างประกาศ:
-      </div>
-      <CopyBox text="ร่างประกาศปิดปรับปรุงห้องน้ำ... ขอสไตล์ 'ขออภัยในความไม่สะดวก' และแนะนำห้องน้ำใกล้เคียง พร้อมอีโมจิ 🙏">
-        <div class="bg-gray-100 p-2 rounded text-xs border border-gray-200">
-          <b>1. Prompt (Text):</b> "ร่างประกาศปิดปรับปรุงห้องน้ำ... เพื่อติดบอร์ดประกาศ"
-        </div>
-      </CopyBox>
-      <div class="flex items-center gap-2 text-[10px] text-gray-500 mt-1">
-        <span class="bg-green-100 text-green-800 px-1 rounded font-bold">ChatGPT</span> แปลงเป็นบทพูด:
-      </div>
-      <CopyBox text="ช่วยแปลงประกาศนี้ ให้เป็น 'บทพูดสำหรับถ่ายวิดีโอสั้น' (30 วินาที) ขอภาษาพูดที่ดูเป็นกันเองและจริงใจ เพื่อให้ AI Avatar พูด">
-        <div class="bg-blue-50 p-2 rounded text-xs border border-blue-200">
-          <b>2. Prompt (Video Script):</b> "ช่วยแปลงประกาศนี้ เป็นบทพูดสำหรับ AI Avatar"
-        </div>
-      </CopyBox>
-      <div class="mt-2 text-[10px] bg-purple-100 text-purple-800 p-2 rounded flex items-center justify-between border border-purple-200">
-         <span>🎥 <b>Next Step:</b> นำบทพูดไปใส่ใน <b>HeyGen / D-ID</b> เพื่อสร้างคลิป</span>
-         <span class="text-xl">👉</span>
-      </div>
-    </div>
-  </div>
-  <div class="flex items-center justify-center bg-yellow-50 rounded-xl">
-    <span class="text-6xl">🚧</span>
-  </div>
-</div>
-
----
-
-# 🔮 Demo 3: งานคลัง & ระเบียบ (Ask PDF)
-**Scenario:** ถาม-ตอบ "ข้อมูลในระเบียบ/คู่มือ" (ไม่อยากอ่านเองทั้งเล่ม)
-
-<div class="grid grid-cols-2 gap-8 mt-4">
-  <div>
-    <h3 class="font-bold text-green-600">โจทย์จริง:</h3>
-    <ul class="list-disc pl-5 text-sm space-y-2">
-      <li>มีไฟล์ PDF "ระเบียบการเบิกจ่ายฯ" หนา 100 หน้า</li>
-      <li>อยากรู้แค่ <b>"ค่าที่พักเบิกได้เท่าไหร่?"</b> ขี้เกียจเปิดหา</li>
-    </ul>
-    <div class="mt-4 bg-gray-100 p-2 rounded text-xs">
-      <b>Action:</b> Upload PDF ให้ AI -> แล้วถามเจาะจงเลย
-      <CopyBox text="ช่วยสรุปเกณฑ์การเบิก 'ค่าเช่าที่พัก' สำหรับพนักงานสายสนับสนุน ว่าเบิกได้คืนละกี่บาท และต้องใช้หลักฐานอะไรบ้าง">
-      <i>"ช่วยสรุปเกณฑ์การเบิก 'ค่าเช่าที่พัก' สำหรับพนักงานสายสนับสนุน <br>
-      ว่าเบิกได้คืนละกี่บาท และต้องใช้หลักฐานอะไรบ้าง"</i>
-      </CopyBox>
-    </div>
-  </div>
-  <div class="flex flex-col items-center justify-center bg-green-50 rounded-xl p-2">
-    <div class="text-4xl mb-2">📑</div>
-    <div class="text-[10px] text-gray-400 bg-white p-2 rounded border text-center">
-      (File: ระเบียบการเบิกจ่าย.pdf) <br>
-      <span class="text-green-600">Chat with PDF</span>
-    </div>
-  </div>
-</div>
-
----
-
-# 🔮 Demo 4: ศูนย์คอมฯ & PR (Special Request)
-**Scenario:** ทำ Infographic จากกำหนดการ
-
-<div class="grid grid-cols-2 gap-8 mt-4">
-  <div>
-    <h3 class="font-bold text-purple-600">โจทย์พิเศษ:</h3>
-    <ul class="list-disc pl-5 text-sm space-y-2">
-      <li>"นำกำหนดการสัมมนา (ไฟล์ PDF) ให้ AI สร้างเป็น Infographic"</li>
-      <li><b>Problem:</b> ไฟล์เป็น PDF รูปภาพ/ตาราง AI บางตัวอ่านยาก ต้องแกะเป็น Text ก่อน</li>
-    </ul>
-    <div class="mt-4 space-y-2">
-       <div class="flex items-center gap-2 text-[10px] text-gray-500">
-        <span class="bg-green-100 text-green-800 px-1 rounded font-bold">Step 1</span> แปลง PDF เป็น Text:
-      </div>
-      <CopyBox text="ช่วยดึงข้อความจากไฟล์ PDF นี้ แล้วสรุปเป็นหัวข้อสั้นๆ สำหรับนำไปทำ Infographic ให้หน่อย">
-        <div class="bg-gray-100 p-2 rounded text-xs border border-gray-200">
-          <b>Prompt (OCR):</b> "ช่วยดึงข้อความจากไฟล์ PDF แล้วสรุปเป็นหัวข้อสั้นๆ..."
-        </div>
-      </CopyBox>
-    </div>
-    <div class="mt-2 text-[10px] bg-purple-100 text-purple-800 p-2 rounded flex items-center justify-between border border-purple-200">
-         <span>🎨 <b>Step 2:</b> นำ Text ที่ได้ไปใส่ <b>Piktochart AI</b> (แนะนำตัวนี้! ⭐)</span>
-         <span class="text-xl">👉</span>
-    </div>
-  </div>
-  <div class="flex items-center justify-center bg-purple-50 rounded-xl">
-    <span class="text-6xl">🎨</span>
-  </div>
-</div>
-
----
-
-# 🔮 Demo 5: งานพัสดุ & จัดซื้อ (Price Tracking)
-**Scenario:** เปรียบเทียบราคาวัสดุย้อนหลัง 4 เดือน (M9-M12) หาตัวที่ "แพงขึ้น"
-
-<div class="grid grid-cols-2 gap-8 mt-4">
-  <div>
-    <h3 class="font-bold text-red-600">โจทย์จริง (Price Reports):</h3>
-    <ul class="list-disc pl-5 text-sm space-y-2">
-      <li>มีไฟล์ Excel 4 ไฟล์ (ก.ย. - ธ.ค.) เก็บราคาวัสดุ</li>
-      <li>ต้องการรู้ว่า <b>"รายการไหนมีการปรับราคาขึ้น?"</b> และ <b>"ขึ้นกี่บาท?"</b></li>
-      <li>(ถ้าทำมือ ต้องเปิดเทียบทีละไฟล์ ตาลายแน่นอน!)</li>
-    </ul>
-    <div class="mt-4 bg-gray-100 p-2 rounded text-xs">
-      <b>Action:</b> Upload ไฟล์ M9, M10, M11, M12 พร้อมกันแล้วถาม
-      <CopyBox text="ช่วยเปรียบเทียบราคาวัสดุจาก 4 ไฟล์นี้ (M9-M12) สร้างตารางสรุปรายการที่มีการ 'ปรับราคาขึ้น' และคำนวณ % การเปลี่ยนแปลงให้ด้วย">
-      <i>"ช่วยเปรียบเทียบราคาวัสดุจาก 4 ไฟล์นี้ (M9-M12) <br>
-      สร้างตารางสรุปรายการที่มีการ <b>'ปรับราคาขึ้น'</b> <br>
-      และคำนวณ % การเปลี่ยนแปลงให้ด้วย"</i>
-      </CopyBox>
-    </div>
-  </div>
-  <div class="flex flex-col items-center justify-center bg-red-50 rounded-xl p-2">
-    <div class="text-4xl mb-2">📈</div>
-    <div class="text-[10px] text-gray-400 bg-white p-2 rounded border text-center">
-      (File: Price_Report M9-M12.xlsx) <br>
-      <span class="text-green-600">Excel Analysis 101</span>
+  <div class="rounded-2xl bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 p-5 flex flex-col items-center justify-center">
+    <div class="text-5xl mb-3">📈</div>
+    <div class="font-bold text-red-700">4 ไฟล์ → 1 ตาราง</div>
+    <div class="text-xs text-gray-500 mt-1">ภายใน 30 วินาที</div>
+    <div class="mt-4 text-[10px] text-gray-400 text-center">
+      <b class="text-gray-600">ChatGPT · Claude</b><br>
+      (ทั้งคู่วิเคราะห์ Excel ได้ดี)
     </div>
   </div>
 </div>
 
 ---
 layout: center
-class: text-center
+class: "text-center"
 ---
 
-# 🛠️ เครื่องมือช่วยชีวิต: Engineering AI Prompter
-(แจกฟรี! Web App ที่ทำมาเพื่อพวกเราโดยเฉพาะ)
+<div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-4">✨ WOW MOMENT #3</div>
 
-<div class="mt-4 flex justify-center">
-  <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6 rounded-2xl shadow-xl max-w-4xl flex items-center gap-8">
-    <div class="flex-1 text-left">
-      <h2 class="text-2xl font-bold mb-4">Web App รวมสูตรสำเร็จ</h2>
-      <p class="mb-4 text-blue-100 text-sm">
-        รวม 16 สถานการณ์ (ธุรการ, พัสดุ, อาคาร, คอมฯ ครบ!)<br>
-        แค่เลือก -> เติมคำ -> กด Copy -> ใช้ได้เลย!
-      </p>
-      <a href="https://script.google.com/macros/s/AKfycbyF-DEUCV60wUqzKYLwLmFvoUC-PUhDPsPpwygDC4H1XscyYz66kWwhGwcliqNhk5CY/exec" target="_blank" class="text-sm text-yellow-300 underline hover:text-white mb-2 block">
-        🔗 Link: Engineering AI Prompter
-      </a>
-      <div class="text-xs bg-white/20 p-2 rounded mt-2 inline-block">
-        (สแกน QR Code หรือเข้าลิงค์ได้เลยครับ)
-      </div>
-    </div>
-    <div class="bg-white p-3 rounded-xl flex-shrink-0">
-      <img src="/qrcode_webapp.png" class="w-40 h-40" alt="QR Code">
-    </div>
+# 🎤 AI Avatar พูดแทนเรา
+
+<div class="text-lg text-gray-600 mb-8">ส่งประกาศภาควิชา → ไม่ต้องถ่ายวิดีโอ ไม่ต้องแต่งหน้า</div>
+
+<div class="grid grid-cols-3 gap-4 max-w-4xl mx-auto">
+  <div class="rounded-2xl bg-white shadow-md p-5">
+    <div class="text-4xl mb-2">📝</div>
+    <div class="text-sm font-bold">พิมพ์บทพูด</div>
+    <div class="text-xs text-gray-500 mt-1">ให้ AI ช่วยร่างก็ได้</div>
+  </div>
+  <div class="rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 text-white shadow-lg p-5">
+    <div class="text-4xl mb-2">🎭</div>
+    <div class="text-sm font-bold">เลือก Avatar</div>
+    <div class="text-xs opacity-90 mt-1">หน้าเรา / หน้าตัวแทน</div>
+  </div>
+  <div class="rounded-2xl bg-white shadow-md p-5">
+    <div class="text-4xl mb-2">🎬</div>
+    <div class="text-sm font-bold">ได้วิดีโอ</div>
+    <div class="text-xs text-gray-500 mt-1">พร้อมโพสต์ใน 5 นาที</div>
+  </div>
+</div>
+
+<div class="mt-8 text-sm text-gray-500 italic">→ Use case: ประกาศทุนการศึกษา · แนะนำภาควิชา · ข่าวสารรายสัปดาห์</div>
+
+---
+
+# 🧰 เครื่องมือ AI ที่แนะนำ (Cheat Sheet)
+
+<div class="grid grid-cols-3 gap-4 mt-4 text-xs">
+
+  <div class="rounded-xl bg-white border border-gray-200 p-3">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สไลด์ / PPT</div>
+    <ul class="space-y-1.5 text-gray-700">
+      <li>⭐ <b>Gamma.app</b> — ไทยดี เร็ว</li>
+      <li>• Beautiful.ai — สวยแบบโปร</li>
+      <li>• Canva Magic — ใช้คู่กับ Canva</li>
+    </ul>
+  </div>
+
+  <div class="rounded-xl bg-white border border-gray-200 p-3">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">รูปภาพ</div>
+    <ul class="space-y-1.5 text-gray-700">
+      <li>⭐ <b>ChatGPT + GPT Image</b></li>
+      <li>• Leonardo.ai — คุณภาพสูง</li>
+      <li>• Midjourney — งานอาร์ต</li>
+    </ul>
+  </div>
+
+  <div class="rounded-xl bg-white border border-gray-200 p-3">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">วิดีโอ / เสียง</div>
+    <ul class="space-y-1.5 text-gray-700">
+      <li>⭐ <b>HeyGen</b> — Avatar</li>
+      <li>• ElevenLabs — Voice cloning</li>
+      <li>• Veo 3 / Sora — Text→Video</li>
+    </ul>
+  </div>
+
+  <div class="rounded-xl bg-white border border-gray-200 p-3">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">ค้นคว้า / วิจัย</div>
+    <ul class="space-y-1.5 text-gray-700">
+      <li>⭐ <b>Perplexity</b> — มี citation</li>
+      <li>• NotebookLM — ถาม PDF</li>
+      <li>• SciSpace — งานวิจัย</li>
+    </ul>
+  </div>
+
+  <div class="rounded-xl bg-white border border-gray-200 p-3">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">Infographic</div>
+    <ul class="space-y-1.5 text-gray-700">
+      <li>⭐ <b>Napkin.ai</b> — เร็ว ฟรี</li>
+      <li>• Piktochart AI</li>
+      <li>• Canva</li>
+    </ul>
+  </div>
+
+  <div class="rounded-xl bg-white border border-gray-200 p-3">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">งานสำนักงาน</div>
+    <ul class="space-y-1.5 text-gray-700">
+      <li>⭐ <b>Claude Projects</b></li>
+      <li>• ChatGPT + Custom GPT</li>
+      <li>• Gemini in Workspace</li>
+    </ul>
+  </div>
+
+</div>
+
+---
+layout: center
+class: "text-center"
+---
+
+# 🛠️ Engineering AI Prompter
+## Web App รวมสูตรสำเร็จ สำหรับชาวภาควิชา
+
+<div class="mt-6 rounded-3xl bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white p-8 max-w-4xl mx-auto shadow-2xl flex items-center gap-8">
+  <div class="flex-1 text-left">
+    <div class="text-[10px] tracking-widest opacity-70 mb-2">EXCLUSIVE · FREE</div>
+    <h3 class="text-2xl font-bold mb-3">16 สถานการณ์ พร้อมใช้งาน</h3>
+    <p class="text-sm opacity-90 mb-4 leading-relaxed">
+      ธุรการ · พัสดุ · อาคาร · ศูนย์คอม · วิจัย — ครบทุกงาน<br>
+      <b>เลือก → เติมคำ → Copy → ใช้ได้เลย</b>
+    </p>
+    <a href="https://script.google.com/macros/s/AKfycbyF-DEUCV60wUqzKYLwLmFvoUC-PUhDPsPpwygDC4H1XscyYz66kWwhGwcliqNhk5CY/exec" target="_blank" class="inline-block text-sm bg-white text-indigo-700 px-4 py-2 rounded-lg font-bold hover:bg-yellow-200 transition">
+      🔗 เปิด Web App
+    </a>
+  </div>
+  <div class="bg-white p-3 rounded-2xl flex-shrink-0 shadow-lg">
+    <img src="/qrcode_webapp.png" class="w-36 h-36" />
+    <div class="text-[9px] text-gray-500 text-center mt-1">สแกนเลย</div>
   </div>
 </div>
 
 ---
 layout: cover
-background: https://source.unsplash.com/random/1920x1080/?coffee,break
+background: https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1920
 ---
 
-# พักรับประทานอาหารว่าง
-(14.30 - 14.45 น.)
-พักผ่อน 15 นาที แล้วกลับมาลุยต่อช่วงสุดท้ายครับ!
+# พักเบรก ☕ 15 นาที
+
+## 14:30 – 14:45 น.
+
+<div class="mt-6 text-sm opacity-80 italic">กลับมาลุย Workshop ต่อครับ!</div>
 
 ---
 layout: section
 ---
 
-# Part 2: Workshop
-(14.45 - 16.15 น.)
-"Super Support Challenge" (แข่งกันสนุกๆ)
+# Part 2
+## Super Support Challenge
+### Workshop · ประชันไอเดีย
+
+<div class="mt-6 text-sm opacity-70">14:45 – 16:15 น. · สนุก ไม่เครียด</div>
 
 ---
 
-# 🎮 กติกาการแข่งขัน (Challenge Rules)
+# 🎮 กติกา (ง่ายๆ 4 ขั้น)
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  
-  <div class="bg-white p-5 rounded-xl shadow border-l-4 border-blue-500 text-left">
-    <h3 class="text-xl font-bold text-blue-700 mb-4">ขั้นตอน</h3>
-    <ol class="list-decimal pl-5 space-y-3">
-      <li>จับคู่ หรือทำงานเป็นกลุ่มตามโต๊ะ</li>
-      <li>เลือก <b>1 โจทย์ปัญหา</b> จาก Web App (หรือปัญหาจริงที่เจอ)</li>
-      <li>ระดมสมองเขียน <b>Prompt</b> สั่ง AI</li>
-      <li>ส่งผลงาน (Prompt + Output) เข้ากลุ่ม Line</li>
-    </ol>
+<div class="grid grid-cols-4 gap-4 mt-6">
+  <div class="rounded-2xl bg-white border border-blue-200 p-4 relative">
+    <div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold shadow-md">1</div>
+    <div class="mt-2 text-sm font-bold text-blue-800">จับทีม</div>
+    <div class="text-xs text-gray-600 mt-1">2-4 คน ตามโต๊ะ</div>
   </div>
-
-  <div class="bg-white p-5 rounded-xl shadow border-l-4 border-orange-500 text-left">
-    <h3 class="text-xl font-bold text-orange-700 mb-4">เกณฑ์การตัดสิน</h3>
-    <div class="text-sm text-gray-600 mb-2">ตัดสินโดย <b>AI Judge (กรรมการ AI)</b> + วิทยากร</div>
-    <ul class="list-disc pl-5 space-y-2">
-      <li>🎯 <b>Practicality:</b> เอาไปใช้ได้จริงไหม?</li>
-      <li>🗣️ <b>Prompt Quality:</b> สั่งงานละเอียดแค่ไหน?</li>
-      <li>💡 <b>Creativity:</b> ไอเดียสร้างสรรค์?</li>
-    </ul>
+  <div class="rounded-2xl bg-white border border-purple-200 p-4 relative">
+    <div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-purple-500 text-white flex items-center justify-center font-bold shadow-md">2</div>
+    <div class="mt-2 text-sm font-bold text-purple-800">เลือกโจทย์</div>
+    <div class="text-xs text-gray-600 mt-1">จาก Web App หรือปัญหาจริง</div>
   </div>
+  <div class="rounded-2xl bg-white border border-amber-200 p-4 relative">
+    <div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold shadow-md">3</div>
+    <div class="mt-2 text-sm font-bold text-amber-800">ระดมสมอง</div>
+    <div class="text-xs text-gray-600 mt-1">เขียน Prompt สั่ง AI</div>
+  </div>
+  <div class="rounded-2xl bg-white border border-emerald-200 p-4 relative">
+    <div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold shadow-md">4</div>
+    <div class="mt-2 text-sm font-bold text-emerald-800">ส่งผลงาน</div>
+    <div class="text-xs text-gray-600 mt-1">Prompt + Output ในกลุ่ม Line</div>
+  </div>
+</div>
 
+<div class="mt-8 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 p-5">
+  <div class="text-xs font-bold text-amber-700 tracking-widest mb-2">⚖️ เกณฑ์ตัดสิน (โดย AI Judge + วิทยากร)</div>
+  <div class="grid grid-cols-3 gap-4 text-sm">
+    <div>🎯 <b>Practicality</b> — ใช้งานได้จริง</div>
+    <div>🗣️ <b>Prompt Quality</b> — สั่งชัด ละเอียด</div>
+    <div>💡 <b>Creativity</b> — สร้างสรรค์</div>
+  </div>
 </div>
 
 ---
 
-# 🏆 ตัวอย่างโจทย์ (Challenge Missions)
+# 🏆 โจทย์ตัวอย่าง 6 ภารกิจ
 
-<div class="grid grid-cols-3 gap-4 mt-4 text-xs">
-  <div class="bg-blue-50 p-3 rounded border border-blue-200">
-    <b class="text-blue-700 block mb-1">1. ทีมธุรการ/วิเทศฯ</b>
-    ร่างอีเมลตอบรับ Professor ญี่ปุ่น + แจ้งตารางทัวร์คณะ
+<div class="grid grid-cols-3 gap-3 mt-4 text-xs">
+  <div class="rounded-xl bg-blue-50 border border-blue-200 p-3">
+    <div class="flex items-center gap-1 mb-1">
+      <span class="w-5 h-5 rounded-full bg-blue-500 text-white flex items-center justify-center text-[10px] font-bold">1</span>
+      <b class="text-blue-700">ธุรการภาค</b>
+    </div>
+    <div class="text-gray-700">ร่างบันทึกเชิญ กรรมการสอบวิทยานิพนธ์ 3 คน พร้อมตารางนัดหมาย</div>
   </div>
-  <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
-    <b class="text-yellow-700 block mb-1">2. ทีมอาคาร/ยานพาหนะ</b>
-    ร่างประกาศ "งดจอดรถหน้าตึก" เพื่อตีเส้นจราจรใหม่
+  <div class="rounded-xl bg-amber-50 border border-amber-200 p-3">
+    <div class="flex items-center gap-1 mb-1">
+      <span class="w-5 h-5 rounded-full bg-amber-500 text-white flex items-center justify-center text-[10px] font-bold">2</span>
+      <b class="text-amber-700">อาคาร/ครุภัณฑ์</b>
+    </div>
+    <div class="text-gray-700">ประกาศ "ย้ายห้องแล็บชั่วคราว" ให้นิสิตไม่งง + ทำอินโฟกราฟิก</div>
   </div>
-  <div class="bg-green-50 p-3 rounded border border-green-200">
-    <b class="text-green-700 block mb-1">3. ทีมคลัง/พัสดุ</b>
-    เปรียบเทียบสเปกคอมฯ 2 รุ่น สรุปให้กรรมการตรวจรับ
+  <div class="rounded-xl bg-emerald-50 border border-emerald-200 p-3">
+    <div class="flex items-center gap-1 mb-1">
+      <span class="w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center text-[10px] font-bold">3</span>
+      <b class="text-emerald-700">พัสดุ/จัดซื้อ</b>
+    </div>
+    <div class="text-gray-700">เปรียบเทียบสเปกคอมพิวเตอร์ 2 รุ่น สรุปให้กรรมการตรวจรับ</div>
   </div>
-  <div class="bg-purple-50 p-3 rounded border border-purple-200">
-    <b class="text-purple-700 block mb-1">4. ศูนย์คอม/บริการการศึกษา</b>
-    ร่าง Q&A ตอบนิสิตเรื่อง "ลืมรหัสผ่าน WiFi / เข้าระบบไม่ได้"
+  <div class="rounded-xl bg-purple-50 border border-purple-200 p-3">
+    <div class="flex items-center gap-1 mb-1">
+      <span class="w-5 h-5 rounded-full bg-purple-500 text-white flex items-center justify-center text-[10px] font-bold">4</span>
+      <b class="text-purple-700">บริการการศึกษา</b>
+    </div>
+    <div class="text-gray-700">ร่าง Q&amp;A ตอบนิสิต "ลงทะเบียนเรียนซ้ำ / ขอใบรับรอง"</div>
   </div>
-  <div class="bg-orange-50 p-3 rounded border border-orange-200">
-    <b class="text-orange-700 block mb-1">5. ทีม PR</b>
-    คิด Caption เปิดตัว "มาสคอตคณะ" ตัวใหม่ ให้น่ารักน่ากอด
+  <div class="rounded-xl bg-pink-50 border border-pink-200 p-3">
+    <div class="flex items-center gap-1 mb-1">
+      <span class="w-5 h-5 rounded-full bg-pink-500 text-white flex items-center justify-center text-[10px] font-bold">5</span>
+      <b class="text-pink-700">PR ภาควิชา</b>
+    </div>
+    <div class="text-gray-700">คิด Caption + แคปชัน 3 โพสต์ โปรโมต "งานเปิดบ้านภาควิชา"</div>
   </div>
-  <div class="bg-teal-50 p-3 rounded border border-teal-200">
-    <b class="text-teal-700 block mb-1">6. ทีมแผน/วิจัย</b>
-    สรุปยอดโครงการย้อนหลัง 3 ปี ทำเป็นตารางเสนอคณบดี
+  <div class="rounded-xl bg-teal-50 border border-teal-200 p-3">
+    <div class="flex items-center gap-1 mb-1">
+      <span class="w-5 h-5 rounded-full bg-teal-500 text-white flex items-center justify-center text-[10px] font-bold">6</span>
+      <b class="text-teal-700">งานวิจัย/แผน</b>
+    </div>
+    <div class="text-gray-700">สรุปโครงการวิจัยย้อนหลัง 3 ปี เป็นตารางเสนอ หน.ภาค</div>
   </div>
 </div>
 
-<div class="mt-6 text-center animate-bounce font-bold text-red-600">
-  (ไม่มีผิด ไม่มีถูก! ลองเล่นให้เต็มที่!)
+<div class="mt-5 text-center">
+  <div class="inline-block rounded-full bg-gradient-to-r from-pink-500 to-orange-500 text-white px-5 py-2 text-sm font-bold shadow-lg animate-pulse">
+    ไม่มีผิด · ไม่มีถูก · ลองเล่นให้เต็มที่!
+  </div>
 </div>
 
 ---
 layout: center
-class: text-center
+class: "text-center"
 ---
 
-# 🎤 Presentation & AI Judging
-โชว์ผลงานขึ้นจอ ให้ AI วิจารณ์สด! (ฮาได้ เต็มที่ได้)
+# 🎤 Show &amp; Tell
+### โชว์ผลงาน · AI Judge วิจารณ์สด
+
+<div class="mt-6 text-sm text-gray-500">ทีมไหนไอเดียเจ๋ง · มีรางวัล 🎁</div>
+
+<div class="mt-8 grid grid-cols-3 gap-4 max-w-3xl mx-auto">
+  <div class="rounded-2xl bg-gradient-to-br from-yellow-100 to-amber-200 p-4 text-center">
+    <div class="text-4xl mb-1">🥇</div>
+    <div class="text-xs font-bold text-amber-800">Most Practical</div>
+  </div>
+  <div class="rounded-2xl bg-gradient-to-br from-pink-100 to-rose-200 p-4 text-center">
+    <div class="text-4xl mb-1">🎨</div>
+    <div class="text-xs font-bold text-pink-800">Most Creative</div>
+  </div>
+  <div class="rounded-2xl bg-gradient-to-br from-blue-100 to-indigo-200 p-4 text-center">
+    <div class="text-4xl mb-1">🏆</div>
+    <div class="text-xs font-bold text-blue-800">Team of the Day</div>
+  </div>
+</div>
 
 ---
-layout: end
+layout: center
+class: "text-center"
+---
+
+# 🎯 Key Takeaways
+
+<div class="grid grid-cols-2 gap-5 mt-8 max-w-4xl mx-auto text-left">
+  <div class="rounded-2xl bg-white border border-indigo-100 p-5 shadow-sm">
+    <div class="text-3xl mb-2">1️⃣</div>
+    <div class="font-bold text-indigo-800">รู้ 3 ยุคของ AI</div>
+    <div class="text-sm text-gray-600 mt-1">Chat → Gen → Agentic · แต่ละยุคมีของเล่นต่างกัน</div>
+  </div>
+  <div class="rounded-2xl bg-white border border-purple-100 p-5 shadow-sm">
+    <div class="text-3xl mb-2">2️⃣</div>
+    <div class="font-bold text-purple-800">เลือกเครื่องมือถูก</div>
+    <div class="text-sm text-gray-600 mt-1">ไทย/วิเคราะห์ = Claude · รอบด้าน = ChatGPT · Google = Gemini</div>
+  </div>
+  <div class="rounded-2xl bg-white border border-amber-100 p-5 shadow-sm">
+    <div class="text-3xl mb-2">3️⃣</div>
+    <div class="font-bold text-amber-800">สูตร R-T-C-F</div>
+    <div class="text-sm text-gray-600 mt-1">Role · Task · Context · Format — จำไว้สั่งไม่ผิด</div>
+  </div>
+  <div class="rounded-2xl bg-white border border-emerald-100 p-5 shadow-sm">
+    <div class="text-3xl mb-2">4️⃣</div>
+    <div class="font-bold text-emerald-800">ใช้บ่อย = เก่งเอง</div>
+    <div class="text-sm text-gray-600 mt-1">เริ่มจาก 1 งาน/วัน · 1 เดือนจะติดเป็นนิสัย</div>
+  </div>
+</div>
+
+---
+layout: cover
+background: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1920
 ---
 
 # ขอบคุณครับ
+
 ## Q & A
 
-<div class="mt-8 text-sm opacity-50">
-  (สไลด์นี้ก็ช่วยสร้างโดย AI : Slidev + Gemini) 🤖
+<div class="mt-8 inline-block rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 p-5 text-left">
+  <div class="text-sm opacity-80">ติดต่อเพิ่มเติม</div>
+  <div class="text-base mt-1">📧 rusalee.s@eng.kmutnb.ac.th</div>
+  <div class="text-xs opacity-60 mt-3 italic">สไลด์นี้ช่วยสร้างด้วย AI (Slidev + Claude) 🤖</div>
 </div>
