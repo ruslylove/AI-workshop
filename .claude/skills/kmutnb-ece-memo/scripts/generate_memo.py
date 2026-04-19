@@ -9,7 +9,7 @@ Usage:
 Config schema (memo.json):
 {
   "เรื่อง": "...",
-  "ที่": "อว ๗๑๕๖.๐๑/___",          // optional, default blank
+  "ที่": "",                            // optional — ปล่อยว่าง: ออกเป็น "วฟ  /ปีพ.ศ."
   "วันที่": "19 เมษายน 2569",          // optional, default today
   "ลงนาม": {
     "ชื่อ": "ผู้ช่วยศาสตราจารย์ ดร.รุสลี่ สุทธวีร์กูล",
@@ -165,6 +165,7 @@ def build_attachments(items: list) -> str:
 # ──────────────────────────────────────────────────────────────
 # These paraId values are stable in the ECE department template.
 PARA_SUBJECT_START = '16DEE251'     # paragraph containing เรื่อง label
+PARA_ADDRESSEE     = '46AF731A'     # paragraph containing เรียน + addressee
 PARA_BODY_FIRST    = '4168ED9B'     # first body paragraph (after เรียน blank)
 PARA_JUENRIAN      = '56B6A4BF'     # จึงเรียนมาเพื่อโปรดพิจารณาอนุมัติ
 PARA_SIG_TITLE     = '6E823166'     # paragraph with position title
@@ -215,6 +216,34 @@ def replace_body(xml: str, body_xml: str) -> str:
     start = xml.rfind('<w:p ', 0, start_attr)
     end   = xml.rfind('<w:p ', 0, end_attr)   # include <w:p of จึงเรียน paragraph
     return xml[:start] + body_xml + xml[end:]
+
+
+def replace_addressee(xml: str, addressee: str) -> str:
+    """Replace addressee text after the เรียน label (paraId 46AF731A).
+
+    Template structure:
+        <w:r>...<w:t>เรียน</w:t></w:r>
+        <w:r>...<w:tab/></w:r>
+        <w:r>...<w:t>หัวหน้าภาควิชาวิ</w:t></w:r>      ← replace from here
+        <w:r>...<w:t>ศวกรรมไฟฟ้าและคอมพิวเตอร์</w:t></w:r>
+    """
+    para_start = xml.find(f'w14:paraId="{PARA_ADDRESSEE}"')
+    if para_start == -1:
+        return xml
+    para_end = xml.find('</w:p>', para_start) + 6
+    para_xml = xml[para_start:para_end]
+
+    # Find end of the tab run (the run right after the เรียน label)
+    label_pos = para_xml.find('<w:t>เรียน</w:t>')
+    if label_pos == -1:
+        return xml
+    # Move past: </w:r> of label, then </w:r> of tab run
+    after_label_run = para_xml.find('</w:r>', label_pos) + 6
+    after_tab_run   = para_xml.find('</w:r>', after_label_run) + 6
+
+    new_addressee_run = f'\n      {run(addressee)}\n    '
+    new_para = para_xml[:after_tab_run] + new_addressee_run + '</w:p>'
+    return xml[:para_start] + new_para + xml[para_end:]
 
 
 def replace_sig_title(xml: str, title: str) -> str:
@@ -331,7 +360,7 @@ def replace_doc_number(xml: str, doc_running: str, be_year: str) -> str:
 # Pipeline
 # ──────────────────────────────────────────────────────────────
 
-DOCX_SCRIPTS = '/mnt/skills/public/docx/scripts'
+DOCX_SCRIPTS = os.environ.get('DOCX_SCRIPTS', '/mnt/skills/public/docx/scripts')
 
 
 def find_unpack():
@@ -366,6 +395,10 @@ def generate(config: dict, template_path: str, output_path: str) -> None:
         subject = config.get('เรื่อง', '')
         if subject:
             xml = replace_subject(xml, subject)
+
+        # 2.5 เรียน (addressee) — default: คณบดี คณะวิศวกรรมศาสตร์
+        addressee = config.get('เรียน', 'คณบดีคณะวิศวกรรมศาสตร์')
+        xml = replace_addressee(xml, addressee)
 
         # 3. Body
         body_xml = build_body(config.get('เนื้อหา', []))

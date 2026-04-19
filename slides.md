@@ -582,7 +582,7 @@ layout: section
 
 # 🎬 Live Demo
 ## ประยุกต์ใช้ Generative AI กับงานหน้าทัพ
-### แก้โจทย์จริง 5 เคส จากงานภาควิชาฯ
+### แก้โจทย์จริง 6 เคส จากงานภาควิชาฯ
 
 <div class="mt-6 text-sm opacity-70">เห็นของจริง · กลับไปใช้ได้จริง</div>
 
@@ -771,6 +771,47 @@ layout: section
 </div>
 
 ---
+
+# 🔮 Demo 6 · สร้าง Google Form ฉับไว
+
+<div class="text-sm text-gray-500 mb-3">ให้ AI ร่างคำถาม + เขียนสคริปต์สร้างแบบฟอร์มประเมินงาน ECE Open House อัตโนมัติ</div>
+
+<div class="grid grid-cols-2 gap-5 mt-4">
+  <div>
+    <div class="rounded-xl bg-orange-50 border border-orange-200 p-3 mb-2 text-xs">
+      <span class="font-bold text-orange-700">Step 1 · ร่างคำถาม & ตรวจทาน</span>
+    </div>
+    <CopyBox text="ช่วยคิดแบบสอบถามประเมินความพึงพอใจ งาน ECE Open House ของภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์ สำหรับนักเรียน ม.ปลาย มีฐานกิจกรรม: แล็บ Computer/Embedded, จำลองฟ้าผ่า, อิเล็กทรอนิกส์, มอเตอร์ ขอคำถาม 5-7 ข้อ (ให้คะแนนฐานต่างๆ และปลายเปิด)">
+      <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700 leading-relaxed">
+        "ร่างคำถามประเมิน <b>ECE Open House</b> ของ <b>ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์</b> มีฐาน <b>แล็บคอม, ฟ้าผ่า, มอเตอร์</b> · คำถาม 5-7 ข้อ <b>ให้คะแนน + ปลายเปิด</b>"
+      </div>
+    </CopyBox>
+    <div class="text-xs text-gray-500 mt-2 ml-1">✓ ผู้ใช้ตรวจสอบคำถาม, ปรับแก้, และกดยืนยัน</div>
+  </div>
+  <div>
+    <div class="rounded-xl bg-amber-50 border border-amber-200 p-3 mb-2 text-xs">
+      <span class="font-bold text-amber-700">Step 2 · สั่งเขียนสคริปต์ (Apps Script)</span>
+    </div>
+    <CopyBox text="โอเค ได้คำถามตามนี้เลย ช่วยเขียน Google Apps Script สำหรับนำไปสร้างเป็น Google Form ให้หน่อย พร้อมอธิบายวิธีนำโค้ดไปรันใน Google Drive แบบทีละขั้นตอน">
+      <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700 leading-relaxed">
+        "โอเค คำถามตามนี้ ช่วยเขียน <b>Google Apps Script</b> สำหรับสร้าง <b>Google Form</b> พร้อม <b>วิธีรันโค้ด</b>"
+      </div>
+    </CopyBox>
+    <div class="flex items-center gap-3 mt-4 p-3 rounded-xl bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-100">
+      <span class="text-2xl">⚙️</span>
+      <div class="text-xs text-gray-700">
+        <strong class="text-sm font-bold text-orange-700 block mb-0.5">ได้ฟอร์มจริงใน 1 นาที</strong>
+        ก๊อปปี้โค้ดไปรัน ไม่ต้องนั่งพิมพ์เอง
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-3 rounded-xl bg-gray-50 border border-gray-200 p-2 text-center text-xs text-gray-600">
+  💡 <b>หลักการสำคัญ:</b> ทำงานแบบ Human-in-the-loop — ให้เราตรวจคำถามให้ชัวร์ก่อนสั่งเขียนโค้ดเสมอ
+</div>
+
+---
 layout: center
 class: "!px-20"
 ---
@@ -806,29 +847,29 @@ class: "!px-20"
 
 <div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-4">✨ WOW MOMENT #3</div>
 
-# 🎤 AI Avatar พูดแทนเรา
+# 🪄 สร้างสไลด์ด้วย AI (Gamma.app)
 
-<div class="text-lg text-gray-600 mb-8">ส่งประกาศภาควิชา → ไม่ต้องถ่ายวิดีโอ ไม่ต้องแต่งหน้า</div>
+<div class="text-lg text-gray-600 mb-8">พิมพ์แค่ "หัวข้อ" → ได้สไลด์ 10 หน้า ดีไซน์สวยหรู พร้อมรูปภาพใน 1 นาที</div>
 
-<div class="grid grid-cols-3 gap-4 max-w-4xl mx-auto">
-  <div class="rounded-2xl bg-white shadow-md p-5">
-    <div class="text-4xl mb-2">📝</div>
-    <div class="text-sm font-bold">พิมพ์บทพูด</div>
-    <div class="text-xs text-gray-500 mt-1">ให้ AI ช่วยร่างก็ได้</div>
+<div class="grid grid-cols-3 gap-4 max-w-4xl mx-auto flex-1">
+  <div class="rounded-2xl bg-white shadow-md p-5 border border-purple-100">
+    <div class="text-4xl mb-2">💬</div>
+    <div class="text-sm font-bold text-purple-700">พิมพ์แค่ 1 ประโยค</div>
+    <div class="text-xs text-gray-500 mt-1">เช่น "แนะนำภาควิชาให้เด็ก ม.ปลาย ฟัง"</div>
   </div>
-  <div class="rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 text-white shadow-lg p-5">
-    <div class="text-4xl mb-2">🎭</div>
-    <div class="text-sm font-bold">เลือก Avatar</div>
-    <div class="text-xs opacity-90 mt-1">หน้าเรา / หน้าตัวแทน</div>
+  <div class="rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-600 text-white shadow-lg p-5">
+    <div class="text-4xl mb-2">✨</div>
+    <div class="text-sm font-bold">AI จัดโครงร่าง & ค้นรูป</div>
+    <div class="text-xs opacity-90 mt-1">เลือกธีม ภาพประกอบ เลย์เอาต์ให้เอง</div>
   </div>
-  <div class="rounded-2xl bg-white shadow-md p-5">
-    <div class="text-4xl mb-2">🎬</div>
-    <div class="text-sm font-bold">ได้วิดีโอ</div>
-    <div class="text-xs text-gray-500 mt-1">พร้อมโพสต์ใน 5 นาที</div>
+  <div class="rounded-2xl bg-white shadow-md p-5 border border-indigo-100">
+    <div class="text-4xl mb-2">📊</div>
+    <div class="text-sm font-bold text-indigo-700">พร้อมพรีเซนต์ทันที</div>
+    <div class="text-xs text-gray-500 mt-1">Export เป็น PDF หรือ PowerPoint (PPTX) ได้เลย</div>
   </div>
 </div>
 
-<div class="mt-8 text-sm text-gray-500 italic">→ Use case: ประกาศทุนการศึกษา · แนะนำภาควิชา · ข่าวสารรายสัปดาห์</div>
+<div class="mt-8 text-sm text-gray-500 italic">→ Use case: สไลด์รายงานผลด่วน · แนะนำหลักสูตร · นำเสนอโครงการวิจัย</div>
 
 ---
 
@@ -836,60 +877,64 @@ class: "!px-20"
 
 <div class="grid grid-cols-3 gap-4 mt-4 text-xs">
 
-  <div class="rounded-xl bg-white border border-gray-200 p-3">
+  <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
     <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สไลด์ / PPT</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>Gamma.app</b> — ไทยดี เร็ว</li>
-      <li>• Beautiful.ai — สวยแบบโปร</li>
-      <li>• Canva Magic — ใช้คู่กับ Canva</li>
+      <li>⭐ <b>Gamma.app</b> — สวย พิมพ์ประโยคเดียวจบ</li>
+      <li>• Beautiful.ai — ดีไซน์เรียบหรูแบบโปร</li>
+      <li>• Tome — สาย Storytelling ทำสไลด์เก่ง</li>
     </ul>
   </div>
 
-  <div class="rounded-xl bg-white border border-gray-200 p-3">
+  <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
     <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">รูปภาพ</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>ChatGPT + GPT Image</b></li>
-      <li>• Leonardo.ai — คุณภาพสูง</li>
-      <li>• Midjourney — งานอาร์ต</li>
+      <li>⭐ <b>DALL·E 3</b> — อยู่ใน ChatGPT คุยง่าย</li>
+      <li>• Midjourney — งานศิลป์ คุณภาพสูงสุด</li>
+      <li>• Freepik / Leonardo — รูปสวย ใช้งานง่าย</li>
     </ul>
   </div>
 
-  <div class="rounded-xl bg-white border border-gray-200 p-3">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">วิดีโอ / เสียง</div>
+  <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">วิดีโอ / คลิป Avatar</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>HeyGen</b> — Avatar</li>
-      <li>• ElevenLabs — Voice cloning</li>
-      <li>• Veo 3 / Sora — Text→Video</li>
+      <li>⭐ <b>HeyGen</b> — Avatar พูดไทยเนียนมาก</li>
+      <li>• Synthesia — Avatar สำหรับองค์กร</li>
+      <li>• ElevenLabs — โคลนเสียง (Voice cloning)</li>
     </ul>
   </div>
 
-  <div class="rounded-xl bg-white border border-gray-200 p-3">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">ค้นคว้า / วิจัย</div>
+  <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สรุปเอกสาร / วิจัย</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>Perplexity</b> — มี citation</li>
-      <li>• NotebookLM — ถาม PDF</li>
-      <li>• SciSpace — งานวิจัย</li>
+      <li>⭐ <b>NotebookLM</b> — ทำ Podcast จากชีท/PDF</li>
+      <li>⭐ <b>Perplexity</b> — ค้นคว้าข้อมูล โชว์แหล่งอ้างอิง</li>
+      <li>• SciSpace — เจาะลึกงานวิจัย (Paper)</li>
     </ul>
   </div>
 
-  <div class="rounded-xl bg-white border border-gray-200 p-3">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">Infographic</div>
+  <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">Infographic / แผนภาพ</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>Napkin.ai</b> — เร็ว ฟรี</li>
-      <li>• Piktochart AI</li>
-      <li>• Canva</li>
+      <li>⭐ <b>Napkin.ai</b> — เสกแผนภาพจาก Text ทันที</li>
+      <li>• Piktochart AI — ช่วยจัดเลย์เอาต์ Infographic</li>
+      <li>• Venngage — เทมเพลตสำหรับงานวิชาการเยอะ</li>
     </ul>
   </div>
 
-  <div class="rounded-xl bg-white border border-gray-200 p-3">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">งานสำนักงาน</div>
+  <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">งานสำนักงาน / อีเมล</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>Claude Projects</b></li>
-      <li>• ChatGPT + Custom GPT</li>
-      <li>• Gemini in Workspace</li>
+      <li>⭐ <b>Claude 3.5</b> — คู่คิดงานเอกสารและสรุปข้อมูล</li>
+      <li>⭐ <b>Gemini</b> — เขียนสคริปต์ Google Form/Sheet</li>
+      <li>• MS Copilot — ใช้ร่วมกับ Office 365 คล่องตัว</li>
     </ul>
   </div>
 
+</div>
+
+<div class="mt-4 text-center text-[11px] text-gray-600 italic bg-gray-50 rounded-lg p-2 max-w-sm mx-auto">
+  ⭐ = เครื่องมือเด่นที่นำมาสาธิตใน Live Demo วันนี้
 </div>
 
 ---

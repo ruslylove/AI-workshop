@@ -1,113 +1,83 @@
 ---
 layout: bento-grid
-style: claymation
+style: modern-ai-glassmorphism
 aspect: 16:9
 language: Thai
 references: []
 ---
 
-Create a professional infographic following these specifications:
+Create a professional infographic, landscape 16:9, ultra-modern AI-era aesthetic.
 
-## Image Specifications
+## Visual Style — "AI Product Launch"
 
-- **Type**: Infographic
-- **Layout**: bento-grid
-- **Style**: claymation
-- **Aspect Ratio**: 16:9
-- **Language**: Thai
+- Dark mode base: deep navy / charcoal background (#0A0E1A to #1A1F2E gradient)
+- Glassmorphism cards: frosted glass panels with subtle backdrop blur, rounded corners (16–20px), thin 1px inner border in cyan/white glow
+- Gradient accents: electric blue → violet → magenta → cyan (the "AI gradient" palette: #6366F1, #A855F7, #EC4899, #06B6D4)
+- Soft neon glows on card edges and key text
+- Subtle decorative elements: hexagonal dot grid background at 10% opacity, thin connecting lines like a neural network, floating particle highlights
+- 3D depth: cards have soft drop shadows with colored light bleed (purple/cyan tints)
+- Typography: clean geometric sans-serif (for Thai: Kanit / IBM Plex Sans Thai vibe), times in monospace accent color, bold weights for headers
+- Iridescent / holographic highlights on section dividers
+- Overall vibe: like Anthropic / OpenAI / Stripe product page — premium, futuristic, calm
 
-## Core Principles
+## Layout — Bento-grid 16:9
 
-- Follow the layout structure precisely for information architecture
-- Apply style aesthetics consistently throughout
-- If content involves sensitive or copyrighted figures, create stylistically similar alternatives
-- Keep information concise, highlight keywords and core concepts
-- Use ample whitespace for visual clarity
-- Maintain clear visual hierarchy
-
-## Text Requirements
-
-- All text must match the specified style treatment
-- Main titles should be prominent and readable
-- Key concepts should be visually emphasized
-- Labels should be clear and appropriately sized
-- Use the specified language for all text content
-
-## Layout Guidelines
-
-Modular grid layout with varied cell sizes, like a bento box.
-
-- Grid of rectangular cells
-- Mixed cell sizes (1x1, 2x1, 1x2, 2x2)
-- No strict symmetry required
-- Hero cell for main point
-- Supporting cells around it
-- Clear cell boundaries
-- Varied cell backgrounds
-- Icons or illustrations per cell
-- Consistent padding/margins
-- Visual hierarchy through size
-- Main title at top
-- Cell titles within each cell
-- Brief content per cell
-- Minimal text, maximum visual
-- CTA or summary in prominent cell
-
-
-## Style Guidelines
-
-3D clay figure aesthetic with stop-motion charm
-
-- Primary: Saturated clay colors - bright but slightly muted
-- Background: Neutral studio backdrop, soft gradients
-- Accents: Complementary clay colors, shiny highlights
-- Clay/plasticine texture on all objects
-- Fingerprint marks and imperfections
-- Rounded, sculpted forms
-- Soft shadows
-- Stop-motion staging
-- Miniature set aesthetic
-- Extruded clay letters
-- Dimensional, rounded text
-- Playful and chunky
-- Embedded in clay scenes
+- **Top row (full width)**: HERO BANNER CARD — large title + date + location + abstract AI visual (flowing gradient mesh, neural nodes)
+- **Bottom row**: 3 equal glass cards side-by-side (DAY 1 / DAY 2 / DAY 3), each with its own accent gradient
 
 ---
 
-Generate the infographic based on the content below:
+# Content (render all text in Thai script, spell exactly as shown)
 
-## Title
-โครงการสัมมนาบุคลากรสายสนับสนุนวิชาการและลูกจ้าง 
-"การพัฒนาบุคลากรสายสนับสนุนวิชาการ เพื่อความเป็นเลิศ"
+## HERO BANNER (full-width top cell)
+- Badge (small, top-left): **ENGR · KMUTNB · 2569**
+- Main title (large): **สัมมนาบุคลากรสายสนับสนุนวิชาการ**
+- Tagline (italic, gradient): *"เพื่อความเป็นเลิศ"*
+- Date chip (neon pill): **28–30 มกราคม 2569**
+- Location (with pin icon): เคนซิงตัน อิงลิช การ์เด้น รีสอร์ท เขาใหญ่ จ.นครราชสีมา
 
-## Subtitle
-- วันที่: 28–30 มกราคม 2569
-- สถานที่: เคนซิงตัน อิงลิช การ์เด้น รีสอร์ท เขาใหญ่ จ.นครราชสีมา
+## CARD 1 · DAY 01 · 28 ม.ค. 69
+- Accent: electric blue gradient
+- Header icon: 🚌 (line-art, glowing)
+- Theme tag: **"เดินทาง + พิธีเปิด + AI"**
+- **06:30**  เดินทาง มจพ. → เขาใหญ่
+- **10:30**  พิธีเปิดโครงการ
+- **11:15**  Workshop
+- **13:00**  บรรยาย Generative AI
+- **14:45**  บรรยาย (ต่อ)
+- **18:00**  อาหารเย็น
 
-## Section 1 — DAY 1 · 28 ม.ค. 69 (พุธ) — "เดินทาง + พิธีเปิด + บรรยาย AI"
-**Icon/Visual:** รถบัส 🚌 · ไมโครโฟน 🎤 · โน้ตบุ๊ก 💻
-**Timeline:**
-- 06:30–10:30 เดินทาง มจพ. → เขาใหญ่
-- 10:30–11:00 พิธีเปิด
-- 11:15–16:15 บรรยาย "Generative AI"
+## CARD 2 · DAY 02 · 29 ม.ค. 69
+- Accent: violet → magenta gradient
+- Header icon: 🏞 (line-art, glowing)
+- Theme tag: **"กิจกรรมสัมพันธ์เต็มวัน"**
+- **08:00**  กิจกรรมสัมพันธ์ (กลางแจ้ง)
+- **09:30**  กิจกรรมสัมพันธ์ (กลางแจ้ง) ต่อ
+- **13:00**  กิจกรรมสัมพันธ์ (ในห้องประชุม)
+- **15:00**  กิจกรรมสัมพันธ์ (ในห้องประชุม)
+- **18:00**  อาหารเย็น
 
-## Section 2 — DAY 2 · 29 ม.ค. 69 (พฤหัสฯ) — "กิจกรรมสัมพันธ์เต็มวัน"
-**Icon/Visual:** ภูเขา 🏞 · ต้นไม้ 🌳 · มือจับกัน 🤝
-**Timeline:**
-- 08:00–12:00 กิจกรรมสัมพันธ์ (กลางแจ้ง)
-- 13:00–16:30 กิจกรรมสัมพันธ์ (ในห้องประชุม)
+## CARD 3 · DAY 03 · 30 ม.ค. 69
+- Accent: cyan → teal gradient
+- Header icon: ⚡ (line-art, glowing)
+- Theme tag: **"ดูงาน + ปิดโครงการ + กลับ"**
+- **07:00**  เก็บสัมภาระ / Check-out
+- **09:30**  เดินทางไปดูงาน
+- **10:30**  ศึกษาดูงาน โรงไฟฟ้าลำตะคอง + ปิดโครงการ
+- **12:30**  อาหารกลางวัน
+- **13:30**  เดินทางกลับ มจพ.
 
-## Section 3 — DAY 3 · 30 ม.ค. 69 (ศุกร์) — "ศึกษาดูงาน + ปิดโครงการ + เดินทางกลับ"
-**Icon/Visual:** กระเป๋า 🧳 · โรงไฟฟ้า ⚡ · ป้ายทางออก 🏁
-**Timeline:**
-- 07:00–09:00 เก็บสัมภาระ + Check-out
-- 09:30–12:00 ศึกษาดูงาน โรงไฟฟ้าลำตะคองชลภาวัฒนา
-- 13:30–16:00 เดินทางกลับถึง มจพ.
+## Footer strip (bottom, subtle)
+คณะวิศวกรรมศาสตร์ · มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ · FY2569
 
-Text labels (in Thai):
-- Title: "สัมมนาบุคลากรสายสนับสนุน ประจำปี 2569"
-- Subtitle: "การพัฒนาบุคลากรสายสนับสนุนวิชาการ เพื่อความเป็นเลิศ"
-- Date banner: "28–30 มกราคม 2569"
-- Location banner: "เคนซิงตัน อิงลิช การ์เด้น รีสอร์ท เขาใหญ่ จ.นครราชสีมา"
-- Day labels: "DAY 1 · 28 ม.ค.", "DAY 2 · 29 ม.ค.", "DAY 3 · 30 ม.ค."
-- Footer: "คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ"
+---
+
+## Critical Constraints
+
+- Thai text must be crisp, legible, **NOT stylized into decorative glyphs**
+- Times use monospace style (24-hour format, colon separator)
+- Each card must clearly show its **DATE HEADER** at top
+- Bento cards equal height, clean alignment
+- Negative space is intentional — don't overcrowd
+- No stock-photo people, no clip-art — only abstract AI-themed shapes + simple line icons
+- Final image: premium tech-product page quality, feels like a 2026 AI conference poster
