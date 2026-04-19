@@ -367,6 +367,191 @@ class: "text-center"
 </div>
 
 ---
+
+# 🧩 ศัพท์ AI 6 คำ ที่ควรรู้ก่อนเริ่ม
+
+<div class="text-sm text-gray-500 mb-4">รู้ไว้ไม่เสียหาย · ใช้ AI ได้เข้าใจขึ้นอีกขั้น</div>
+
+<div class="grid grid-cols-3 gap-3">
+
+  <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 p-4">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">🪙</div>
+      <div class="font-bold text-blue-800">Token</div>
+    </div>
+    <div class="text-[11px] text-gray-700 leading-relaxed">
+      หน่วยย่อยที่ AI ใช้ "อ่าน–เขียน"<br>
+      <span class="text-gray-500">อังกฤษ ~¾ คำ/token · ไทย ~1 ตัวอักษร/token</span>
+    </div>
+    <div class="mt-2 rounded-lg bg-white/60 p-2 text-[10px] text-blue-700">
+      💡 ยิ่ง token มาก → ยิ่งกินค่าใช้จ่าย/เวลา
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 border border-purple-200 p-4">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">🧠</div>
+      <div class="font-bold text-purple-800">Context Window</div>
+    </div>
+    <div class="text-[11px] text-gray-700 leading-relaxed">
+      "ความจำสั้น" ของ AI ในแต่ละบทสนทนา<br>
+      <span class="text-gray-500">รวม prompt + เอกสารแนบ + คำตอบ</span>
+    </div>
+    <div class="mt-2 rounded-lg bg-white/60 p-2 text-[10px] text-purple-700">
+      💡 คุยนานเกิน → AI ลืมต้น · ขึ้นบทใหม่
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200 p-4">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">📝</div>
+      <div class="font-bold text-amber-800">Prompt</div>
+    </div>
+    <div class="text-[11px] text-gray-700 leading-relaxed">
+      คำสั่ง/คำถามที่เราป้อนให้ AI<br>
+      <span class="text-gray-500">ยิ่งชัด + มี context → ยิ่งได้ของดี</span>
+    </div>
+    <div class="mt-2 rounded-lg bg-white/60 p-2 text-[10px] text-amber-700">
+      💡 ดูสูตร R-T-C-F ใน Chapter 4
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-gradient-to-br from-rose-50 to-red-50 border border-rose-200 p-4">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">🌡️</div>
+      <div class="font-bold text-rose-800">Temperature</div>
+    </div>
+    <div class="text-[11px] text-gray-700 leading-relaxed">
+      ระดับ "ความสร้างสรรค์" ของคำตอบ<br>
+      <span class="text-gray-500">ต่ำ = ตรงเป๊ะ · สูง = ครีเอทีฟ/หลากหลาย</span>
+    </div>
+    <div class="mt-2 rounded-lg bg-white/60 p-2 text-[10px] text-rose-700">
+      💡 งานราชการ → ต่ำ · คำโฆษณา → สูง
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-gradient-to-br from-yellow-50 to-amber-50 border border-yellow-300 p-4">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">⚠️</div>
+      <div class="font-bold text-yellow-800">Hallucination</div>
+    </div>
+    <div class="text-[11px] text-gray-700 leading-relaxed">
+      AI "มั่ว" · แต่งข้อมูลที่ดูน่าเชื่อ<br>
+      <span class="text-gray-500">มักเกิดกับชื่อคน/เลขระเบียบ/อ้างอิง</span>
+    </div>
+    <div class="mt-2 rounded-lg bg-white/60 p-2 text-[10px] text-yellow-700">
+      💡 ต้องตรวจทานก่อนใช้งานจริงเสมอ
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200 p-4">
+    <div class="flex items-center gap-2 mb-2">
+      <div class="text-2xl">🤖</div>
+      <div class="font-bold text-emerald-800">Model</div>
+    </div>
+    <div class="text-[11px] text-gray-700 leading-relaxed">
+      รุ่น/เวอร์ชันของ AI ที่เลือกใช้<br>
+      <span class="text-gray-500">GPT-5 · Claude 4.7 · Gemini 3</span>
+    </div>
+    <div class="mt-2 rounded-lg bg-white/60 p-2 text-[10px] text-emerald-700">
+      💡 รุ่นใหม่ = ฉลาดกว่า แต่ช้า/แพงกว่า
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-4 rounded-xl bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200 p-3 text-xs text-gray-700 text-center">
+  📌 <b>สรุปง่ายๆ:</b> <b class="text-blue-600">Token</b> = หน่วยนับ · <b class="text-purple-600">Context</b> = ความจำ · <b class="text-rose-600">Temperature</b> = ความครีเอทีฟ · ที่เหลือรู้ไว้ไม่หลงทาง
+</div>
+
+---
+
+# 🎛️ ปรับ 2 ปุ่มสำคัญ — Temperature & Context
+
+<div class="text-sm text-gray-500 mb-4">เลือกให้ถูกกับงาน · ผลลัพธ์เปลี่ยนทันที</div>
+
+<div class="grid grid-cols-2 gap-5">
+
+  <div class="rounded-2xl bg-white border border-rose-200 overflow-hidden shadow-sm">
+    <div class="h-1 bg-gradient-to-r from-blue-400 via-amber-400 to-rose-500"></div>
+    <div class="p-4">
+      <div class="flex items-center gap-2 mb-3">
+        <div class="text-2xl">🌡️</div>
+        <div>
+          <div class="font-bold text-rose-800">Temperature</div>
+          <div class="text-[10px] text-gray-500">ความสร้างสรรค์ของคำตอบ · 0.0 – 2.0</div>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <div class="rounded-lg bg-blue-50 border border-blue-200 p-2">
+          <div class="flex items-center justify-between mb-1">
+            <div class="text-[11px] font-bold text-blue-700">🧊 ต่ำ (0.0 – 0.3)</div>
+            <div class="text-[9px] text-blue-600 font-mono">เป๊ะ · นิ่ง</div>
+          </div>
+          <div class="text-[10px] text-gray-700">หนังสือราชการ · แปลเอกสาร · สูตร Excel · สรุปข้อเท็จจริง</div>
+        </div>
+        <div class="rounded-lg bg-amber-50 border border-amber-200 p-2">
+          <div class="flex items-center justify-between mb-1">
+            <div class="text-[11px] font-bold text-amber-700">🌤️ กลาง (0.4 – 0.8)</div>
+            <div class="text-[9px] text-amber-600 font-mono">สมดุล · ทั่วไป</div>
+          </div>
+          <div class="text-[10px] text-gray-700">อีเมล · บันทึกข้อความ · สรุปประชุม · ตอบคำถามทั่วไป</div>
+        </div>
+        <div class="rounded-lg bg-rose-50 border border-rose-200 p-2">
+          <div class="flex items-center justify-between mb-1">
+            <div class="text-[11px] font-bold text-rose-700">🔥 สูง (0.9 – 1.5)</div>
+            <div class="text-[9px] text-rose-600 font-mono">ครีเอทีฟ</div>
+          </div>
+          <div class="text-[10px] text-gray-700">คำโปรย/สโลแกน · ไอเดียกิจกรรม · บทพูด · โพสต์โซเชียล</div>
+        </div>
+      </div>
+      <div class="mt-3 rounded-lg bg-gray-50 border border-gray-200 p-2 text-[10px] text-gray-600">
+        💡 ChatGPT/Claude บน Web ตั้งค่า "กลาง" ให้อัตโนมัติ · ถ้าอยากเปลี่ยน ให้ <b>บอกในคำสั่ง</b> เช่น "ตอบให้เป๊ะที่สุด" หรือ "เสนอไอเดียหลากหลาย"
+      </div>
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-white border border-purple-200 overflow-hidden shadow-sm">
+    <div class="h-1 bg-gradient-to-r from-purple-400 to-pink-500"></div>
+    <div class="p-4">
+      <div class="flex items-center gap-2 mb-3">
+        <div class="text-2xl">🧠</div>
+        <div>
+          <div class="font-bold text-purple-800">Context Window</div>
+          <div class="text-[10px] text-gray-500">"ความจำ" ในแต่ละบทสนทนา · นับเป็น token</div>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <div class="rounded-lg bg-purple-50 border border-purple-200 p-2">
+          <div class="text-[11px] font-bold text-purple-700 mb-1">📏 รุ่นใหม่ปี 2026 · ใหญ่มาก</div>
+          <div class="text-[10px] text-gray-700 space-y-0.5">
+            <div>• Claude 4.7 · GPT-5 · Gemini 3 → 200K – 1M tokens</div>
+            <div>• เทียบเท่า <b>หนังสือ 500–2,000 หน้า</b> ในครั้งเดียว</div>
+          </div>
+        </div>
+        <div class="rounded-lg bg-pink-50 border border-pink-200 p-2">
+          <div class="text-[11px] font-bold text-pink-700 mb-1">⚠️ สัญญาณว่าเต็ม/ใกล้เต็ม</div>
+          <div class="text-[10px] text-gray-700 space-y-0.5">
+            <div>• AI ตอบช้า · ลืมข้อมูลที่บอกไว้ต้นบท</div>
+            <div>• ยกตัวอย่างผิดจากไฟล์ที่แนบมา</div>
+            <div>• เริ่มสับสนประเด็น · วนตอบซ้ำ</div>
+          </div>
+        </div>
+        <div class="rounded-lg bg-emerald-50 border border-emerald-200 p-2">
+          <div class="text-[11px] font-bold text-emerald-700 mb-1">✅ เคล็ดลับประหยัด context</div>
+          <div class="text-[10px] text-gray-700 space-y-0.5">
+            <div>• 1 บทสนทนา = 1 งาน → ขึ้นบทใหม่เมื่อเปลี่ยนเรื่อง</div>
+            <div>• แนบเฉพาะหน้าที่เกี่ยวข้อง ไม่ต้องยกเล่มมาทั้งหมด</div>
+            <div>• สรุปบทสนทนายาว ก่อนถามต่อ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+---
 layout: center
 ---
 
