@@ -552,6 +552,150 @@ class: "text-center"
 </div>
 
 ---
+
+# 💬 ตัวช่วยตอบคำถามซ้ำๆ (AI FAQ Assistant) 🗣️
+งานบริการการศึกษา / งานทะเบียน / ติดต่อสอบถาม
+
+<div class="grid grid-cols-2 gap-4 mt-2">
+  <div>
+    <div class="bg-red-50 p-2 rounded-lg mb-2 border border-red-200">
+      <h3 class="font-bold text-red-700 text-sm">😫 ปัญหาเดิมๆ</h3>
+      <ul class="list-disc pl-4 text-[10px] text-gray-600 space-y-1 mt-1">
+        <li>"ลงทะเบียนเพิ่มถอนวันไหนคะ?"</li>
+        <li>"ยื่นคำร้องออนไลน์ตรงไหนครับ?"</li>
+        <li>"ขอใบรับรองเกรดรอนานไหม?"</li>
+        <li>(ตอบวันละ 50 รอบ จนหมดไฟทำงาน...)</li>
+      </ul>
+    </div>
+    <div class="bg-blue-50 p-2 rounded-lg border border-blue-200">
+      <h3 class="font-bold text-blue-700 text-sm">🤖 AI Solution</h3>
+      <p class="text-[10px] text-gray-600 mt-1">ใช้ AI สร้าง <b>"คลังคำตอบสำเร็จรูป"</b> ไว้ Copy-Paste หรือทำ Chatbot</p>
+      <div class="mt-2 bg-white p-2 rounded shadow-sm">
+        <b class="text-blue-800 text-[10px]">Step 1: โยนคู่มือลงไป</b><br>
+        <span class="text-[9px] text-gray-500">"นี่คือไฟล์ PDF คู่มือนิสิตปี 69..."</span>
+      </div>
+      <div class="mt-2 bg-white p-2 rounded shadow-sm">
+        <b class="text-blue-800 text-[10px]">Step 2: สั่งให้สร้าง Script</b><br>
+        <span class="text-[9px] text-gray-500">"ช่วยลิสต์คำถามที่พบบ่อย 10 ข้อ พร้อมคำตอบที่สั้น กระชับ และสุภาพ สำหรับตอบทาง LINE"</span>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center bg-gray-50 rounded-lg p-2">
+    <div class="text-6xl mb-2">🤖💬</div>
+    <div class="bg-white p-3 rounded-lg shadow-lg w-full">
+      <div class="flex gap-1 mb-2">
+         <div class="w-1.5 h-1.5 rounded-full bg-red-400"></div>
+         <div class="w-1.5 h-1.5 rounded-full bg-yellow-400"></div>
+         <div class="w-1.5 h-1.5 rounded-full bg-green-400"></div>
+      </div>
+      <p class="text-[10px] font-mono text-gray-700 leading-tight">
+        <b>Q:</b> ลงทะเบียนเพิ่มถอนวันไหนคะ?<br>
+        <b>AI:</b> สวัสดีค่ะสำหรับการลงทะเบียนเพิ่ม-ถอน ภาคการศึกษา 1/2569<br>
+        🗓️ <b>เริ่มวันที่:</b> 10 - 24 ก.ค. 69<br>
+        🔗 <b>ลิงก์:</b> reg.kmutnb.ac.th<br>
+        (หากเลยกำหนดต้องยื่นคำฟ้อง พ.14 นะคะ)
+      </p>
+    </div>
+  </div>
+</div>
+
+---
+
+# 📝 สรุปการประชุมอัตโนมัติ (Meeting Minute Savior) 🎙️
+งานบริหาร / งานภาควิชา / งานเลขานุการ
+
+<div class="grid grid-cols-2 gap-4 mt-2">
+  <div class="bg-indigo-50 p-3 rounded-xl border border-indigo-200">
+     <h3 class="font-bold text-indigo-800 text-sm mb-2">The Workflow 🚀</h3>
+     <div class="space-y-2">
+       <div class="flex items-center gap-2">
+         <div class="bg-white p-1.5 rounded-full shadow text-lg">1️⃣</div>
+         <div>
+           <b class="text-xs block">อัดเสียง (Record)</b>
+           <span class="text-[10px] text-gray-500">ใช้มือถือ / Teams recording</span>
+         </div>
+       </div>
+       <div class="flex items-center gap-2">
+         <div class="bg-white p-1.5 rounded-full shadow text-lg">2️⃣</div>
+         <div>
+           <b class="text-xs block">ถอดความ (Transcribe)</b>
+           <span class="text-[10px] text-gray-500">ใช้ Alrite (ฟรี) / Word Dictate</span>
+         </div>
+       </div>
+       <div class="flex items-center gap-2">
+         <div class="bg-white p-1.5 rounded-full shadow text-lg">3️⃣</div>
+         <div>
+           <b class="text-xs block">สรุปประเด็น (Summarize)</b>
+           <span class="text-[10px] text-gray-500">โยน Text ให้ AI สรุป</span>
+         </div>
+       </div>
+     </div>
+  </div>
+  
+  <div>
+    <h3 class="font-bold text-gray-700 mb-1 text-sm">💡 Prompt สำหรับสรุปงาน</h3>
+    <CopyBox text="ช่วยสรุปบทสนทนานี้เป็น 'รายงานการประชุม' โดยแยกหัวข้อดังนี้: 1.วาระเพื่อทราบ 2.วาระเพื่อพิจารณา (มติที่ประชุมคืออะไร?) 3.สิ่งที่ต้องดำเนินการต่อ (Action Items - ใคร ทำอะไร ภายในเมื่อไหร่)">
+      <div class="bg-gray-100 p-3 rounded-lg border border-gray-300 shadow-sm text-xs">
+        "ช่วยสรุปบทสนทนานี้เป็น <b>'รายงานการประชุม'</b> <br>
+        โดยแยกหัวข้อดังนี้:<br>
+        1. วาระเพื่อทราบ<br>
+        2. วาระเพื่อพิจารณา (มติที่ประชุมคืออะไร?)<br>
+        3. สิ่งที่ต้องดำเนินการต่อ (<b>Action Items</b> - ใคร ทำอะไร ภายในเมื่อไหร่)"
+      </div>
+    </CopyBox>
+    <div class="mt-2 text-center text-[10px] text-gray-400">
+      *ลดเวลาทำรายงานการประชุมจาก 3 วัน -> 30 นาที
+    </div>
+  </div>
+</div>
+
+---
+
+# 📋 ร่าง TOR & เทียบสเปก (Procurement Pro) 🏗️
+งานพัสดุ / งานจัดซื้อ / คณะกรรมการตรวจรับ
+
+<div class="grid grid-cols-2 gap-4 mt-2">
+  
+  <!-- Task 1: Draft TOR -->
+  <div class="bg-teal-50 p-3 rounded-xl border border-teal-200">
+    <div class="flex items-center gap-2 mb-2">
+      <span class="text-xl">📝</span>
+      <h3 class="font-bold text-teal-800 text-sm">1. ร่างสเปก (TOR)</h3>
+    </div>
+    <p class="text-[10px] text-gray-600 mb-2">"อยากได้คอมฯ แรงๆ ไว้ตัดต่อ 5 เครื่อง แต่เขียนสเปกราชการไม่เป็น"</p>
+    <div class="bg-white p-2 rounded shadow-sm border border-teal-100">
+      <b class="text-teal-700 text-[10px]">Prompt:</b>
+      <p class="text-[9px] italic mt-1 leading-tight">
+        "ช่วยร่างคุณลักษณะเฉพาะ (Spec) คอมพิวเตอร์สำหรับงานตัดต่อวิดีโอ 4K งบประมาณเครื่องละ 40,000 บาท โดยระบุ CPU, RAM, SSD, GPU ให้ชัดเจน และต้องเป็นกลาง ไม่ล็อกสเปกยี่ห้อใด"
+      </p>
+    </div>
+  </div>
+
+  <!-- Task 2: Compare Quotes -->
+  <div class="bg-orange-50 p-3 rounded-xl border border-orange-200">
+    <div class="flex items-center gap-2 mb-2">
+      <span class="text-xl">⚖️</span>
+      <h3 class="font-bold text-orange-800 text-sm">2. เปรียบเทียบราคา (Compare)</h3>
+    </div>
+    <p class="text-[10px] text-gray-600 mb-2">"มีใบเสนอราคา 3 เจ้า (PDF/รูปภาพ) ดูยากว่าใครคุ้มสุด"</p>
+    <div class="bg-white p-2 rounded shadow-sm border border-orange-100">
+      <b class="text-orange-700 text-[10px]">Action:</b>
+      <p class="text-[9px] italic mt-1 leading-tight">
+        Upload ไฟล์ใบเสนอราคา A, B, C แล้วสั่ง:<br>
+        "สร้างตารางเปรียบเทียบสเปกและราคาของทั้ง 3 เจ้าให้หน่อย ไฮไลท์จุดที่แตกต่างกัน และแนะนำว่าเจ้าไหนคุ้มค่าที่สุดในงบ 5 หมื่น"
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-2 text-center">
+   <div class="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-[10px] font-bold border border-yellow-300">
+     ⚠️ Tip: อย่าลืมตรวจสอบความถูกต้องกับระเบียบพัสดุล่าสุดเสมอ (AI เป็นแค่ผู้ช่วยร่าง)
+   </div>
+</div>
+
+---
 layout: center
 ---
 
@@ -1596,6 +1740,12 @@ layout: section
 </div>
 
 
+<div class="mt-4 flex flex-col items-center justify-center">
+  <div class="bg-white p-2 rounded-xl shadow-md border border-gray-200">
+    <img src="/line_group_qr.jpg" class="w-32 h-auto rounded-lg" alt="Line Group QR">
+  </div>
+  <div class="text-sm font-bold text-green-700 mt-2">📸 สแกนเพื่อส่งผลงาน / เข้าร่วมกลุ่ม</div>
+</div>
 
 ---
 
