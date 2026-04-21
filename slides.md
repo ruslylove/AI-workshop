@@ -2,7 +2,7 @@
 theme: seriph
 title: Generative AI for Work
 info: |
-  ## Generative AI มาประยุกต์ใช้ในการทำงาน
+  ## การประยุกต์ใช้ Generative AI ในการปฏิบัติงาน
   โครงการสัมมนาบุคลากรสายสนับสนุนวิชาการ ระดับภาควิชาฯ
   คณะวิศวกรรมศาสตร์ — โดย ผศ.ดร.รุสลี่ สุทธวีร์กูล
 class: text-center
@@ -21,20 +21,25 @@ background: https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=
 
 # Generative & Agentic AI
 
-## ยกระดับงานสายสนับสนุนภาควิชาฯ ด้วย AI ยุคใหม่
+## การบูรณาการเทคโนโลยีปัญญาประดิษฐ์ในงานบริหารจัดการและสนับสนุนวิชาการ
 
 <div class="mt-6 text-sm opacity-90">
   โดย ผศ.ดร.รุสลี่ สุทธวีร์กูล · ผู้ช่วยคณบดีฝ่ายสารสนเทศ<br/>
   คณะวิศวกรรมศาสตร์ มจพ.
 </div>
 
+<div class="mt-4 inline-block px-4 py-1.5 rounded-full bg-white/15 backdrop-blur-md border border-white/30 text-sm">
+  📅 ๒๒ เมษายน ๒๕๖๙
+</div>
+
 <div class="absolute bottom-8 left-8 flex items-center gap-3">
   <img src="/logo_eng.jpg" class="w-14 h-14 rounded-full shadow-lg border-2 border-white/60" />
 </div>
 
-<div class="absolute bottom-8 right-8 text-center">
-  <img src="/qrcode_slides.png" class="w-20 h-20 rounded-lg shadow-lg border-2 border-white/60" />
+<div class="absolute bottom-8 right-6 text-center">
+  <img src="/qrcode_slides.png" class="w-20 h-20 rounded-lg shadow-lg border-2 border-white/60 mx-auto" />
   <div class="text-[9px] opacity-70 mt-1">Scan Slides</div>
+  <div class="text-[9px] opacity-80 mt-0.5 font-mono">ruslylove.github.io/AI-workshop/1</div>
 </div>
 
 ---
@@ -42,7 +47,7 @@ layout: center
 class: "!px-16"
 ---
 
-# 🗺️ แผนการเดินทางวันนี้
+# 🗺️ กำหนดการโครงการสัมมนาเชิงปฏิบัติการ
 
 <div class="grid grid-cols-2 gap-6 mt-8">
 
@@ -51,13 +56,13 @@ class: "!px-16"
       <span class="px-2 py-1 bg-blue-600 text-white text-[10px] rounded-full font-bold">PART 1</span>
       <span class="text-xs text-gray-500">09:00 – 10:30</span>
     </div>
-    <h3 class="text-lg font-bold text-blue-900 mb-3">บรรยาย &amp; สาธิตสด</h3>
+    <h3 class="text-lg font-bold text-blue-900 mb-3">การบรรยายและการสาธิตเชิงปฏิบัติการ</h3>
     <ul class="text-sm text-gray-700 space-y-1.5">
-      <li>🌱 วิวัฒนาการ AI: Chat → Gen → Agentic</li>
-      <li>✨ เทียบ 3 ค่ายใหญ่ (ChatGPT / Claude / Gemini)</li>
-      <li>🤖 Agentic AI — ลูกน้องที่ "ทำเอง" ได้</li>
-      <li>🎯 Prompt Engineering ฉบับทำงานจริง</li>
-      <li>🔮 Live Demo 5 เคส ตรงงานภาควิชา</li>
+      <li>🌱 วิวัฒนาการของเทคโนโลยีปัญญาประดิษฐ์: Chat → Gen → Agentic</li>
+      <li>✨ การเปรียบเทียบคุณลักษณะของ ๓ แพลตฟอร์มหลัก (ChatGPT / Claude / Gemini)</li>
+      <li>🤖 Agentic AI — นวัตกรรมระบบอัตโนมัติอัจฉริยะ</li>
+      <li>🎯 เทคนิคการเขียนคำสั่ง (Prompt Engineering) สำหรับการปฏิบัติงาน</li>
+      <li>🔮 การสาธิตกรณีศึกษา ๕ รูปแบบสำหรับการประยุกต์ใช้ในงานภาควิชา</li>
     </ul>
   </div>
 
@@ -66,34 +71,34 @@ class: "!px-16"
       <span class="px-2 py-1 bg-amber-600 text-white text-[10px] rounded-full font-bold">PART 2</span>
       <span class="text-xs text-gray-500">10:45 – 12:00</span>
     </div>
-    <h3 class="text-lg font-bold text-amber-900 mb-3">Workshop ลงมือทำ</h3>
+    <h3 class="text-lg font-bold text-amber-900 mb-3">การประชุมเชิงปฏิบัติการ (Workshop)</h3>
     <ul class="text-sm text-gray-700 space-y-1.5">
-      <li>🛠️ แจก Web App "Engineering AI Prompter"</li>
-      <li>💻 ลองสร้าง Prompt เพื่อใช้กับงานจริงของตัวเอง</li>
-      <li>🙋 ถาม-ตอบ และแก้ไขปัญหาไปพร้อมกัน</li>
-      <li>🌟 แชร์ไอเดียเด็ดๆ เพื่อนำไปปรับใช้</li>
+      <li>🛠️ การแนะนำและเข้าใช้งานระบบ "Engineering AI Prompter"</li>
+      <li>💻 การฝึกสร้างชุดคำสั่งเพื่อรองรับภารกิจในความรับผิดชอบ</li>
+      <li>🙋 ช่วงการซักถามและให้คำปรึกษาแก้ไขปัญหาเชิงเทคนิค</li>
+      <li>🌟 การแลกเปลี่ยนแนวคิดเพื่อการบูรณาการใช้งานในอนาคต</li>
     </ul>
   </div>
 
 </div>
 
 <div class="mt-6 text-center text-xs text-gray-500 italic">
-  "วันนี้เน้นสนุก · ใช้งานได้จริง · กลับไปเริ่มใช้พรุ่งนี้ได้เลย"
+  "มุ่งเน้นการประยุกต์ใช้งานจริงอย่างมีประสิทธิภาพ เพื่อยกระดับการปฏิบัติงาน"
 </div>
 
 ---
 layout: center
 ---
 
-# 📣 เสียงจากหน้างาน
-## (อ้างอิงแบบสอบถามจากสายสนับสนุนระดับคณะฯ)
+# 📣 รายงานสรุปข้อมูลผลการสำรวจความพึงพอใจและประเด็นปัญหา
+## (การประเมินความต้องการเทคโนโลยีสารสนเทศเพื่อสนับสนุนการบริหารจัดการภายใน)
 
-<div class="text-sm text-gray-500 mb-6">ถึงจะอยู่คนละส่วนงานกัน แต่ปัญหาหน้างานมีความคล้ายคลึงกันมาก...</div>
+<div class="text-sm text-gray-500 mb-6">จากการรวบรวมข้อมูล พบว่าความท้าทายในการปฏิบัติงานมีความคล้ายคลึงกันในหลายหน่วยงาน...</div>
 
 <div class="grid grid-cols-2 gap-6 text-left">
   <div class="rounded-2xl bg-white border border-blue-100 p-6 shadow-sm relative overflow-hidden">
     <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-cyan-500"></div>
-    <h3 class="text-base font-bold text-blue-800 mb-3">🏆 Top ปัญหาที่อยากได้ผู้ช่วย</h3>
+    <h3 class="text-base font-bold text-blue-800 mb-3">🏆 ประเด็นปัญหาหลักที่ต้องการการสนับสนุนด้วยเทคโนโลยี</h3>
     <ul class="space-y-2 text-sm text-gray-700">
       <li class="flex gap-2"><span class="font-bold text-blue-600">#1</span> ร่าง/แก้หนังสือราชการ &amp; แปลภาษา</li>
       <li class="flex gap-2"><span class="font-bold text-blue-600">#2</span> จัดการสูตร Excel &amp; จัดระเบียบข้อมูล</li>
@@ -104,13 +109,13 @@ layout: center
 
   <div class="rounded-2xl bg-white border border-emerald-100 p-6 shadow-sm relative overflow-hidden">
     <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-teal-500"></div>
-    <h3 class="text-base font-bold text-emerald-800 mb-3">🥰 สิ่งที่คาดหวังจากสัมมนา</h3>
+    <h3 class="text-base font-bold text-emerald-800 mb-3">🥰 ความคาดหวังจากการเข้าร่วมสัมมนา</h3>
     <div class="bg-emerald-50 rounded-xl p-3 text-sm text-gray-700 italic leading-relaxed">
       "ไม่เครียด" · "ใช้งานได้จริงทันที" <br>
       "ช่วยลดงานซ้ำซ้อน" · "ไม่วิชาการจ๋า"
     </div>
     <div class="mt-3 text-xs font-semibold text-emerald-700 flex items-center gap-1">
-      ✅ รับทราบครับ — วันนี้เจาะจงลุยเคสจริงของภาควิชาฯ
+      ✅ สำหรับหัวข้อสัมมนาวันนี้ จะเน้นการแก้ไขปัญหาเชิงปฏิบัติการของหน่วยงานโดยเฉพาะ
     </div>
   </div>
 </div>
@@ -121,13 +126,13 @@ layout: section
 
 # Chapter 1
 ## วิวัฒนาการของ AI
-### จากเครื่องจักรคำนวณ → ลูกน้องดิจิทัล
+### วิวัฒนาการจากระบบประมวลผลพื้นฐาน สู่เทคโนโลยีผู้ช่วยอัจฉริยะ
 
-<div class="mt-6 text-sm opacity-70">รู้ "ที่มา" เพื่อเข้าใจ "ที่ไป"</div>
+<div class="mt-6 text-sm opacity-70">ทำความเข้าใจวิวัฒนาการเพื่อเตรียมความพร้อมสู่ทิศทางในอนาคต</div>
 
 ---
 
-# 🕰️ 3 ยุคของ AI ที่พวกเราต้องรู้
+# 🕰️ ๓ ยุคสำคัญของเทคโนโลยีปัญญาประดิษฐ์ที่ควรทราบ
 
 <div class="relative mt-8">
   <div class="absolute top-12 left-0 right-0 h-0.5 bg-gradient-to-r from-gray-300 via-indigo-400 to-pink-500"></div>
@@ -140,7 +145,7 @@ layout: section
       <div class="mt-3 text-xs text-gray-600 bg-gray-50 rounded-xl p-3 text-left">
         <b>รูปแบบ:</b> กล่อง Q&amp;A<br>
         <b>ความสามารถ:</b> ตอบตามสคริปต์/Rule<br>
-        <b>เหมือน:</b> "พนักงาน Call Center มือใหม่"
+        <b>คุณลักษณะ:</b> ระบบตอบโต้อัตโนมัติเบื้องต้น<br>
       </div>
     </div>
     <div v-click class="text-center">
@@ -148,9 +153,9 @@ layout: section
       <div class="text-[10px] text-indigo-500 mt-2 tracking-widest">2022–2024</div>
       <h3 class="font-bold text-indigo-700 mt-1">Generative AI</h3>
       <div class="mt-3 text-xs text-gray-700 bg-indigo-50 rounded-xl p-3 text-left">
-        <b>รูปแบบ:</b> คุย + สร้างของ<br>
-        <b>ความสามารถ:</b> เขียน/แปล/วาด/สรุป<br>
-        <b>เหมือน:</b> "เลขาฯ เก่งหลายภาษา"
+        <b>รูปแบบ:</b> การสื่อสารและการสร้างสรรค์เนื้อหา<br>
+        <b>ความสามารถ:</b> การนิพัทธ์เอกสาร/การแปล/การออกแบบภาพ/การสรุปความ<br>
+        <b>คุณลักษณะ:</b> ผู้ช่วยดิจิทัลในการสร้างสรรค์เนื้อหาบริบทใหม่<br>
       </div>
     </div>
     <div v-click class="text-center">
@@ -158,23 +163,23 @@ layout: section
       <div class="text-[10px] text-pink-500 mt-2 tracking-widest">2024–ปัจจุบัน</div>
       <h3 class="font-bold text-pink-700 mt-1">Agentic AI</h3>
       <div class="mt-3 text-xs text-gray-700 bg-pink-50 rounded-xl p-3 text-left">
-        <b>รูปแบบ:</b> สั่ง 1 ครั้ง ทำต่อเอง<br>
-        <b>ความสามารถ:</b> วางแผน + ใช้เครื่องมือ<br>
-        <b>เหมือน:</b> "ลูกน้องที่รับผิดชอบงาน"
+        <b>รูปแบบ:</b> การประมวลผลต่อเนื่องจากการสั่งการเพียงครั้งเดียว<br>
+        <b>ความสามารถ:</b> การวางแผนเชิงปฏิบัติการและการเลือกใช้เครื่องมือ<br>
+        <b>คุณลักษณะ:</b> ระบบอัตโนมัติที่มีขีดความสามารถในการตัดสินใจเชิงรุก (Proactive)<br>
       </div>
     </div>
   </div>
 </div>
 
 <div v-click class="mt-8 text-center text-sm text-gray-500">
-  พวกเราส่วนใหญ่ "แตะ" แค่ยุค 2 แล้ว · <b class="text-pink-600">วันนี้จะพาไปยุค 3</b>
+  ในปัจจุบัน เทคโนโลยีส่วนใหญ่อยู่ในระดับที่ ๒ ซึ่งภารกิจในวันนี้คือการเตรียมความพร้อมเพื่อก้าวสู่ระดับที่ ๓
 </div>
 
 ---
 
-# 💡 ต่างกันตรงไหน? ดูตัวอย่างงานเดียวกัน
+# 💡 การเปรียบเทียบความแตกต่างและคุณลักษณะเด่น
 
-<div class="text-sm text-gray-500 mb-4">โจทย์: "ขอสรุปรายงานการประชุมครั้งที่แล้ว พร้อมส่งเมลแจ้งอาจารย์ในภาค"</div>
+<div class="text-sm text-gray-500 mb-4">หัวข้อ: "การสรุปรายงานการประชุมครั้งล่าสุด พร้อมดำเนินการจัดส่งจดหมายอิเล็กทรอนิกส์แจ้งบุคลากรในภาควิชาฯ"</div>
 
 <div class="space-y-3">
   <div class="rounded-xl border border-gray-200 p-4 bg-gray-50 flex items-start gap-4">
@@ -193,8 +198,8 @@ layout: section
       <div class="text-[10px] font-bold text-indigo-600 mt-1">GEN AI</div>
     </div>
     <div class="flex-1 text-sm">
-      <b>เรา</b> Copy เนื้อหาประชุม → AI สรุปให้ → <b>เรา</b> Copy ไปวางในเมล → <b>เรา</b> ใส่รายชื่ออาจารย์เอง → <b>เรา</b> กดส่งเอง
-      <div class="text-xs text-indigo-600 mt-1">→ "ผู้ช่วยที่เก่ง แต่ต้องจูงมือตลอด"</div>
+      <b>ผู้ใช้งาน</b> ทำการคัดลอกเนื้อหาการประชุม → ระบบ AI สรุปสาระสำคัญ → <b>ผู้ใช้งาน</b> นำข้อมูลไปวางในจดหมายอิเล็กทรอนิกส์ → <b>ผู้ใช้งาน</b> ตรวจสอบรายชื่อ → <b>ผู้ใช้งาน</b> ดำเนินการจัดส่งด้วยตนเอง
+      <div class="text-xs text-indigo-600 mt-1">→ "ศักยภาพผู้ช่วยที่มีประสิทธิภาพ แต่ยังต้องการการกำกับดูแลในทุกขั้นตอน"</div>
     </div>
   </div>
 
@@ -204,8 +209,8 @@ layout: section
       <div class="text-[10px] font-bold text-pink-600 mt-1">AGENTIC</div>
     </div>
     <div class="flex-1 text-sm">
-      <b>เราสั่งครั้งเดียว</b> → AI เปิดไฟล์ประชุมใน Drive เอง → สรุป → ดึงรายชื่ออาจารย์จากระบบ → ร่างเมล → <b>รอเราอนุมัติแล้วส่งให้</b>
-      <div class="text-xs text-pink-600 mt-1 font-bold">→ "ลูกน้องที่รับผิดชอบงานตั้งแต่ต้นจนจบ" ⚡</div>
+      <b>การสั่งการเพียงครั้งเดียว</b> → ระบบ AI เข้าถึงไฟล์การประชุมในระบบจัดเก็บข้อมูล → ดำเนินการสรุปความ → ตรวจสอบรายชื่อบุคลากรจากระบบฐานข้อมูล → จัดเตรียมร่างจดหมาย → <b>รอการตรวจสอบความถูกต้องก่อนดำเนินการจัดส่ง</b>
+      <div class="text-xs text-pink-600 mt-1 font-bold">→ "นวัตกรรมผู้ช่วยเชิงรุกที่สามารถดำเนินภารกิจจนเสร็จสิ้นสมบูรณ์" ⚡</div>
     </div>
   </div>
 </div>
@@ -216,22 +221,102 @@ layout: section
 
 # Chapter 2
 ## Generative AI
-### ก้าวแรกสู่การทำงานอัตโนมัติ
+### เทคโนโลยีเพื่อการเพิ่มผลผลิตและนวัตกรรมงานเอกสาร
 
-<div class="mt-6 text-sm opacity-70">ทำความรู้จัก "เลขาฯ ดิจิทัล" ของคุณ</div>
+<div class="mt-6 text-sm opacity-70">แนวทางการประยุกต์ใช้ "ผู้ช่วยดิจิทัลอัจฉริยะ" เพื่อเพิ่มประสิทธิภาพงาน</div>
+
+---
+
+# 🧠 นิยามและคุณสมบัติพื้นฐานของ Generative AI
+
+<div class="text-sm text-gray-500 mb-6">การพิจารณา AI ในฐานะส่วนหนึ่งของทีมปฏิบัติงาน...</div>
+
+<div class="grid grid-cols-3 gap-5">
+  <div v-click class="group">
+    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-blue-400 hover:shadow-lg transition-all">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-2xl mb-3">📚</div>
+      <h3 class="font-bold text-gray-800">การประมวลผลข้อมูล</h3>
+      <p class="text-xs text-gray-500 mt-2">อ่านระเบียบพัสดุ 100 หน้า สรุปประเด็นสำคัญใน 30 วินาที</p>
+    </div>
+  </div>
+  <div v-click class="group">
+    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-purple-400 hover:shadow-lg transition-all">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-2xl mb-3">✍️</div>
+      <h3 class="font-bold text-gray-800">การสร้างสรรค์เนื้อหา</h3>
+      <p class="text-xs text-gray-500 mt-2">ร่างบันทึกข้อความ · แปลอีเมลภาษาอังกฤษระดับมืออาชีพ</p>
+    </div>
+  </div>
+  <div v-click class="group">
+    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-amber-400 hover:shadow-lg transition-all">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center text-2xl mb-3">💡</div>
+      <h3 class="font-bold text-gray-800">การวิเคราะห์เชิงตรรกะ</h3>
+      <p class="text-xs text-gray-500 mt-2">ช่วยวิเคราะห์ข้อมูล · เสนอไอเดีย · ตรวจความถูกต้อง</p>
+    </div>
+  </div>
+</div>
+
+<div v-click class="mt-6 rounded-xl bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100 p-4 text-sm text-gray-700 text-center">
+  💎 <b>ประเด็นสำคัญ:</b> Generative AI มิใช่เพียงเครื่องมือสืบค้นข้อมูล (Search Engine) แต่คือ <b>"ระบบสนับสนุนการสร้างสรรค์และวิเคราะห์งาน"</b>
+</div>
+
+---
+
+# 🤖 กระบวนการประมวลผลและสร้างองค์ความรู้ของระบบ AI
+### กลไกการทำงานเบื้องหลังของนวัตกรรมผู้ช่วยดิจิทัล
+
+<div class="grid grid-cols-3 gap-6 mt-8">
+  <div v-click class="text-center">
+    <div class="w-20 h-20 mx-auto rounded-2xl bg-blue-100 flex items-center justify-center text-4xl mb-4">📚</div>
+    <h3 class="font-bold text-blue-800">1. การเรียนรู้จากฐานข้อมูลขนาดใหญ่</h3>
+    <p class="text-[11px] text-gray-600 px-2">เรียนรู้จากข้อมูลมหาศาลบนอินเทอร์เน็ต ทั้งหนังสือ บทความ และงานวิจัย (Big Data)</p>
+  </div>
+  <div v-click class="text-center">
+    <div class="w-20 h-20 mx-auto rounded-2xl bg-purple-100 flex items-center justify-center text-4xl mb-4">🧠</div>
+    <h3 class="font-bold text-purple-800">2. การจดจำโครงสร้างสัมพันธ์</h3>
+    <p class="text-[11px] text-gray-600 px-2">ไม่ได้ "ท่องจำ" แต่คือการ "เข้าใจความสัมพันธ์" ของคำและบริบท (Pattern Recognition)</p>
+  </div>
+  <div v-click class="text-center">
+    <div class="w-20 h-20 mx-auto rounded-2xl bg-amber-100 flex items-center justify-center text-4xl mb-4">🔮</div>
+    <h3 class="font-bold text-amber-800">3. การคาดการณ์หน่วยข้อมูลถัดไป</h3>
+    <p class="text-[11px] text-gray-600 px-2">เมื่อเราสั่งงาน AI จะ "คำนวณ" ว่าคำตอบที่น่าจะเป็นไปได้มากที่สุดคืออะไร (Next Token Prediction)</p>
+  </div>
+</div>
+
+<div v-click class="mt-10 p-4 rounded-2xl bg-gray-50 border border-dashed border-gray-300 text-center">
+  <span class="text-sm text-gray-700">
+    💡 <b>บทสรุปทางเทคนิค:</b> มีกลไกคล้ายคลึงกับระบบ <b>"การคาดการณ์คำล่วงหน้า"</b> (Predictive Text) <br>
+    แต่มีประสิทธิภาพสูงกว่าและครอบคลุมชุดข้อมูลในระดับสากล
+  </span>
+</div>
+
+---
+
+# 🏗️ เจาะลึก: สถาปัตยกรรมความฉลาด (Deep Dive)
+### จากแหล่งข้อมูลต้นทาง สู่การประมวลผลระดับโครงข่ายประสาท
+
+<div class="flex justify-center mt-4">
+  <img src="./diagram/ai-workflow/ai_workflow.svg" class="h-75 rounded-xl shadow-2xl border border-white/10 p-2 bg-[#0f172a]" />
+</div>
+
+<div class="mt-4 grid grid-cols-2 gap-4 text-[10px] opacity-80">
+  <div class="bg-blue-900/20 p-2 rounded-lg border border-blue-500/30">
+    <b>💡 เคล็ดลับน่ารู้:</b> AI ไม่ได้อ่านข้อมูลเป็น "คำ" แต่เปลี่ยนเป็น "พิกัดตัวเลข" (Vector) เพื่อหาความเชื่อมโยงในพื้นที่หลายมิติ
+  </div>
+  <div class="bg-purple-900/20 p-2 rounded-lg border border-purple-500/30">
+    <b>⚠️ ข้อควรระวัง:</b> เพราะมันคือการ "เดา" ตามสถิติ บางครั้งจึงอาจเกิด <b>Hallucination (การมั่ว)</b> หากข้อมูลต้นทางไม่มีหรือสับสน
+  </div>
+</div>
 
 ---
 layout: center
 class: "text-center"
 ---
 
-<div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-4">✨ WOW MOMENT #1</div>
-
-# ในห้องนี้... มีผู้ช่วย 1 คน
-## ที่ <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600">ไม่ป่วย ไม่ลา ไม่บ่น</span>
+# นวัตกรรมผู้ช่วยดิจิทัลในระดับองค์กร
+## เพื่อ <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-600">การปฏิบัติงานที่มีเสถียรภาพและมีความต่อเนื่อง</span>
 
 <div class="mt-6 text-gray-600 text-lg">
-  ทำงานได้ 24 ชม. · ภาษาไทยเป๊ะ · ค่าจ้าง ~700 บาท/เดือน
+  รองรับการทำงาน ๒๔ ชั่วโมง · ขีดความสามารถด้านภาษาไทยระดับสูง · อัตราค่าธรรมเนียมประมาณ ๗๐๐ บาท/เดือน
 </div>
 
 <div class="mt-8 grid grid-cols-4 gap-4 text-center">
@@ -242,48 +327,14 @@ class: "text-center"
 </div>
 
 <div class="mt-8 text-sm text-gray-400 italic">
-  คำถามคือ... เราจะใช้เค้ายังไงให้คุ้ม?
+  ประเด็นพิจารณา: แนวทางการประยุกต์ใช้งานเพื่อความคุ้มค่าสูงสุด
 </div>
 
 ---
 
-# 🧠 Gen AI คืออะไร? (ฉบับภาควิชาฯ)
+# 🥊 การวิเคราะห์เปรียบเทียบแพลตฟอร์มหลัก (Leading AI Platforms 2026)
 
-<div class="text-sm text-gray-500 mb-6">คิดง่ายๆ ว่ามันคือ "น้องใหม่" ที่...</div>
-
-<div class="grid grid-cols-3 gap-5">
-  <div v-click class="group">
-    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-blue-400 hover:shadow-lg transition-all">
-      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-2xl mb-3">📚</div>
-      <h3 class="font-bold text-gray-800">อ่านเก่ง</h3>
-      <p class="text-xs text-gray-500 mt-2">อ่านระเบียบพัสดุ 100 หน้า สรุปประเด็นสำคัญใน 30 วินาที</p>
-    </div>
-  </div>
-  <div v-click class="group">
-    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-purple-400 hover:shadow-lg transition-all">
-      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-2xl mb-3">✍️</div>
-      <h3 class="font-bold text-gray-800">เขียนเก่ง</h3>
-      <p class="text-xs text-gray-500 mt-2">ร่างบันทึกข้อความ · แปลอีเมลภาษาอังกฤษระดับมืออาชีพ</p>
-    </div>
-  </div>
-  <div v-click class="group">
-    <div class="rounded-2xl bg-white border border-gray-200 p-6 hover:border-amber-400 hover:shadow-lg transition-all">
-      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center text-2xl mb-3">💡</div>
-      <h3 class="font-bold text-gray-800">คิดเก่ง</h3>
-      <p class="text-xs text-gray-500 mt-2">ช่วยวิเคราะห์ข้อมูล · เสนอไอเดีย · ตรวจความถูกต้อง</p>
-    </div>
-  </div>
-</div>
-
-<div v-click class="mt-6 rounded-xl bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100 p-4 text-sm text-gray-700 text-center">
-  💎 <b>จุดสำคัญ:</b> Gen AI ไม่ใช่ "Search Engine" แต่คือ <b>"เพื่อนร่วมงานที่ช่วยคิด"</b>
-</div>
-
----
-
-# 🥊 3 ค่ายใหญ่ ณ ปี 2026
-
-<div class="text-sm text-gray-500 mb-4">เลือกให้ถูกโฉลก · งานเร็วขึ้น 3 เท่า</div>
+<div class="text-sm text-gray-500 mb-4">การเลือกสรรเครื่องมือที่เหมาะสมกับลักษณะงานเพื่อประสิทธิภาพสูงสุด</div>
 
 <div class="grid grid-cols-3 gap-3">
 
@@ -298,15 +349,15 @@ class: "text-center"
         </div>
       </div>
       <div class="text-[10px] space-y-1.5 text-gray-700">
-        <div>✅ ใช้งานทั่วไป รอบรู้หลากหลาย</div>
-        <div>✅ ภาษาไทยลื่นไหล ใกล้เคียงมนุษย์</div>
-        <div>✅ Voice: คุยด้วยเสียงแบบธรรมชาติ</div>
-        <div>✅ สร้างรูปภาพ/อินโฟกราฟิกจากข้อความ</div>
-        <div>✅ GPTs: สร้างผู้ช่วยเฉพาะงานของคุณ</div>
+        <div>✅ รองรับการใช้งานทั่วไปและมีความรอบรู้ในศาสตร์ที่หลากหลาย</div>
+        <div>✅ ขีดความสามารถด้านภาษาไทยอย่างเป็นกำเนิดและสละสลวย</div>
+        <div>✅ ระบบการสื่อสารด้วยเสียงที่มีความเป็นธรรมชาติระดับสูง (Advanced Voice Mode)</div>
+        <div>✅ การสร้างสรรค์ภาพและสารสนเทศเชิงภาพ (Infographics) จากชุดคำสั่ง</div>
+        <div>✅ GPTs: การพัฒนานวัตกรรมผู้ช่วยเฉพาะทางสำหรับส่วนงาน</div>
       </div>
       <div class="mt-3 rounded-lg bg-emerald-50 p-2 text-[10px]">
         <b class="text-emerald-700">Go ~฿235/เดือน · Plus ~฿700/เดือน ($20)</b><br>
-        <span class="text-gray-600">เหมาะ: ใช้งานทั่วไป · ภาษาไทย · Voice/รูปภาพ</span>
+        <span class="text-gray-600">ความเหมาะสม: การใช้งานทั่วไป, การสื่อสารภาษาไทย และการสร้างสรรค์สื่อดิจิทัล</span>
       </div>
     </div>
   </div>
@@ -323,15 +374,15 @@ class: "text-center"
         </div>
       </div>
       <div class="text-[10px] space-y-1.5 text-gray-700">
-        <div>✅ Word: ร่างหนังสือราชการ/บันทึกข้อความ</div>
-        <div>✅ Excel: ตารางพัสดุ/งบประมาณ + สูตร/Pivot</div>
-        <div>✅ PowerPoint: สไลด์รายงาน/นำเสนอ</div>
-        <div>✅ Co-work: Projects/Artifacts ทำงานร่วมกัน</div>
-        <div>✅ Claude Code: CLI สั่งงานอัตโนมัติซ้ำๆ</div>
+        <div>✅ Word: การยกร่างหนังสือราชการและบันทึกข้อความเชิงวิชาการ</div>
+        <div>✅ Excel: การบริหารจัดการข้อมูลเชิงพัสดุและงบประมาณ พร้อมการวิเคราะห์สูตรสารสนเทศ</div>
+        <div>✅ PowerPoint: การเตรียมโครงสร้างสื่อการนำเสนอผลงาน</div>
+        <div>✅ Co-work: ระบบ Projects และ Artifacts เพื่อการปฏิบัติงานร่วมกันเชิงบูรณาการ</div>
+        <div>✅ Claude Code: การบริหารจัดการรหัสคำสั่งสำหรับภารกิจประมวลผลที่มีความซ้ำซ้อน</div>
       </div>
       <div class="mt-3 rounded-lg bg-orange-50 p-2 text-[10px]">
         <b class="text-orange-700">Pro ~$20/เดือน (~700 บาท)</b><br>
-        <span class="text-gray-600">เหมาะ: Word/Excel/PPT · Co-work · Claude Code</span>
+        <span class="text-gray-600">ความเหมาะสม: การร่างเอกสารราชการ, งานบริหารงบประมาณ และการวิเคราะห์ข้อมูลเชิงลึก</span>
       </div>
     </div>
   </div>
@@ -347,15 +398,15 @@ class: "text-center"
         </div>
       </div>
       <div class="text-[10px] space-y-1.5 text-gray-700">
-        <div>✅ รอบรู้ทุกเรื่อง + ข้อมูลสดใหม่ (Search)</div>
-        <div>✅ เชื่อม Google Docs/Sheets/Slides/Gmail</div>
-        <div>✅ NotebookLM: สรุปเอกสาร + Podcast เสียง</div>
-        <div>✅ Gemini Live: คุยด้วยเสียง/กล้องได้</div>
-        <div>✅ รุ่นฟรีใช้เยอะ + โปรโมชั่นการศึกษา</div>
+        <div>✅ ขีดความสามารถในการสืบค้นข้อมูลสารสนเทศที่ทันสมัย (Real-time Search)</div>
+        <div>✅ การบูรณาการร่วมกับระบบ Google Docs / Sheets / Slides และ Gmail อย่างไร้รอยต่อ</div>
+        <div>✅ NotebookLM: ระบบสรุปสาระสำคัญและแปรรูปข้อมูลสู่รูปแบบเสียงวิเคราะห์ (Podcast)</div>
+        <div>✅ Gemini Live: การตอบโต้ด้วยเสียงและภาพเพื่อการปรึกษาเชิงลึก</div>
+        <div>✅ สิทธิประโยชน์การใช้งานระดับสูงสำหรับสถาบันการศึกษา</div>
       </div>
       <div class="mt-3 rounded-lg bg-blue-50 p-2 text-[10px]">
         <b class="text-blue-700">ฟรี / Advanced ~$20/เดือน (~700 บาท)</b><br>
-        <span class="text-gray-600">เหมาะ: Google Ecosystem · NotebookLM · Live</span>
+        <span class="text-gray-600">ความเหมาะสม: การบริหารจัดการข้อมูลผ่าน Google Workspace และการใช้งานระดับสากล</span>
       </div>
     </div>
   </div>
@@ -363,14 +414,14 @@ class: "text-center"
 </div>
 
 <div class="mt-4 rounded-xl bg-gray-50 border border-gray-200 p-3 text-xs text-gray-600 text-center">
-  💡 <b>สูตรเลือก:</b> ใช้งานทั่วไป/ภาษาไทย → <b class="text-emerald-600">ChatGPT</b> · Word/Excel/PPT + เอกสารราชการ → <b class="text-orange-600">Claude</b> · ใช้ Google Ecosystem → <b class="text-blue-600">Gemini</b>
+  💡 <b>แนวทางการพิจารณา:</b> งานทั่วไปและการสื่อสาร → <b class="text-emerald-600">ChatGPT</b> · งานเอกสารราชการและบัญชี → <b class="text-orange-600">Claude</b> · งานบริหารจัดการผ่านระบบคลาวด์ → <b class="text-blue-600">Gemini</b>
 </div>
 
 ---
 
-# 🧩 ศัพท์ AI 6 คำ ที่ควรรู้ก่อนเริ่ม
+# 🧩 ศัพท์เทคนิค ๖ ประการที่ควรทราบเบื้องต้น
 
-<div class="text-sm text-gray-500 mb-4">รู้ไว้ไม่เสียหาย · ใช้ AI ได้เข้าใจขึ้นอีกขั้น</div>
+<div class="text-sm text-gray-500 mb-4">ความเข้าใจพื้นฐานในกลไกของ AI เพื่อการประยุกต์ใช้งานอย่างมีประสิทธิภาพ</div>
 
 <div class="grid grid-cols-3 gap-3">
 
@@ -380,8 +431,8 @@ class: "text-center"
       <div class="font-bold text-blue-800">Token</div>
     </div>
     <div class="text-[11px] text-gray-700 leading-relaxed">
-      หน่วยย่อยที่ AI ใช้ "อ่าน–เขียน"<br>
-      <span class="text-gray-500">อังกฤษ ~¾ คำ/token · ไทย ~1 ตัวอักษร/token</span>
+      หน่วยพื้นฐานที่ระบบ AI ใช้ในการประมวลข้อมูล "การอ่านและการเขียน"<br>
+      <span class="text-gray-500">ภาษาอังกฤษโดยเฉลี่ย ๐.๗๕ คำ/token · ภาษาไทยโดยเฉลี่ย ๑ อักษร/token</span>
     </div>
     <div class="mt-2 rounded-lg bg-white/60 p-2 text-[10px] text-blue-700">
       💡 ยิ่ง token มาก → ยิ่งกินค่าใช้จ่าย/เวลา
@@ -699,9 +750,9 @@ class: "text-center"
 layout: center
 ---
 
-# 🎨 ลองเล่นสักนิด...
+# 🎨 กิจกรรมการเรียนรู้เชิงประสบการณ์
 
-<div class="text-sm text-gray-500 mb-8">AI อาจฉลาดน้อยกว่าที่คิด... หรือมากกว่าที่คิด?</div>
+<div class="text-sm text-gray-500 mb-8">การประเมินขีดความสามารถเบื้องต้นและกลไกการรับรู้ของระบบปัญญาประดิษฐ์</div>
 
 <div class="grid grid-cols-2 gap-6 max-w-3xl mx-auto">
   <a href="https://quickdraw.withgoogle.com/" target="_blank" class="group">
@@ -725,23 +776,23 @@ layout: section
 ---
 
 # 🎬 Live Demo
-## ประยุกต์ใช้ Generative AI กับงานหน้าทัพ
-### แก้โจทย์จริง 6 เคส จากงานภาควิชาฯ
+## การประยุกต์ใช้ Generative AI ในงานระดับปฏิบัติการ
+### กรณีศึกษา 6 รูปแบบจากการดำเนินงานจริงของส่วนงาน
 
-<div class="mt-6 text-sm opacity-70">เห็นของจริง · กลับไปใช้ได้จริง</div>
+<div class="mt-6 text-sm opacity-70">แนวทางการใช้งานเชิงปฏิบัติเพื่อผลลัพธ์ที่เป็นรูปธรรม</div>
 
 ---
 
-# 🔮 Demo 1 · งานสารบรรณ &amp; วิเทศฯ
+# 🔮 กรณีศึกษาที่ ๑: ภารกิจด้านงานสารบรรณและวิเทศสัมพันธ์
 
-<div class="text-sm text-gray-500 mb-3">ร่างบันทึก + แปลอีเมลเชิญ Professor ต่างชาติ</div>
+<div class="text-sm text-gray-500 mb-3">การจัดทำบันทึกข้อความและการสื่อสารภาษาอังกฤษเชิงธุรกิจ</div>
 
 <div class="grid grid-cols-2 gap-5">
   <div>
     <div class="rounded-xl bg-blue-50 border border-blue-200 p-3 mb-2 text-xs">
-      <span class="font-bold text-blue-700">Step 1 · ขออนุมัติโครงการ</span>
+      <span class="font-bold text-blue-700">ขั้นตอนที่ 1: การจัดทำร่างบันทึกข้อความ</span>
     </div>
-    <CopyBox text="ร่างบันทึกข้อความขออนุมัติจัดโครงการสัมมนา 'International AI Seminar 2026' เพื่อยกระดับความเป็นนานาชาติของภาควิชา งบประมาณ 50,000 บาท เรียน หัวหน้าภาควิชา ขอรูปแบบตามระเบียบงานสารบรรณ พ.ศ. 2565">
+    <CopyBox text="กรุณาจัดทำร่างบันทึกข้อความเพื่อขออนุมัติจัดโครงการสัมมนา 'International AI Seminar 2026' เพื่อส่งเสริมศักยภาพด้านวิเทศสัมพันธ์ของภาควิชาฯ โดยกำหนดงบประมาณที่ 50,000 บาท เรียน หัวหน้าภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์ โปรดใช้รูปแบบตามระเบียบงานสารบรรณ พ.ศ. 2565">
       <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700 leading-relaxed">
         "ร่างบันทึกข้อความ <b>ขออนุมัติจัดโครงการ 'International AI Seminar 2026'</b> เพื่อยกระดับความเป็นนานาชาติของภาควิชา งบ <b>50,000 บาท</b> เรียน <b>คณบดี</b> ขอรูปแบบตามระเบียบงานสารบรรณ 2565"
       </div>
@@ -749,9 +800,9 @@ layout: section
   </div>
   <div>
     <div class="rounded-xl bg-indigo-50 border border-indigo-200 p-3 mb-2 text-xs">
-      <span class="font-bold text-indigo-700">Step 2 · เชิญวิทยากร (ต่อเนื่อง)</span>
+      <span class="font-bold text-indigo-700">ขั้นตอนที่ 2: การพัฒนาจดหมายเชิญผู้ทรงคุณวุฒิ (ต่อเนื่อง)</span>
     </div>
-    <CopyBox text="จากโครงการเมื่อกี้ ช่วยร่างอีเมลเชิญ Prof. Hiroshi Tanaka (University of Tokyo) เป็น Keynote Speaker หัวข้อ 'AI for Future Administration' ทางเราออกค่าตั๋วเครื่องบินและที่พัก ขอภาษา Business English โทนสุภาพแต่อบอุ่น">
+    <CopyBox text="จากรายละเอียดโครงการข้างต้น กรุณาดำเนินการร่างจดหมายอิเล็กทรอนิกส์ (Email) เพื่อเรียนเชิญ Prof. Hiroshi Tanaka จาก University of Tokyo ให้เกียรติเป็นวิทยากรบรรยายพิเศษ (Keynote Speaker) ในหัวข้อ 'AI for Future Administration' โดยทางหน่วยงานจะดูแลค่าใช้จ่ายด้านการเดินทางและที่พัก โปรดใช้ภาษาอังกฤษเชิงธุรกิจ (Business English) ในระดับทางการและสุภาพ">
       <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700 leading-relaxed">
         "จากโครงการเมื่อกี้ ร่างอีเมลเชิญ <b>Prof. Hiroshi Tanaka (U. of Tokyo)</b> เป็น Keynote หัวข้อ <b>'AI for Future Administration'</b> ทางเราออกค่าตั๋ว+ที่พัก ขอ <b>Business English</b> โทนอบอุ่น"
       </div>
@@ -760,29 +811,29 @@ layout: section
 </div>
 
 <div class="mt-3 rounded-xl bg-gradient-to-r from-pink-50 to-orange-50 border border-pink-200 p-2 text-center text-xs text-pink-700">
-  💎 <b>จุดว้าว:</b> AI จำ "บริบทตะกี้" ได้ · ไม่ต้องอธิบายโครงการใหม่ซ้ำ
+  💎 <b>ประสิทธิภาพหลัก:</b> ความสามารถด้าน Context Processing ทำให้ระบบจดจำรายละเอียดเดิมได้โดยไม่ต้องระบุซ้ำ
 </div>
 
 ---
 
-# 🔮 Demo 2 · งานอาคาร &amp; ประกาศภาควิชา
+# 🔮 กรณีศึกษาที่ ๒: ภารกิจด้านบริหารงานกายภาพและงานประชาสัมพันธ์ส่วนงาน
 
-<div class="text-sm text-gray-500 mb-3">ประกาศปิดห้องแล็บ + สร้างคลิป Avatar อ่านประกาศ</div>
+<div class="text-sm text-gray-500 mb-3">การจัดทำประกาศและการพัฒนาสื่อมัลติมีเดีย (AI Avatar)</div>
 
 <div class="grid grid-cols-2 gap-5">
   <div>
     <div class="rounded-xl bg-amber-50 border border-amber-200 p-3 mb-2 text-xs">
-      <span class="font-bold text-amber-700">Step 1 · ร่างประกาศ</span>
+      <span class="font-bold text-amber-700">ขั้นตอนที่ 1: การจัดทำร่างประกาศส่วนงาน</span>
     </div>
-    <CopyBox text="ร่างประกาศปิดปรับปรุงห้องแล็บคอมฯ ของภาควิชาฯ วันที่ 15-17 พ.ค. 2569 ขอโทนขออภัยในความไม่สะดวก แนะนำห้องแล็บสำรอง พร้อมอีโมจิ 🙏 เพื่อติดบอร์ดประกาศและโพสต์เฟซบุ๊กเพจภาค">
+    <CopyBox text="กรุณาจัดทำร่างประกาศเพื่อแจ้งการปิดปรับปรุงห้องปฏิบัติการคอมพิวเตอร์ของภาควิชาฯ ระหว่างวันที่ 15-17 พฤษภาคม 2569 พร้อมระบุคำขออภัยในความไม่สะดวกและแจ้งห้องปฏิบัติการทดแทน สำหรับใช้สื่อสารบนทางกระดานประชาสัมพันธ์และสื่อสังคมออนไลน์">
       <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700">
         "ร่างประกาศ <b>ปิดปรับปรุงห้องแล็บคอมฯ</b> วันที่ 15-17 พ.ค. 2569 โทนขออภัย แนะนำห้องสำรอง พร้อมอีโมจิ 🙏 — <b>สำหรับติดบอร์ด + โพสต์เพจภาค</b>"
       </div>
     </CopyBox>
     <div class="rounded-xl bg-amber-50 border border-amber-200 p-3 mb-2 mt-2 text-xs">
-      <span class="font-bold text-amber-700">Step 2 · แปลงเป็นบทพูด</span>
+      <span class="font-bold text-amber-700">ขั้นตอนที่ 2: การพัฒนาบทบรรยาย (Script) สำหรับวิดีโอประชาสัมพันธ์</span>
     </div>
-    <CopyBox text="ช่วยแปลงประกาศนี้เป็นบทพูดสำหรับวิดีโอ 30 วินาที ภาษาพูดเป็นกันเองและจริงใจ สำหรับให้ AI Avatar พูด">
+    <CopyBox text="กรุณาแปลงเนื้อหาจากประกาศข้างต้นเป็นบทพูด (Script) สำหรับวิดีโอความยาว 30 วินาที เพื่อใช้สำหรับ AI Avatar โดยใช้น้ำเสียงที่สุภาพและมีความเป็นมืออาชีพ">
       <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700">
         "แปลงประกาศนี้เป็นบทพูด <b>30 วินาที</b> · ภาษาพูดเป็นกันเอง สำหรับ <b>AI Avatar</b>"
       </div>
@@ -806,9 +857,9 @@ layout: section
 
 ---
 
-# 🔮 Demo 3 · Chat with PDF (ถามระเบียบ)
+# 🔮 กรณีศึกษาที่ ๓: การวิเคราะห์และสืบค้นข้อมูลเชิงลึกจากเอกสาร (Document AI)
 
-<div class="text-sm text-gray-500 mb-3">ไม่ต้องอ่าน 100 หน้า · ถามตรงเลย</div>
+<div class="text-sm text-gray-500 mb-3">การสกัดข้อมูลสำคัญจากเอกสารจำนวนมากด้วยประสิทธิภาพสูง</div>
 
 <div class="grid grid-cols-2 gap-6 mt-4">
   <div>
@@ -822,7 +873,7 @@ layout: section
     </div>
     <div class="mt-3 text-sm">
       <b class="text-gray-500 text-xs tracking-wider">⚡ ACTION</b>
-      <CopyBox text="ช่วยสรุปเกณฑ์การเบิก 'ค่าเช่าที่พัก' สำหรับพนักงานสายสนับสนุน ว่าเบิกได้คืนละกี่บาท ต้องใช้หลักฐานอะไรบ้าง และอ้างถึงหน้าไหนในเอกสาร">
+      <CopyBox text="กรุณาสรุปหลักเกณฑ์การเบิกจ่ายค่าเช่าที่พักสำหรับบุคลากรสายสนับสนุน จากเอกสารระเบียบฉบับนี้ โดยระบุอัตราการเบิกจ่าย หลักฐานที่จำเป็นต้องใช้ประกอบการตั้งเบิก และหมายเลขหน้าอ้างอิงในเอกสาร">
         <div class="mt-2 rounded-lg bg-white border border-gray-200 p-3 text-[11px] italic">
           "สรุป <b>'ค่าเช่าที่พัก'</b> สำหรับพนักงานสายสนับสนุน เบิกคืนละกี่บาท · ใช้หลักฐานอะไร · อ้างหน้าไหน"
         </div>
@@ -844,9 +895,9 @@ layout: section
 
 ---
 
-# 🔮 Demo 4 · PDF → Infographic
+# 🔮 กรณีศึกษาที่ ๔: การสรุปสาระสำคัญเพื่อประกอบการนำเสนอ (Data Visualization)
 
-<div class="text-sm text-gray-500 mb-3">เปลี่ยนกำหนดการงานสัมมนา → Infographic สวยใน 5 นาที</div>
+<div class="text-sm text-gray-500 mb-3">การแปรรูปเนื้อหาจากเอกสารกำหนดการสู่สื่อประชาสัมพันธ์เชิงกราฟิก</div>
 
 <div class="grid grid-cols-4 gap-3 mt-4">
   <div class="rounded-xl bg-gray-50 border border-gray-200 p-4 text-center">
@@ -871,9 +922,9 @@ layout: section
   </div>
 </div>
 
-<CopyBox text="ช่วยดึงข้อความจาก PDF นี้ แล้วสรุปเป็นหัวข้อสั้นๆ (Topic + Bullet Point) สำหรับนำไปทำ Infographic เน้นตัวเลขและกำหนดเวลา">
+<CopyBox text="กรุณาวิเคราะห์และรวบรวมประเด็นสำคัญจากเอกสารกำหนดการนี้ เพื่อจัดทำข้อมูลสรุปสำหรับผลิตสื่ออินโฟกราฟิก โดยเน้นการจัดหมวดหมู่เวลา กิจกรรม และรายละเอียดที่สำคัญในรูปแบบหัวข้อที่กระชับ">
   <div class="mt-4 rounded-xl bg-gray-50 border border-gray-200 p-3 text-sm text-gray-700 italic">
-    <b>Prompt:</b> "ดึงข้อความจาก PDF นี้ สรุปเป็น Topic + Bullet สำหรับ Infographic · เน้นตัวเลขและกำหนดเวลา"
+    <b>Prompt:</b> "การประมวลผลสรุปสาระสำคัญจากไฟล์ PDF เพื่อจัดทำหัวข้อประกอบสื่ออินโฟกราฟิก โดยเน้นข้อมูลเชิงปริมาณและกำหนดเวลา"
   </div>
 </CopyBox>
 
@@ -883,9 +934,9 @@ layout: section
 
 ---
 
-# 🔮 Demo 5 · วิเคราะห์ Excel หลายไฟล์
+# 🔮 กรณีศึกษาที่ ๕: การวิเคราะห์และเปรียบเทียบข้อมูลเชิงปริมาณ (Data Analytics)
 
-<div class="text-sm text-gray-500 mb-3">เปรียบเทียบราคาวัสดุ 4 เดือน · หาที่ "ขึ้นราคา"</div>
+<div class="text-sm text-gray-500 mb-3">การวิเคราะห์ความเปลี่ยนแปลงเชิงสถิติจากไฟล์ข้อมูล Excel หลายฉบับ</div>
 
 <div class="grid grid-cols-2 gap-6 mt-4">
   <div>
@@ -897,9 +948,9 @@ layout: section
         <li>เปิดเทียบทีละไฟล์ = ตาลาย</li>
       </ul>
     </div>
-    <CopyBox text="ช่วยเปรียบเทียบราคาวัสดุจาก 4 ไฟล์นี้ (M9–M12) สร้างตารางสรุปรายการที่ 'ปรับราคาขึ้น' พร้อมคำนวณ % การเปลี่ยนแปลง เรียงจากมากไปน้อย">
+    <CopyBox text="กรุณาดำเนินการวิเคราะห์เปรียบเทียบราคาวัสดุจากไฟล์ข้อมูลการจัดซื้อทั้ง 4 ฉบับ พร้อมจัดทำตารางสรุปรายการที่มีการปรับราคาเพิ่มขึ้น โดยระบุสัดส่วนการเปลี่ยนแปลงร้อยละ (Percentage) และเรียงลำดับจากสูงไปต่ำ">
       <div class="mt-3 rounded-lg bg-white border border-gray-200 p-3 text-[11px] italic text-gray-700">
-        "เปรียบเทียบ 4 ไฟล์ · ตารางสรุปรายการ <b>'ปรับราคาขึ้น'</b> · คำนวณ <b>%</b> เรียงมาก→น้อย"
+        "การเปรียบเทียบข้อมูลจากไฟล์สารสนเทศ ๔ ฉบับ เพื่อจัดทำตารางสรุปรายการที่มีการปรับเพิ่มราคา พร้อมคำนวณร้อยละการเปลี่ยนแปลงและเรียงลำดับตามความสำคัญ"
       </div>
     </CopyBox>
   </div>
@@ -916,35 +967,35 @@ layout: section
 
 ---
 
-# 🔮 Demo 6 · สร้าง Google Form ฉับไว
+# 🔮 กรณีศึกษาที่ ๖: การพัฒนาระบบจัดเก็บและประมวลผลข้อมูลอัตโนมัติ (Automated Forms)
 
-<div class="text-sm text-gray-500 mb-3">ให้ AI ร่างคำถาม + เขียนสคริปต์สร้างแบบฟอร์มประเมินงาน ECE Open House อัตโนมัติ</div>
+<div class="text-sm text-gray-500 mb-3">กระบวนการจัดทำแบบสำรวจผลการดำเนินงานโครงการ ECE Open House</div>
 
 <div class="grid grid-cols-2 gap-5 mt-4">
   <div>
     <div class="rounded-xl bg-orange-50 border border-orange-200 p-3 mb-2 text-xs">
-      <span class="font-bold text-orange-700">Step 1 · ร่างคำถาม & ตรวจทาน</span>
+      <span class="font-bold text-orange-700">ขั้นตอนที่ 1: การออกแบบข้อคำถามและการตรวจสอบความถูกต้อง</span>
     </div>
-    <CopyBox text="ช่วยคิดแบบสอบถามประเมินความพึงพอใจ งาน ECE Open House ของภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์ สำหรับนักเรียน ม.ปลาย มีฐานกิจกรรม: แล็บ Computer/Embedded, จำลองฟ้าผ่า, อิเล็กทรอนิกส์, มอเตอร์ ขอคำถาม 5-7 ข้อ (ให้คะแนนฐานต่างๆ และปลายเปิด)">
+    <CopyBox text="กรุณาออกแบบข้อคำถามสำหรับแบบประเมินความพึงพอใจโครงการ ECE Open House ของภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์ โดยกำหนดหัวข้อให้ครอบคลุมกิจกรรมต่างๆ (เช่น ห้องปฏิบัติการคอพิวเตอร์, ระบบไฟฟ้ากำลัง, มอเตอร์) รวมจำนวน 5-7 ข้อ ในรูปแบบมาตรวัดประมาณค่าและคำถามปลายเปิด">
       <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700 leading-relaxed">
-        "ร่างคำถามประเมิน <b>ECE Open House</b> ของ <b>ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์</b> มีฐาน <b>แล็บคอม, ฟ้าผ่า, มอเตอร์</b> · คำถาม 5-7 ข้อ <b>ให้คะแนน + ปลายเปิด</b>"
+        "การยกร่างหมวดรายการข้อคำถามสำหรับแบบประเมินโครงการ ECE Open House ของภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์ โดยครอบคลุมกิจกรรมห้องปฏิบัติการที่กำหนด พร้อมใช้รูปแบบมาตรวัดประมาณค่าและคำถามปลายเปิด"
       </div>
     </CopyBox>
     <div class="text-xs text-gray-500 mt-2 ml-1">✓ ผู้ใช้ตรวจสอบคำถาม, ปรับแก้, และกดยืนยัน</div>
   </div>
   <div>
     <div class="rounded-xl bg-amber-50 border border-amber-200 p-3 mb-2 text-xs">
-      <span class="font-bold text-amber-700">Step 2 · สั่งเขียนสคริปต์ (Apps Script)</span>
+      <span class="font-bold text-amber-700">ขั้นตอนที่ 2: การพัฒนา Google Apps Script เพื่อสร้างระบบแบบฟอร์ม</span>
     </div>
-    <CopyBox text="โอเค ได้คำถามตามนี้เลย ช่วยเขียน Google Apps Script สำหรับนำไปสร้างเป็น Google Form ให้หน่อย พร้อมอธิบายวิธีนำโค้ดไปรันใน Google Drive แบบทีละขั้นตอน">
+    <CopyBox text="กรุณาดำเนินการเขียนรหัสคำสั่ง Google Apps Script ตามชุดข้อคำถามที่ผ่านการตรวจสอบแล้ว เพื่อใช้สำหรับการสร้างระบบ Google Form โดยอัตโนมัติ พร้อมคำอธิบายขั้นตอนการรันรหัสคำสั่งในระบบ">
       <div class="rounded-lg bg-white border border-gray-200 p-3 text-[11px] text-gray-700 leading-relaxed">
-        "โอเค คำถามตามนี้ ช่วยเขียน <b>Google Apps Script</b> สำหรับสร้าง <b>Google Form</b> พร้อม <b>วิธีรันโค้ด</b>"
+        "ดำเนินการเขียนรหัสคำสั่ง Google Apps Script ตามชุดข้อคำถามที่กำหนด เพื่อใช้สำหรับการสร้างระบบ Google Form โดยอัตโนมัติ พร้อมอธิบายขั้นตอนการดำเนินงานในระบบ"
       </div>
     </CopyBox>
     <div class="flex items-center gap-3 mt-4 p-3 rounded-xl bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-100">
       <span class="text-2xl">⚙️</span>
       <div class="text-xs text-gray-700">
-        <strong class="text-sm font-bold text-orange-700 block mb-0.5">ได้ฟอร์มจริงใน 1 นาที</strong>
+        <strong class="text-sm font-bold text-orange-700 block mb-0.5">การสร้างระบบแบบฟอร์มสำเร็จภายในระยะเวลาอันสั้น</strong>
         ก๊อปปี้โค้ดไปรัน ไม่ต้องนั่งพิมพ์เอง
       </div>
     </div>
@@ -952,7 +1003,7 @@ layout: section
 </div>
 
 <div class="mt-3 rounded-xl bg-gray-50 border border-gray-200 p-2 text-center text-xs text-gray-600">
-  💡 <b>หลักการสำคัญ:</b> ทำงานแบบ Human-in-the-loop — ให้เราตรวจคำถามให้ชัวร์ก่อนสั่งเขียนโค้ดเสมอ
+  💡 <b>หลักการสำคัญ:</b> กระบวนการทำงานแบบ Human-in-the-loop — การตรวจสอบความถูกต้องของข้อมูลโดยผู้ใช้งานก่อนการดำเนินงานขั้นถัดไป
 </div>
 
 ---
@@ -960,7 +1011,6 @@ layout: center
 class: "!px-20"
 ---
 
-<div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-4">✨ WOW MOMENT #2</div>
 
 # 🎙️ NotebookLM
 
@@ -989,21 +1039,20 @@ class: "!px-20"
 
 ---
 
-<div class="text-xs tracking-[0.3em] uppercase text-pink-400 mb-4">✨ WOW MOMENT #3</div>
 
 # 🪄 สร้างสไลด์ด้วย AI (Gamma.app)
 
-<div class="text-lg text-gray-600 mb-8">พิมพ์แค่ "หัวข้อ" → ได้สไลด์ 10 หน้า ดีไซน์สวยหรู พร้อมรูปภาพใน 1 นาที</div>
+<div class="text-lg text-gray-600 mb-8">การจัดทำสื่อนำเสนอจำนวน ๑๐ หน้า พร้อมการออกแบบและภาพประกอบที่สมบูรณ์จากการระบุหัวข้อเพียงครั้งเดียว</div>
 
 <div class="grid grid-cols-3 gap-4 max-w-4xl mx-auto flex-1">
   <div class="rounded-2xl bg-white shadow-md p-5 border border-purple-100">
     <div class="text-4xl mb-2">💬</div>
-    <div class="text-sm font-bold text-purple-700">พิมพ์แค่ 1 ประโยค</div>
+    <div class="text-sm font-bold text-purple-700">การระบุชุดคำสั่งเพียงประโยคเดียว</div>
     <div class="text-xs text-gray-500 mt-1">เช่น "แนะนำภาควิชาให้เด็ก ม.ปลาย ฟัง"</div>
   </div>
   <div class="rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-600 text-white shadow-lg p-5">
     <div class="text-4xl mb-2">✨</div>
-    <div class="text-sm font-bold">AI จัดโครงร่าง & ค้นรูป</div>
+    <div class="text-sm font-bold">ระบบ AI ดำเนินการจัดสรรโครงร่าง</div>
     <div class="text-xs opacity-90 mt-1">เลือกธีม ภาพประกอบ เลย์เอาต์ให้เอง</div>
   </div>
   <div class="rounded-2xl bg-white shadow-md p-5 border border-indigo-100">
@@ -1017,68 +1066,68 @@ class: "!px-20"
 
 ---
 
-# 🧰 เครื่องมือ AI ที่แนะนำ (Cheat Sheet)
+# 🧰 คู่มือการเลือกใช้เครื่องมือ AI อ้างอิงตามลักษณะงาน
 
 <div class="grid grid-cols-3 gap-4 mt-4 text-xs">
 
   <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สไลด์ / PPT</div>
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สื่อการนำเสนอ (Presentations)</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>Gamma.app</b> — สวย พิมพ์ประโยคเดียวจบ</li>
-      <li>• Beautiful.ai — ดีไซน์เรียบหรูแบบโปร</li>
-      <li>• Tome — สาย Storytelling ทำสไลด์เก่ง</li>
+      <li>⭐ <b>Gamma.app</b> — การออกแบบแบบอัตโนมัติจากข้อความเพียงประโยคเดียว</li>
+      <li>• Beautiful.ai — การดำเนินงานด้วยดีไซน์เรียบหรูในระดับมืออาชีพ</li>
+      <li>• Tome — ระบบ Storytelling สำหรับการเล่าเรื่องเชิงลึก</li>
     </ul>
   </div>
 
   <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">รูปภาพ</div>
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สื่อดิจิทัลและกราฟิก (Images)</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>DALL·E 3</b> — อยู่ใน ChatGPT คุยง่าย</li>
-      <li>• Midjourney — งานศิลป์ คุณภาพสูงสุด</li>
-      <li>• Freepik / Leonardo — รูปสวย ใช้งานง่าย</li>
+      <li>⭐ <b>DALL·E 3</b> — บูรณาการร่วมกับ ChatGPT เพื่อความสะดวกในการสื่อสาร</li>
+      <li>• Midjourney — งานศิลป์และการผลิตภาพคุณภาพสูงระดับสูงสุด</li>
+      <li>• Freepik / Leonardo — รูปภาพคุณภาพสูงที่เน้นความสะดวกในการใช้งาน</li>
     </ul>
   </div>
 
   <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">วิดีโอ / คลิป Avatar</div>
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สื่อมัลติมีเดียและเอนิเมชัน (Video & Avatar)</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>HeyGen</b> — Avatar พูดไทยเนียนมาก</li>
-      <li>• Synthesia — Avatar สำหรับองค์กร</li>
-      <li>• ElevenLabs — โคลนเสียง (Voice cloning)</li>
+      <li>⭐ <b>HeyGen</b> — ระบบ Avatar ที่รองรับการสื่อสารภาษาไทยระดับสูง</li>
+      <li>• Synthesia — ระบบ Avatar สำหรับการใช้งานในองค์กรขนาดใหญ่</li>
+      <li>• ElevenLabs — เทคโนโลยีการสังเคราะห์เสียง (Voice Cloning)</li>
     </ul>
   </div>
 
   <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สรุปเอกสาร / วิจัย</div>
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">การวิเคราะห์เอกสารและงานวิจัย (Analysis & Research)</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>NotebookLM</b> — ทำ Podcast จากชีท/PDF</li>
-      <li>⭐ <b>Perplexity</b> — ค้นคว้าข้อมูล โชว์แหล่งอ้างอิง</li>
-      <li>• SciSpace — เจาะลึกงานวิจัย (Paper)</li>
+      <li>⭐ <b>NotebookLM</b> — การแปรรูปเอกสารและ PDF สู่รูปแบบเสียงวิเคราะห์ (Podcast)</li>
+      <li>⭐ <b>Perplexity</b> — ระบบสืบค้นข้อมูลเชิงลึกพร้อมแหล่งอ้างอิงที่เชื่อถือได้</li>
+      <li>• SciSpace — ระบบเจาะลึกและสืบค้นงานวิจัยระดับวิชาการ (Academic Paper)</li>
     </ul>
   </div>
 
   <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">Infographic / แผนภาพ</div>
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">สารสนเทศเชิงภาพ (Infographics)</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>Napkin.ai</b> — เสกแผนภาพจาก Text ทันที</li>
-      <li>• Piktochart AI — ช่วยจัดเลย์เอาต์ Infographic</li>
-      <li>• Venngage — เทมเพลตสำหรับงานวิชาการเยอะ</li>
+      <li>⭐ <b>Napkin.ai</b> — การแปลงข้อความสู่แผนภาพเชิงสัญญะโดยฉับพลัน</li>
+      <li>• Piktochart AI — ระบบช่วยเหลือการออกแบบเลย์เอาต์ Infographic</li>
+      <li>• Venngage — แหล่งรวบรวมแม่แบบสำหรับงานทางวิชาการและสถิติ</li>
     </ul>
   </div>
 
   <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
-    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">งานสำนักงาน / อีเมล</div>
+    <div class="text-[10px] font-bold text-gray-500 tracking-widest mb-2">งานบริหารธุรการและการสื่อสาร (Office & Messaging)</div>
     <ul class="space-y-1.5 text-gray-700">
-      <li>⭐ <b>Claude 3.5</b> — คู่คิดงานเอกสารและสรุปข้อมูล</li>
-      <li>⭐ <b>Gemini</b> — เขียนสคริปต์ Google Form/Sheet</li>
-      <li>• MS Copilot — ใช้ร่วมกับ Office 365 คล่องตัว</li>
+      <li>⭐ <b>Claude 3.5</b> — ผู้ช่วยวิเคราะห์ข้อมูลและการสรุปเอกสารราชการ</li>
+      <li>⭐ <b>Gemini</b> — การพัฒนารหัสคำสั่งสำหรับ Google Workspace (Forms/Sheets)</li>
+      <li>• MS Copilot — การทำงานร่วมกับชุดโปรแกรม Office 365 อย่างมีประสิทธิภาพ</li>
     </ul>
   </div>
 
 </div>
 
 <div class="mt-4 text-center text-[11px] text-gray-600 italic bg-gray-50 rounded-lg p-2 max-w-sm mx-auto">
-  ⭐ = เครื่องมือเด่นที่นำมาสาธิตใน Live Demo วันนี้
+  ⭐ = เครื่องมือหลักที่ใช้ในการสาธิตกระบวนงานวันนี้
 </div>
 
 ---
@@ -1087,9 +1136,9 @@ layout: section
 
 # Chapter 3
 ## Agentic AI
-### ยุคของ "AI ที่ทำงานเอง"
+### นวัตกรรมระบบอัตโนมัติอัจฉริยะ (Autonomous Agents)
 
-<div class="mt-6 text-sm opacity-70">ไม่ใช่แค่ตอบ · แต่ "ลงมือทำ"</div>
+<div class="mt-6 text-sm opacity-70">ความก้าวหน้าจากการตอบโต้ สู่การปฏิบัติงานเชิงรุก</div>
 
 ---
 
@@ -1100,12 +1149,12 @@ layout: section
     <div class="rounded-2xl bg-gradient-to-br from-pink-50 to-orange-50 border border-pink-200 p-5">
       <div class="text-xs font-bold text-pink-600 tracking-widest mb-2">DEFINITION</div>
       <p class="text-base text-gray-800 leading-relaxed">
-        AI ที่ <b>วางแผนงาน</b> · <b>ใช้เครื่องมือ</b> (เปิดเว็บ, เขียนไฟล์, ส่งเมล) · และ <b>ตัดสินใจเอง</b> เพื่อให้งานสำเร็จ
+        นวัตกรรมระบบที่สามารถ <b>บริหารจัดการแผนงาน</b> <b>ประยุกต์ใช้เครื่องมือดิจิทัล</b> (สืบค้นเว็บ, การจัดทำฐานข้อมูล, การสื่อสารอัตโนมัติ) และ <b>สามารถดำเนินงานเชิงรุก</b> เพื่อเป้าหมายตามที่กำหนด
       </p>
     </div>
     <div class="mt-4 text-sm text-gray-600">
-      <b>พูดง่ายๆ:</b> Gen AI เป็น <i>"คนตอบคำถาม"</i><br>
-      Agentic AI เป็น <i>"คนรับผิดชอบโปรเจกต์"</i>
+      <b>นิยามเชิงเปรียบเทียบ:</b> Generative AI คือ <i>"ระบบตอบโต้ข้อมูล"</i><br>
+      Agentic AI คือ <i>"ระบบบริหารจัดการโครงการ"</i>
     </div>
   </div>
 
@@ -1113,29 +1162,29 @@ layout: section
     <div class="flex gap-3 items-start">
       <div class="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 text-white flex items-center justify-center font-bold flex-shrink-0">1</div>
       <div>
-        <div class="font-bold text-sm">🎯 Planning — วางแผน</div>
-        <div class="text-xs text-gray-600">แตกงานใหญ่เป็นขั้นๆ เอง</div>
+        <div class="font-bold text-sm">🎯 Planning — การวางแผนเชิงกลยุทธ์</div>
+        <div class="text-xs text-gray-600">ความสามารถในการแยกย่อยภารกิจตามลำดับความสำคัญ</div>
       </div>
     </div>
     <div class="flex gap-3 items-start">
       <div class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-pink-600 text-white flex items-center justify-center font-bold flex-shrink-0">2</div>
       <div>
-        <div class="font-bold text-sm">🛠️ Tool Use — ใช้เครื่องมือ</div>
-        <div class="text-xs text-gray-600">เปิด Chrome, รัน Excel, เขียนโค้ด, ส่งเมล</div>
+        <div class="font-bold text-sm">🛠️ Tool Use — การบูรณาการเครื่องมือ</div>
+        <div class="text-xs text-gray-600">การเข้าถึงฐานข้อมูล, การประมวลผลตารางคำนวณ และระบบโต้ตอบ</div>
       </div>
     </div>
     <div class="flex gap-3 items-start">
       <div class="w-10 h-10 rounded-full bg-gradient-to-br from-amber-500 to-orange-600 text-white flex items-center justify-center font-bold flex-shrink-0">3</div>
       <div>
-        <div class="font-bold text-sm">🧠 Memory — จดจำบริบท</div>
-        <div class="text-xs text-gray-600">รู้ว่าทำอะไรไปแล้ว ต้องทำอะไรต่อ</div>
+        <div class="font-bold text-sm">🧠 Memory — ระบบการจดจำบริบท</div>
+        <div class="text-xs text-gray-600">การวิเคราะห์ประวัติการดำเนินงานและรักษาสภาพแวดล้อมปัจจุบัน</div>
       </div>
     </div>
     <div class="flex gap-3 items-start">
       <div class="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center font-bold flex-shrink-0">4</div>
       <div>
-        <div class="font-bold text-sm">🔄 Self-correction — แก้เอง</div>
-        <div class="text-xs text-gray-600">ลองผิดลองถูก จนกว่าจะสำเร็จ</div>
+        <div class="font-bold text-sm">🔄 Self-correction — ระบบตรวจสอบและแก้ไข</div>
+        <div class="text-xs text-gray-600">การดำเนินการตรวจสอบความผิดพลาดและปรับปรุงผลลัพธ์อัตโนมัติ</div>
       </div>
     </div>
   </div>
@@ -1194,7 +1243,7 @@ layout: section
 </div>
 
 <div class="mt-4 rounded-xl bg-gradient-to-r from-pink-50 to-orange-50 border border-pink-200 p-3 text-center text-xs">
-  🔥 <b>Trend สำคัญ:</b> ปี 2026 เจ้าของซอฟต์แวร์ทุกตัว <b>ฝัง Agent เข้าไปในแอป</b> — ไม่ต้องเปิด ChatGPT แยกอีกแล้ว
+  🔥 <b>แนวโน้มสำคัญ:</b> ภายในปี ๒๕๖๙ ผู้พัฒนามักจะบูรณาการระบบ Agent ภายในซอฟต์แวร์ประยุกต์โดยตรง เพื่อลดขั้นตอนการเข้าถึงระบบภายนอก
 </div>
 
 ---
@@ -1392,13 +1441,13 @@ layout: section
 
 # Chapter 4
 ## Prompt Engineering
-### สั่งงานอย่างไร ให้ได้ดั่งใจ
+### แนวทางการสื่อสารเพื่อศักยภาพสูงสุดของระบบ AI
 
-<div class="mt-6 text-sm opacity-70">AI ไม่ใช่หมอดู · ยิ่งบอกชัด ยิ่งได้ของดี</div>
+<div class="mt-6 text-sm opacity-70">ประสิทธิภาพของผลลัพธ์แปรผันตามความชัดเจนและความสมบูรณ์ของชุดคำสั่ง</div>
 
 ---
 
-# 🗝️ สูตร R-T-C-F (จำแค่นี้พอ)
+# 🗝️ โครงสร้าง R-T-C-F (หลักการพื้นฐานเพื่อความสมบูรณ์ของชุดคำสั่ง)
 
 <div class="grid grid-cols-4 gap-4 mt-6">
   <div class="rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 text-white p-5 relative overflow-hidden">
@@ -1447,7 +1496,7 @@ layout: section
 
 ---
 
-# ⚡ Specific vs General — ต่างกันชัด
+# ⚡ การเปรียบเทียบชุดคำสั่งแบบเฉพาะเจาะจงและแบบทั่วไป (Specific vs General)
 
 <div class="grid grid-cols-2 gap-6 mt-6">
   <div class="rounded-2xl bg-red-50 border border-red-200 p-5 opacity-80">
@@ -1477,9 +1526,9 @@ layout: section
 
 ---
 
-# 🔁 ไม่ถูกใจ? คุยต่อได้ ไม่ต้องเริ่มใหม่
+# 🔁 กระบวนการปรับปรุงผลลัพธ์ผ่านการสื่อสารต่อเนื่อง
 
-<div class="text-sm text-gray-500 mb-4">AI คือ "แชท" · สั่งแก้ได้เรื่อยๆ จนกว่าจะใช่</div>
+<div class="text-sm text-gray-500 mb-4">ระบบ AI รองรับการสนทนาโต้ตอบเพื่อการปรับแต่งผลลัพธ์ตามความต้องการ โดยไม่จำเป็นต้องเริ่มต้นกระบวนการใหม่</div>
 
 <div class="space-y-3 max-w-3xl mx-auto">
   <div class="flex justify-end">
@@ -1515,7 +1564,7 @@ layout: section
 
 ---
 
-# 🪄 AI เสกสูตร Excel (ลืมจำสูตรได้เลย)
+# 🪄 การสร้างสูตรสารสนเทศ Excel ด้วยระบบปัญญาประดิษฐ์
 
 <div class="grid grid-cols-2 gap-4 mt-4 text-sm">
 
@@ -1559,7 +1608,7 @@ layout: section
 
 ---
 
-# 🎯 Analogy — อธิบายเรื่องยากให้ "เห็นภาพ"
+# 🎯 การประยุกต์ใช้การอุปมาอุปไมย (Analogy) เพื่อความเข้าใจในเนื้อหาที่ซับซ้อน
 
 <div class="grid grid-cols-2 gap-6 mt-4">
   <div>
@@ -1592,7 +1641,7 @@ layout: section
 
 ---
 
-# 😌 ปรับโทนเสียง — จาก "โกรธ" เป็น "มืออาชีพ"
+# 😌 การปรับโทนการสื่อสารสู่ระดับวิชาชีพ (Tone Modification)
 
 <div class="text-sm text-gray-500 mb-4">เหมาะสุดสำหรับตอบ complaint · ทวงงาน · แจ้งเรื่องยากๆ</div>
 
@@ -1642,7 +1691,7 @@ layout: section
 
 ---
 
-# 🛡️ ข้อควรระวัง 3 ข้อ
+# 🛡️ มาตรการความปลอดภัยและข้อควรระวัง ๓ ประการ
 
 <div class="grid grid-cols-3 gap-4 mt-6">
   <div class="rounded-2xl bg-white border-t-4 border-red-500 shadow-sm p-5 text-center">
@@ -1671,7 +1720,7 @@ class: "text-center"
 ---
 
 # 🛠️ Engineering AI Prompter
-## Web App รวมสูตรสำเร็จ สำหรับชาวภาควิชา
+## ระบบรวบรวมชุดคำสั่งสำเร็จรูปสำหรับบุคลากรภาควิชาฯ
 
 <div class="mt-6 rounded-3xl bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white p-8 max-w-4xl mx-auto shadow-2xl flex items-center gap-8">
   <div class="flex-1 text-left">
@@ -1691,12 +1740,16 @@ class: "text-center"
   </div>
 </div>
 
+<div class="mt-4 text-center text-[11px] text-gray-500 font-mono break-all max-w-3xl mx-auto">
+  🔗 script.google.com/macros/s/AKfycbyF-DEUCV60wUqzKYLwLmFvoUC-PUhDPsPpwygDC4H1XscyYz66kWwhGwcliqNhk5CY/exec
+</div>
+
 ---
 layout: cover
 background: https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1920
 ---
 
-# พักเบรก ☕ 15 นาที
+# ช่วงเวลาพักรับประทานอาหารว่าง ☕ ๑๕ นาที
 
 ## 10:30 – 10:45 น.
 
@@ -1708,13 +1761,13 @@ layout: section
 
 # Part 2
 ## Super Support Workshop
-### Workshop · ลงมือทำกับงานจริงของตัวเอง
+### การประยุกต์ใช้งานในบริบทภาระงานจริง (Hands-on Session)
 
 <div class="mt-6 text-sm opacity-70">10:45 – 12:00 น. · ลงมือประยุกต์ใช้จริง</div>
 
 ---
 
-# 🚀 ขั้นตอนการทำงาน (ง่ายๆ 4 ขั้น)
+# 🚀 ขั้นตอนการดำเนินงานเชิงปฏิบัติการ (๔ ขั้นตอนสำคัญ)
 
 <div class="grid grid-cols-4 gap-4 mt-6">
   <div class="rounded-2xl bg-white border border-blue-200 p-4 relative">
@@ -1749,7 +1802,7 @@ layout: section
 
 ---
 
-# 🏆 โจทย์ตัวอย่าง 6 ภารกิจ
+# 🏆 กรณีศึกษาตัวอย่าง ๖ รูปแบบภารกิจ
 
 <div class="grid grid-cols-3 gap-3 mt-4 text-xs">
   <div class="rounded-xl bg-blue-50 border border-blue-200 p-3">
@@ -1807,8 +1860,8 @@ layout: center
 class: "text-center"
 ---
 
-# 🎤 Show &amp; Tell
-### โชว์ผลงาน · แลกเปลี่ยนไอเดีย
+# 🎤 กิจกรรมแลกเปลี่ยนเรียนรู้ (Show & Tell)
+### การนำเสนอผลงานและแลกเปลี่ยนแนวคิดร่วมกัน
 
 <div class="mt-6 text-sm text-gray-500">แชร์ไอเดีย Prompt สุดเจ๋งเพื่อนำไปปรับใช้ 🎁</div>
 
@@ -1832,7 +1885,7 @@ layout: center
 class: "text-center"
 ---
 
-# 🎯 Key Takeaways
+# 🎯 สรุปสาระสำคัญของการสัมมนา (Key Takeaways)
 
 <div class="grid grid-cols-2 gap-5 mt-8 max-w-4xl mx-auto text-left">
   <div class="rounded-2xl bg-white border border-indigo-100 p-5 shadow-sm">
@@ -1862,7 +1915,7 @@ layout: cover
 background: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1920
 ---
 
-# ขอบคุณครับ
+# ขอขอบพระคุณ
 
 ## Q & A
 
