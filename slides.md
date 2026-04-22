@@ -1389,6 +1389,50 @@ class: "!px-16"
 </div>
 
 ---
+
+# 🌉 AI: The "Bridge" to Your ERP
+
+<div class="text-sm text-gray-500 mb-4">ไม่ใช่การ "แทนที่" แต่คือการ "ช่วยป้อน" (Data Preparation Layer)</div>
+
+<div class="grid grid-cols-2 gap-8">
+  <div>
+    <div class="text-xs font-bold text-gray-500 mb-2">❌ อุปสรรคเดิม (ERP Gap)</div>
+    <div class="space-y-4">
+      <div class="flex gap-3">
+        <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-500 text-sm shrink-0">1</div>
+        <div class="text-xs text-gray-700"><b>ข้อมูลมาแบบ "ย้อนแย้ง":</b> ลายมืออ่านยาก, PDF รูปภาพ, อีเมลที่ไม่มีหัวเรื่อง</div>
+      </div>
+      <div class="flex gap-3">
+        <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-500 text-sm shrink-0">2</div>
+        <div class="text-xs text-gray-700"><b>ระบบ ERP มีระเบียบสูง:</b> ต้องเลือก Category ให้ถูก, ต้องพิมพ์รหัส 12 หลัก, ห้ามเว้นว่าง</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 p-5">
+    <div class="text-xs font-bold text-blue-700 mb-3 tracking-widest">✅ AI WORKFLOW</div>
+    <div class="space-y-3">
+      <div class="bg-white p-2 rounded-lg border border-blue-100 shadow-sm">
+        <div class="text-[10px] uppercase font-bold text-blue-500">Step 1: Extract</div>
+        <div class="text-[11px] text-gray-700 italic mt-1">"AI อ่านไฟล์ PDF สแกน แล้วดึงเลขที่ใบเสนอราคาออกมา"</div>
+      </div>
+      <div class="bg-white p-2 rounded-lg border border-blue-100 shadow-sm">
+        <div class="text-[10px] uppercase font-bold text-blue-500">Step 2: Map & Format</div>
+        <div class="text-[11px] text-gray-700 italic mt-1">"AI จัดกลุ่มรายการตรงตามหมวดหมู่ในระบบ ERP เป๊ะๆ"</div>
+      </div>
+      <div class="bg-white p-2 rounded-lg border border-blue-100 shadow-sm">
+        <div class="text-[10px] uppercase font-bold text-blue-500">Step 3: Auto-Fill</div>
+        <div class="text-[11px] text-gray-700 italic mt-1">"AI นำข้อมูลที่จัดระเบียบแล้ว ไปกรอกลงระบบให้อัตโนมัติ"</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-6 p-4 bg-blue-600 text-white rounded-xl text-center shadow-lg">
+  <div class="text-sm">เปลี่ยนจากคน "พิมพ์งาน" → เป็นคน <b>"ตรวจผลลัพธ์ AI" (Approver)</b></div>
+</div>
+
+---
 layout: center
 class: "!px-20"
 ---
@@ -1630,7 +1674,7 @@ layout: section
     </div>
     <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
       <div class="text-xs font-bold text-gray-500 mb-1">ตัวอย่าง 2</div>
-      <div class="text-sm">"อธิบาย <b>ระบบ ERP</b> เหมือน<br><b class="text-purple-600">ตู้เย็นในบ้านที่รู้ว่ามีอะไรเหลือ</b>"</div>
+      <div class="text-sm">"อธิบาย <b>ระบบ ERP</b> เหมือน<br><b class="text-purple-600">คลังกลางที่รู้ว่าใครคุมงบก้อนไหน-พัสดุอยู่ใคร</b>"</div>
     </div>
     <div class="rounded-xl bg-white border border-gray-200 p-3 shadow-sm">
       <div class="text-xs font-bold text-gray-500 mb-1">ตัวอย่าง 3</div>
